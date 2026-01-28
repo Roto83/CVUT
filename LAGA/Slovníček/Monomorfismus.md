@@ -1,0 +1,4 @@
+[[Lineární zobrazení|Lineárnímu zobrazení]] $f: L_{1} \rightarrow L_{2}$ říkáme monomorfismus, je-li f injektivní (také prosté) [[Zobrazení|zobrazení]].
+
+### Intuitivně
+Pokud se žádný nenulový vektor nezobrazí na nulový vektor. Žádná informace se neztrácí a nic se nesleje dohromady. [[Jádro]] je tedy 0. Např.: $R ^{2} \rightarrow R^{3}$ je monomorfismus. Když vidíme [[Matice|matici]] co má více řádků než sloupců **(je vysoká)**, víme že jde nejspíš o monomorfismus (nemůže to být [[Epimorfismus]]). Monomorfismus však může mít matici čtverce. "Ne všechny vysoké matice jsou monomorfismy, ale všechny monomorfismy mají vysokoé matice."

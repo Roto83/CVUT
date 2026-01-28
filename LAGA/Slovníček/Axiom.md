@@ -1,0 +1,1 @@
+Základní pravda nebo tvrzení, které se předem považuje za platné a nevyžaduje důkaz

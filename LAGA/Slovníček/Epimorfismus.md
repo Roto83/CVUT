@@ -1,0 +1,4 @@
+[[Lineární zobrazení|Lineárnímu zobrazení]] $f: L_{1} \rightarrow L_{2}$ říkáme epimorfismus, je-li f surjektivní (také na) [[Zobrazení|zobrazení]].
+
+### Intuitivně
+[[Lineární zobrazení|Zobrazení]], které pokryje celý cíl např $R^{3} \rightarrow R^{2}$. [[Obraz]] epimorfismu je celé $L_{2}$. Každý prvek v $L_{2}$ se dá napsat jako [[Obraz|obraz]] z $L_{1}$. Když vidíme [[Matice|matici]] co má více sloupců než řádků **(je dlouhá)**, víme že jde nejspíš o epimorfismus (a nemůže to být [[monomorfismus]]). Epimorfismus však může mít [[Matice|matici]] čtverce. "Ne všechny dlouhé [[Matice|matice]] jsou epimorfismy, ale všechny epimorfismy jsou dlouhé [[Matice|matice]]."

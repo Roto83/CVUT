@@ -1,0 +1,1 @@
+![[Dukaz7B-Cramer.png]]

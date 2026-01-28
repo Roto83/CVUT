@@ -1,0 +1,1 @@
+Počet nezávislých směrů. Dimense f = [[Hodnost|hodnost]] + [[Defekt|defekt]].
