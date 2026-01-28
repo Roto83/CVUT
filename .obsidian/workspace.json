@@ -34,18 +34,6 @@
             }
           },
           {
-            "id": "9bb95ea65e891710",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MA1A/Zkouska/Průběh funkce.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Průběh funkce"
-            }
-          },
-          {
             "id": "6a127dbb43ccd556",
             "type": "leaf",
             "state": {
@@ -55,18 +43,6 @@
               },
               "icon": "excalidraw-icon",
               "title": "Derivace"
-            }
-          },
-          {
-            "id": "3c7b90ee333b8b77",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MA1A/Zkouska/Posloupnosti a řady.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Posloupnosti a řady"
             }
           },
           {
@@ -80,9 +56,33 @@
               "icon": "excalidraw-icon",
               "title": "Limity"
             }
+          },
+          {
+            "id": "9bb95ea65e891710",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "MA1A/Zkouska/Průběh funkce.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Průběh funkce"
+            }
+          },
+          {
+            "id": "3c7b90ee333b8b77",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "MA1A/Zkouska/Posloupnosti a řady.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Posloupnosti a řady"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -244,13 +244,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3dfba2b8a3d05656",
+  "active": "708a01cebb89a9e9",
   "lastOpenFiles": [
-    "MA1A/Zkouska/Průběh funkce.md",
     "MA1A/Zkouska/Derivace.md",
+    "MA1A/Zkouska/Průběh funkce.md",
+    "MA1A/Zkouska/Integrály.md",
     "MA1A/Zkouska/Posloupnosti a řady.md",
     "MA1A/Zkouska/Limity.md",
-    "MA1A/Zkouska/Integrály.md",
     "MA1A/Zkouska/Věci na zapamatování.md",
     "Untitled.canvas",
     "MA1A/Zkouska/Pasted Image 20260127165656_090.png",
