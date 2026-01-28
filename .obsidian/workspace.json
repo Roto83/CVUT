@@ -61,10 +61,12 @@
             "id": "3c7b90ee333b8b77",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "excalidraw",
+              "state": {
+                "file": "MA1A/Zkouska/Posloupnosti a řady.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Posloupnosti a řady"
             }
           },
           {
@@ -137,7 +139,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -201,12 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MA1A/Zkouska/Posloupnosti a řady.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Posloupnosti a řady"
             }
           },
           {
@@ -242,6 +246,7 @@
   },
   "active": "3c7b90ee333b8b77",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "MA1A/Zkouska/Posloupnosti a řady.md",
     "MA1A/Zkouska/Limity.md",
     "MA1A/Zkouska/Derivace.md",
@@ -287,7 +292,6 @@
     "PRPA/HW9/main copy.c",
     "PRPA/HW9/binary.c",
     "PRPA/HW9/file.c",
-    "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
 }
