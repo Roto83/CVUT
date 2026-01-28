@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MA1A/Zkouska/Posloupnosti a řady.md",
+                "file": "MA1A/Zkouska/Průběh funkce.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Posloupnosti a řady"
+              "title": "Outline of Průběh funkce"
             }
           },
           {
@@ -244,13 +244,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3c7b90ee333b8b77",
+  "active": "9bb95ea65e891710",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "MA1A/Zkouska/Posloupnosti a řady.md",
     "MA1A/Zkouska/Limity.md",
-    "MA1A/Zkouska/Derivace.md",
     "MA1A/Zkouska/Průběh funkce.md",
+    "MA1A/Zkouska/Posloupnosti a řady.md",
+    "Untitled.canvas",
+    "MA1A/Zkouska/Derivace.md",
     "MA1A/Zkouska/Integrály.md",
     "MA1A/Zkouska/Věci na zapamatování.md",
     "MA1A/Zkouska/Pasted Image 20260127165656_090.png",
