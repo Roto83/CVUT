@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MA1A/Zkouska/Průběh funkce.md",
+                "file": "MA1A/Zkouska/Integrály.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Průběh funkce"
+              "title": "Outline of Integrály"
             }
           },
           {
@@ -244,10 +244,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9bb95ea65e891710",
+  "active": "3dfba2b8a3d05656",
   "lastOpenFiles": [
-    "MA1A/Zkouska/Limity.md",
     "MA1A/Zkouska/Průběh funkce.md",
+    "MA1A/Zkouska/Limity.md",
     "MA1A/Zkouska/Posloupnosti a řady.md",
     "Untitled.canvas",
     "MA1A/Zkouska/Derivace.md",
