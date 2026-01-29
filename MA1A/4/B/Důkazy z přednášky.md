@@ -1,1 +1,0 @@
-![[Dukaz4-1.png]]![[Dukaz4-2.png]]
