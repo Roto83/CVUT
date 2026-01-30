@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3a5221c52d672c8d",
+        "id": "a8533c6aabf62ebc",
         "type": "tabs",
         "children": [
           {
-            "id": "ec502f37147b5eb8",
+            "id": "56de88ce467839c7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "LAGA/Zkouška/Otázky A.pdf"
+                "file": "LAGA/Zkouška/C/Zapisky.excalidraw.md"
               },
-              "icon": "lucide-file-text",
-              "title": "Otázky A"
+              "icon": "excalidraw-icon",
+              "title": "Zapisky.excalidraw"
             }
           }
         ]
@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -180,10 +181,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6d2fa8b64622b5fb",
+  "active": "56de88ce467839c7",
   "lastOpenFiles": [
-    "LAGA/Zkouška/Řešené příklady.pdf",
+    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260130152900_212.png",
     "LAGA/Zkouška/Otázky A.pdf",
+    "LAGA/Zkouška/C/Zapisky.excalidraw.md",
+    "LAGA/Zkouška/Řešené příklady.pdf",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 26.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 24.png",
@@ -202,7 +205,6 @@
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 21",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 20",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 19",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 17",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Slovníček/Adjungovaná matice.md",
     "LAGA/Slovníček/Defekt.md",
@@ -228,7 +230,6 @@
     "LAGA/Slovníček/Lineární kombinace konečného seznamu vektorů.md",
     "LAGA/Slovníček/Lineární nezávislost a závislost seznamu vektorů.md",
     "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování2.md",
-    "LAGA/Cvičení a přednášky/Procvičování T1/Zapisky.excalidraw.md",
     "MA1A/Untitled.canvas"
   ]
 }
