@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAGA/14/Ortogonalisace.md",
+                "file": "LAGA/Slovníček/Adjungovaná matice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ortogonalisace"
+              "title": "Adjungovaná matice"
             }
           }
         ]
@@ -184,6 +184,9 @@
   },
   "active": "2058faa3ccc7a5fb",
   "lastOpenFiles": [
+    "LAGA/Slovníček/Defekt.md",
+    "LAGA/Slovníček/Znaménko permutace.md",
+    "LAGA/14/Ortogonalisace.md",
     "MA1A/Zkouska/Průběh funkce.md",
     "MA1A/Zkouska/Posloupnosti a řady.md",
     "MA1A/Zkouska/Integrály.md",
@@ -206,7 +209,6 @@
     "MA1A/10/Procvičování derivace.md",
     "MA1A/Zkouska/Untitled.md",
     "MA1A/Zkouska",
-    "LAGA/14/Ortogonalisace.md",
     "LAGA/14/Zapisky.excalidraw.md",
     "LAGA/14",
     "LAGA/Slovníček/Součin matic.md",
@@ -222,8 +224,6 @@
     "LAGA/10/B/lag_handout10b.pdf",
     "LAGA/Slovníček/Souřadnice vzhledem k uspořádané bázi.md",
     "LAGA/Procvičování T1/Procvičování1.md",
-    "LAGA/Slovníček/Množina generátorů.md",
-    "LAGA/Slovníček/Lineární zobrazení.md",
     "LAGA/Procvičování T1",
     "mario kart",
     "MA1A/12/zadani_u11.pdf",
