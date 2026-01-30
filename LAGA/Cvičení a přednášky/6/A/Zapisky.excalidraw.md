@@ -15,7 +15,7 @@ Pivot = první nenulová položka zleva ^0Loqlpr7
 Pivot následujícího řádku je vždy více vpravo než u minulého řádku ^0gGMSrqe
 
 ## Embedded Files
-2c3786cd2c82331023738c1fe083f0282da15b48: [[LAGA/6/A/Prezentace.pdf#page=6]]
+2c3786cd2c82331023738c1fe083f0282da15b48: [[LAGA/Cvičení a přednášky/6/A/Prezentace.pdf#page=6]]
 
 %%
 ## Drawing

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAGA/Slovníček/Adjungovaná matice.md",
+                "file": "LAGA/Zkouška/Plán.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adjungovaná matice"
+              "title": "Plán"
             }
           }
         ]
@@ -182,11 +182,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2058faa3ccc7a5fb",
+  "active": "6d2fa8b64622b5fb",
   "lastOpenFiles": [
+    "LAGA/Cvičení a přednášky",
+    "LAGA/Slovníček/Adjungovaná matice.md",
+    "LAGA/Zkouška/Plán.md",
+    "LAGA/Zkouška",
     "LAGA/Slovníček/Defekt.md",
     "LAGA/Slovníček/Znaménko permutace.md",
-    "LAGA/14/Ortogonalisace.md",
+    "LAGA/Cvičení a přednášky/14/Ortogonalisace.md",
     "MA1A/Zkouska/Průběh funkce.md",
     "MA1A/Zkouska/Posloupnosti a řady.md",
     "MA1A/Zkouska/Integrály.md",
@@ -209,28 +213,24 @@
     "MA1A/10/Procvičování derivace.md",
     "MA1A/Zkouska/Untitled.md",
     "MA1A/Zkouska",
-    "LAGA/14/Zapisky.excalidraw.md",
-    "LAGA/14",
+    "LAGA/Cvičení a přednášky/14/Zapisky.excalidraw.md",
+    "LAGA/Cvičení a přednášky/14",
     "LAGA/Slovníček/Součin matic.md",
-    "LAGA/Procvičování T1/Procvičování3.md",
+    "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování3.md",
     "LAGA/Slovníček/Matice transformace souřadnic.md",
     "LAGA/Slovníček/Matice lineárního zobrazení.md",
     "LAGA/Slovníček/Matice.md",
     "LAGA/Slovníček/Lineární kombinace konečného seznamu vektorů.md",
     "LAGA/Slovníček/Lineární nezávislost a závislost seznamu vektorů.md",
-    "LAGA/Procvičování T1/Procvičování2.md",
-    "LAGA/Procvičování T1/Zapisky.excalidraw.md",
-    "LAGA/10/B/Zapisky.excalidraw.md",
-    "LAGA/10/B/lag_handout10b.pdf",
-    "LAGA/Slovníček/Souřadnice vzhledem k uspořádané bázi.md",
-    "LAGA/Procvičování T1/Procvičování1.md",
-    "LAGA/Procvičování T1",
+    "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování2.md",
+    "LAGA/Cvičení a přednášky/Procvičování T1/Zapisky.excalidraw.md",
+    "LAGA/Cvičení a přednášky/10/B/lag_handout10b.pdf",
+    "LAGA/Cvičení a přednášky/Procvičování T1",
     "mario kart",
     "MA1A/12/zadani_u11.pdf",
-    "LAGA/12",
+    "LAGA/Cvičení a přednášky/12",
     "PRPA/HW9/main copy.c",
     "PRPA/HW9/binary.c",
-    "PRPA/HW9/file.c",
     "MA1A/Untitled.canvas"
   ]
 }

@@ -10,15 +10,15 @@ tags: [excalidraw]
 # Excalidraw Data
 
 ## Text Elements
-[[LAGA/5/A/Důkazy]] ^9KL2iEd8
+[[LAGA/Cvičení a přednášky/5/A/Důkazy]] ^9KL2iEd8
 
 The following are equivalent ^CWEMs7lZ
 
-[[LAGA/5/A/Důkazy]] ^3sfgciNi
+[[LAGA/Cvičení a přednášky/5/A/Důkazy]] ^3sfgciNi
 
-[[LAGA/5/A/Důkazy]] ^VXo90DZN
+[[LAGA/Cvičení a přednášky/5/A/Důkazy]] ^VXo90DZN
 
-[[LAGA/5/A/Důkazy]] ^ZfsMD32k
+[[LAGA/Cvičení a přednášky/5/A/Důkazy]] ^ZfsMD32k
 
 charakteristika isomorfismů ^ETqCqNFB
 

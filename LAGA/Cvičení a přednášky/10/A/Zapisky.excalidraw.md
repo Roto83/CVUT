@@ -11,9 +11,9 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-f262b6db4ce56a800ac91bf5fed0959aa7083109: [[LAGA/10/A/Dukaz1-1.png]]
+f262b6db4ce56a800ac91bf5fed0959aa7083109: [[LAGA/Cvičení a přednášky/10/A/Dukaz1-1.png]]
 
-c8b953296e25efd11e9453dc0b958c8c8c114d2a: [[LAGA/10/A/Dukaz1-2.png]]
+c8b953296e25efd11e9453dc0b958c8c8c114d2a: [[LAGA/Cvičení a přednášky/10/A/Dukaz1-2.png]]
 
 cba94b0130c1928f37b16e7cb2798de70f8a8137: [[Dukaz1-3.png]]
 

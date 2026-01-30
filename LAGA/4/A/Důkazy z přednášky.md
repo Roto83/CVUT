@@ -1,1 +1,0 @@
-![[LAGA/Obrazky/Dukaz1-1.png]]![[LAGA/Obrazky/Dukaz1-2.png]]![[Dukaz2-1.png]]
