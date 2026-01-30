@@ -11,14 +11,12 @@
             "id": "2058faa3ccc7a5fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "LAGA/Zkouška/Plán.md",
-                "mode": "source",
-                "source": false
+                "file": "LAGA/Zkouška/Leaked zkoušky/New - 6.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Plán"
+              "icon": "lucide-image",
+              "title": "New - 6"
             }
           }
         ]
@@ -184,11 +182,22 @@
   },
   "active": "6d2fa8b64622b5fb",
   "lastOpenFiles": [
+    "LAGA/Zkouška/Leaked zkoušky/New - 5.jpg",
+    "LAGA/Zkouška/Leaked zkoušky/New - 4.jpg",
+    "LAGA/Zkouška/Leaked zkoušky/New - 3.jpg",
+    "LAGA/Zkouška/Leaked zkoušky/New - 2.jpg",
+    "LAGA/Zkouška/Leaked zkoušky/New - 1.png",
+    "LAGA/Zkouška/Leaked zkoušky/IMG_5941.jpg",
+    "LAGA/Zkouška/Leaked zkoušky/New - 6.jpg",
+    "LAGA/Zkouška/Teorie 2 vetsi.pdf",
+    "LAGA/Zkouška/Sbírka.pdf",
+    "LAGA/Zkouška/Leaked zkoušky",
+    "LAGA/Zkouška/Teorie 1.pdf",
+    "LAGA/Zkouška/0 - Plán.md",
     "LAGA/Zkouška/Obrázky dump",
     "LAGA/Zkouška/Obrázky dump/C_priklady_potreba.webp",
     "LAGA/Cvičení a přednášky",
     "LAGA/Slovníček/Adjungovaná matice.md",
-    "LAGA/Zkouška/Plán.md",
     "LAGA/Zkouška",
     "LAGA/Slovníček/Defekt.md",
     "LAGA/Slovníček/Znaménko permutace.md",
@@ -204,12 +213,6 @@
     "MA1A/Zkouska/Pasted Image 20260127165656_090.png",
     "MA1A/Zkouska/Pasted Image 20260127163156_906.png",
     "MA1A/Zkouska/Pasted Image 20260127162219_305.png",
-    "MA1A/Zkouska/Pasted Image 20260127113810_520.png",
-    "MA1A/Zkouska/Pasted Image 20260126171522_985.png",
-    "MA1A/Zkouska/Pasted Image 20260126171420_562.png",
-    "MA1A/Zkouska/Pasted Image 20260126171314_293.png",
-    "MA1A/Zkouska/Pasted Image 20260126171228_884.png",
-    "MA1A/Zkouska/Pasted Image 20260126170940_695.png",
     "MA1A/Zkouska/Posloupnosti 2.md",
     "MA1A/10/Procvičování derivace.md",
     "MA1A/Zkouska/Untitled.md",
@@ -226,11 +229,6 @@
     "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování2.md",
     "LAGA/Cvičení a přednášky/Procvičování T1/Zapisky.excalidraw.md",
     "LAGA/Cvičení a přednášky/10/B/lag_handout10b.pdf",
-    "LAGA/Cvičení a přednášky/Procvičování T1",
-    "mario kart",
-    "MA1A/12/zadani_u11.pdf",
-    "LAGA/Cvičení a přednášky/12",
-    "PRPA/HW9/main copy.c",
     "MA1A/Untitled.canvas"
   ]
 }
