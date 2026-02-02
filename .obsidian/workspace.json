@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg"
+                "file": "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png"
               },
               "icon": "lucide-image",
-              "title": "New - 4"
+              "title": "Old - 2"
             }
           },
           {
@@ -194,18 +194,23 @@
   },
   "active": "56de88ce467839c7",
   "lastOpenFiles": [
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
-    "LAGA/Zkouška/A/Zapisky.md",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 1.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Default.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 6.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
+    "LAGA/Slovníček/Zobrazení.md",
+    "LAGA/Slovníček/Lineární zobrazení.md",
+    "LAGA/Slovníček/Isomorfismus.md",
+    "LAGA/Slovníček/Monomorfismus.md",
+    "LAGA/Zkouška/A/Zapisky.md",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
     "LAGA/Cvičení a přednášky/14/Ortogonalisace.md",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 27.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 26.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 24.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 15.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 16.png",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/Otázky A.pdf",
     "LAGA/Zkouška/Řešené příklady.pdf",
@@ -236,10 +241,6 @@
     "LAGA/Slovníček/Součin matic.md",
     "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování3.md",
     "LAGA/Slovníček/Matice transformace souřadnic.md",
-    "LAGA/Slovníček/Matice lineárního zobrazení.md",
-    "LAGA/Slovníček/Matice.md",
-    "LAGA/Slovníček/Lineární kombinace konečného seznamu vektorů.md",
-    "LAGA/Slovníček/Lineární nezávislost a závislost seznamu vektorů.md",
     "MA1A/Untitled.canvas"
   ]
 }
