@@ -13,10 +13,22 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25.png"
+                "file": "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png"
               },
               "icon": "lucide-image",
-              "title": "Old - 25"
+              "title": "New - 1"
+            }
+          },
+          {
+            "id": "8a3d7c95bf371867",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "LAGA/Zkouška/A/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
             }
           }
         ]
@@ -182,17 +194,18 @@
   },
   "active": "56de88ce467839c7",
   "lastOpenFiles": [
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 24.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Default.png",
+    "LAGA/Zkouška/A/Zapisky.md",
+    "LAGA/Cvičení a přednášky/14/Ortogonalisace.md",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 27.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 26.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 24.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 15.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 16.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 14.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 13.jpg",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 12.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 11.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 10.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 9.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 8.png",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/Otázky A.pdf",
     "LAGA/Zkouška/Řešené příklady.pdf",
@@ -208,7 +221,6 @@
     "LAGA/Slovníček/Adjungovaná matice.md",
     "LAGA/Slovníček/Defekt.md",
     "LAGA/Slovníček/Znaménko permutace.md",
-    "LAGA/Cvičení a přednášky/14/Ortogonalisace.md",
     "MA1A/Zkouska/Průběh funkce.md",
     "MA1A/Zkouska/Posloupnosti a řady.md",
     "MA1A/Zkouska/Integrály.md",
@@ -228,7 +240,6 @@
     "LAGA/Slovníček/Matice.md",
     "LAGA/Slovníček/Lineární kombinace konečného seznamu vektorů.md",
     "LAGA/Slovníček/Lineární nezávislost a závislost seznamu vektorů.md",
-    "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování2.md",
     "MA1A/Untitled.canvas"
   ]
 }
