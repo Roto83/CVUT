@@ -13,25 +13,26 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25.png"
+                "file": "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png"
               },
               "icon": "lucide-image",
-              "title": "Old - 25"
+              "title": "New - 1"
             }
           },
           {
-            "id": "8a3d7c95bf371867",
+            "id": "378631e2f55c72b7",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "LAGA/Zkouška/A/Zapisky.md"
+                "file": "LAGA/Zkouška/C/Zapisky.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Zapisky"
+              "title": "Zapisky.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -192,26 +194,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "56de88ce467839c7",
+  "active": "378631e2f55c72b7",
   "lastOpenFiles": [
+    "LAGA/Zkouška/2 - Plán/Plán.md",
+    "LAGA/Zkouška/C/Zapisky.excalidraw.md",
+    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203141128_306.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 27.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 26.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25.png",
+    "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 24.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 17.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 18.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 19.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 21.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 22.png",
-    "LAGA/Zkouška/A/Zapisky.md",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 23.png",
     "LAGA/Slovníček/Zobrazení.md",
     "LAGA/Slovníček/Lineární zobrazení.md",
     "LAGA/Slovníček/Isomorfismus.md",
     "LAGA/Slovníček/Monomorfismus.md",
     "LAGA/Cvičení a přednášky/14/Ortogonalisace.md",
-    "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/Otázky A.pdf",
     "LAGA/Zkouška/Řešené příklady.pdf",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 26",
@@ -222,7 +224,6 @@
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 21",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 20",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 19",
-    "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Slovníček/Adjungovaná matice.md",
     "LAGA/Slovníček/Defekt.md",
     "LAGA/Slovníček/Znaménko permutace.md",
