@@ -11,10 +11,24 @@
             "id": "63484cdfd5db3d96",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "LAGA/Zkouška/C/Zapisky.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky.excalidraw"
+            }
+          },
+          {
+            "id": "110f80f518588ba8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "LAGA/Zkouška/A/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
             }
           }
         ]
@@ -181,6 +195,9 @@
   },
   "active": "63484cdfd5db3d96",
   "lastOpenFiles": [
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
+    "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203180059_455.png",
@@ -188,12 +205,10 @@
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203175658_894.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203175639_675.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203173057_606.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203170032_605.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203142209_160.png",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203141128_306.png",
-    "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Slovníček/Zobrazení.md",
     "LAGA/Slovníček/Lineární zobrazení.md",
     "LAGA/Slovníček/Isomorfismus.md",
