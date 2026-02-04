@@ -11,6 +11,30 @@
             "id": "63484cdfd5db3d96",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "LAGA/Cvičení a přednášky/11/Procvičování.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Procvičování"
+            }
+          },
+          {
+            "id": "110f80f518588ba8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "LAGA/Zkouška/1 - Leaked zkoušky/Old - 1.png"
+              },
+              "icon": "lucide-image",
+              "title": "Old - 1"
+            }
+          },
+          {
+            "id": "908224d36823f343",
+            "type": "leaf",
+            "state": {
               "type": "image",
               "state": {
                 "file": "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg"
@@ -18,20 +42,9 @@
               "icon": "lucide-image",
               "title": "New - 5"
             }
-          },
-          {
-            "id": "110f80f518588ba8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "LAGA/Zkouška/C/Zapisky.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky.excalidraw"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,20 +205,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "63484cdfd5db3d96",
+  "active": "110f80f518588ba8",
   "lastOpenFiles": [
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
+    "LAGA/Cvičení a přednášky/11/Procvičování.md",
+    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260204130423_200.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260204114425_267.png",
     "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203180059_455.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203175658_894.png",
-    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203175639_675.png",
-    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203173057_606.png",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Slovníček/Zobrazení.md",
     "LAGA/Slovníček/Lineární zobrazení.md",
@@ -239,7 +253,6 @@
     "LAGA/Cvičení a přednášky/14/Zapisky.excalidraw.md",
     "LAGA/Slovníček/Součin matic.md",
     "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování3.md",
-    "LAGA/Slovníček/Matice transformace souřadnic.md",
     "MA1A/Untitled.canvas"
   ]
 }
