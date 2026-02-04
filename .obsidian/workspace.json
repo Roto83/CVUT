@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg"
+                "file": "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg"
               },
               "icon": "lucide-image",
-              "title": "New - 4"
+              "title": "New - 5"
             }
           },
           {
@@ -31,8 +31,7 @@
               "title": "Zapisky.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -194,21 +192,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "110f80f518588ba8",
+  "active": "63484cdfd5db3d96",
   "lastOpenFiles": [
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
+    "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260204114425_267.png",
     "LAGA/Zkouška/A/Zapisky.md",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
-    "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203180059_455.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203175658_894.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203175639_675.png",
     "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203173057_606.png",
-    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260203170032_605.png",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Slovníček/Zobrazení.md",
     "LAGA/Slovníček/Lineární zobrazení.md",
