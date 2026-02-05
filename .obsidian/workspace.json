@@ -20,19 +20,30 @@
             }
           },
           {
+            "id": "910541eea89ba6c0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "LAGA/Zkouška/A/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
+            }
+          },
+          {
             "id": "908224d36823f343",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "LAGA/Zkouška/1 - Leaked zkoušky/Old - 18.png"
+                "file": "LAGA/Zkouška/1 - Leaked zkoušky/Old - 4.png"
               },
               "icon": "lucide-image",
-              "title": "Old - 18"
+              "title": "Old - 4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -193,22 +205,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "908224d36823f343",
+  "active": "110f80f518588ba8",
   "lastOpenFiles": [
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 16.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 4.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 5.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 3.png",
+    "LAGA/Zkouška/A/Zapisky.md",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 6.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 8.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 1.png",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 17.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 18.png",
-    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260204181609_546.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 15.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 14.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 13.jpg",
-    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260204180759_006.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 12.png",
-    "LAGA/Zkouška/0 - Obrázky dump/Pasted Image 20260204180154_916.png",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Cvičení a přednášky/11/Procvičování.md",
-    "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Slovníček/Zobrazení.md",
     "LAGA/Slovníček/Lineární zobrazení.md",
     "LAGA/Slovníček/Isomorfismus.md",
