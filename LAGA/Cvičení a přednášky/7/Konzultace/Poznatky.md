@@ -1,1 +1,0 @@
-Ve dvou lineárnich prostorech L1 do 

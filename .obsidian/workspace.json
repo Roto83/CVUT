@@ -4,43 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "74699f68a557358d",
+        "id": "a11023e9a05c5764",
         "type": "tabs",
         "children": [
           {
-            "id": "110f80f518588ba8",
+            "id": "f9e6ce634e133f78",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "release-notes",
               "state": {
-                "file": "LAGA/Zkouška/C/Zapisky.excalidraw.md"
+                "currentVersion": "1.11.7"
               },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky.excalidraw"
-            }
-          },
-          {
-            "id": "910541eea89ba6c0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "LAGA/Zkouška/A/Zapisky.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
-            }
-          },
-          {
-            "id": "908224d36823f343",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "LAGA/Zkouška/1 - Leaked zkoušky/Old - 4.png"
-              },
-              "icon": "lucide-image",
-              "title": "Old - 4"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
             }
           }
         ]
@@ -100,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -205,21 +180,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "110f80f518588ba8",
+  "active": "f9e6ce634e133f78",
   "lastOpenFiles": [
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 4.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 5.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 3.png",
-    "LAGA/Zkouška/A/Zapisky.md",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 6.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 8.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 1.png",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
+    "LAGA/Zkouška/A/Zapisky.md",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 5.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 4.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 3.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 1.png",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 4.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 3.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 2.jpg",
+    "LAGA/Zkouška/1 - Leaked zkoušky/New - 1.png",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Cvičení a přednášky/11/Procvičování.md",
     "LAGA/Slovníček/Zobrazení.md",
