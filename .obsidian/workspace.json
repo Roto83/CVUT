@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a11023e9a05c5764",
+        "id": "ec0d5d22c20a4f6e",
         "type": "tabs",
         "children": [
           {
-            "id": "f9e6ce634e133f78",
+            "id": "c16dac3e2b307137",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "DRN/1/Týdenní plán.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "Týdenní plán"
             }
           }
         ]
@@ -180,8 +182,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f9e6ce634e133f78",
+  "active": "c16dac3e2b307137",
   "lastOpenFiles": [
+    "DRN/Podmínky a požadavky.md",
+    "DRN/1/Týdenní plán.md",
+    "DRN/1",
+    "DRN",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 5.png",
@@ -209,8 +215,6 @@
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 23",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 22",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 21",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 20",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 19",
     "LAGA/Slovníček/Adjungovaná matice.md",
     "LAGA/Slovníček/Defekt.md",
     "LAGA/Slovníček/Znaménko permutace.md",
@@ -227,7 +231,6 @@
     "MA1A/Zkouska/Untitled.md",
     "LAGA/Cvičení a přednášky/14/Zapisky.excalidraw.md",
     "LAGA/Slovníček/Součin matic.md",
-    "LAGA/Cvičení a přednášky/Procvičování T1/Procvičování3.md",
     "MA1A/Untitled.canvas"
   ]
 }
