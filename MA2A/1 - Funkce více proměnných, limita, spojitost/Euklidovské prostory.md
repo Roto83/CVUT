@@ -1,0 +1,1 @@
+Přirozená čísla bez nuy
