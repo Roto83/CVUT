@@ -1,1 +1,2 @@
-Přirozená čísla bez nuy
+- Přirozená čísla bez nuy
+- bod = vektor
