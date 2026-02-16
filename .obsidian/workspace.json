@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DRN/1/Týdenní plán.md",
+                "file": "MA2A/Podmínky a požadavky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Týdenní plán"
+              "title": "Podmínky a požadavky"
             }
           }
         ]
@@ -184,8 +184,10 @@
   },
   "active": "c16dac3e2b307137",
   "lastOpenFiles": [
-    "DRN/Podmínky a požadavky.md",
     "DRN/1/Týdenní plán.md",
+    "MA2A/Podmínky a požadavky.md",
+    "MA2A",
+    "DRN/Podmínky a požadavky.md",
     "DRN/1",
     "DRN",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
@@ -214,7 +216,6 @@
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 24",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 23",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 22",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 21",
     "LAGA/Slovníček/Adjungovaná matice.md",
     "LAGA/Slovníček/Defekt.md",
     "LAGA/Slovníček/Znaménko permutace.md",
@@ -230,7 +231,6 @@
     "MA1A/10/Procvičování derivace.md",
     "MA1A/Zkouska/Untitled.md",
     "LAGA/Cvičení a přednášky/14/Zapisky.excalidraw.md",
-    "LAGA/Slovníček/Součin matic.md",
     "MA1A/Untitled.canvas"
   ]
 }
