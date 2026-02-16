@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MA2A/1/Funkce více proměnných, limita, spojitost..md",
+                "file": "FY1/Podmínky a požadavky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funkce více proměnných, limita, spojitost."
+              "title": "Podmínky a požadavky"
             }
           }
         ],
@@ -199,8 +199,10 @@
   },
   "active": "760a64e43654ac67",
   "lastOpenFiles": [
-    "MA2A/Podmínky a požadavky.md",
     "MA2A/1/Funkce více proměnných, limita, spojitost..md",
+    "FY1/Podmínky a požadavky.md",
+    "FY1",
+    "MA2A/Podmínky a požadavky.md",
     "MA2A/1",
     "DRN/1/Týdenní plán.md",
     "MA2A",
@@ -231,7 +233,6 @@
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 26",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 25",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 24",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 23",
     "LAGA/Slovníček/Adjungovaná matice.md",
     "LAGA/Slovníček/Defekt.md",
     "LAGA/Slovníček/Znaménko permutace.md",
@@ -245,7 +246,6 @@
     "Untitled.canvas",
     "MA1A/Zkouska/Posloupnosti 2.md",
     "MA1A/10/Procvičování derivace.md",
-    "MA1A/Zkouska/Untitled.md",
     "MA1A/Untitled.canvas"
   ]
 }
