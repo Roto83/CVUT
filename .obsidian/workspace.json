@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1c008216aaf9d3c",
+            "id": "fb62cbc7b19263da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "FY1/1/Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "FY1/1/Zapisky.md"
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -182,11 +181,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b1c008216aaf9d3c",
+  "active": "fb62cbc7b19263da",
   "lastOpenFiles": [
-    "DRN/1 - separabilní rovnice/Týdenní plán.md",
-    "FY1/1/Untitled.md",
     "DRN/1 - separabilní rovnice/Zapisky.md",
+    "FY1/1/Zapisky.md",
+    "FY1/1/Untitled.md",
+    "0brazky/Pasted Image 20260218164805_720.png",
+    "DRN/1 - separabilní rovnice/Týdenní plán.md",
     "0brazky/Pasted Image 20260218101139_129.png",
     "0brazky/Pasted Image 20260218095632_675.png",
     "0brazky/Pasted Image 20260218092533_279.png",
@@ -214,7 +215,6 @@
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 3.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 1.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/New - 5.jpg",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Cvičení a přednášky/11/Procvičování.md",
     "LAGA/Slovníček/Zobrazení.md",
