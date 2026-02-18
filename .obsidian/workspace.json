@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Týdenní plán"
             }
+          },
+          {
+            "id": "d104d9bcc94c24f7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "DRN/1 - separabilní rovnice/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -182,18 +196,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b1c008216aaf9d3c",
+  "active": "d104d9bcc94c24f7",
   "lastOpenFiles": [
+    "0brazky/Pasted Image 20260218084220_900.png",
+    "0brazky",
+    "DRN/1 - separabilní rovnice/Týdenní plán.md",
+    "DRN/1 - separabilní rovnice/Zapisky.md",
     "FY1/1/Untitled.md",
     "FY1/Fyzika skripta.pdf",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Euklidovské prostory.md",
     "MA2A/Podmínky a požadavky.md",
     "DRN/Podmínky a požadavky.md",
-    "DRN/1 - separabilní rovnice/Týdenní plán.md",
     "ZEOA/Podmínky a požadavky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Funkce více proměnných, limita, spojitost..md",
     "ZEOA/1 - Úvod",
-    "Untitled",
     "ZEOA",
     "FY1/Podmínky a požadavky.md",
     "FY1/1",
@@ -228,7 +244,6 @@
     "MA1A/Zkouska/Posloupnosti a řady.md",
     "MA1A/Zkouska/Integrály.md",
     "MA1A/Zkouska/Limity.md",
-    "MA1A/Zkouska/Derivace.md",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
