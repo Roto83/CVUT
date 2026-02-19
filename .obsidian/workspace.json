@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c4f1bbe3c75e4aa2",
+        "id": "f3f9fd923bd94eb4",
         "type": "tabs",
         "children": [
           {
-            "id": "fb62cbc7b19263da",
+            "id": "50e957f5ace2efcf",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "FY1/1/Zapisky.md"
+                "file": "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Zapisky"
+              "title": "Cvika"
             }
           }
         ]
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -181,12 +180,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fb62cbc7b19263da",
+  "active": "50e957f5ace2efcf",
   "lastOpenFiles": [
+    "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md",
+    "FY1/1/Zapisky.md",
     "0brazky/Pasted Image 20260218171853_581.png",
     "0brazky/Pasted Image 20260218170234_893.png",
     "DRN/1 - separabilní rovnice/Zapisky.md",
-    "FY1/1/Zapisky.md",
     "FY1/1/Untitled.md",
     "0brazky/Pasted Image 20260218164805_720.png",
     "DRN/1 - separabilní rovnice/Týdenní plán.md",
@@ -215,7 +215,6 @@
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 5.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 4.png",
     "LAGA/Zkouška/1 - Leaked zkoušky/Old - 3.png",
-    "LAGA/Zkouška/1 - Leaked zkoušky/Old - 2.png",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Cvičení a přednášky/11/Procvičování.md",
     "LAGA/Slovníček/Zobrazení.md",
