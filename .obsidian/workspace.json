@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -183,16 +182,17 @@
   },
   "active": "50e957f5ace2efcf",
   "lastOpenFiles": [
+    "MA2A/1 - Funkce více proměnných, limita, spojitost/Euklidovské prostory.md",
+    "MA2A/1 - Funkce více proměnných, limita, spojitost/Materiály.md",
+    "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md",
     "0brazky/Pasted Image 20260219170432_123.png",
     "0brazky/Pasted Image 20260219164938_356.png",
     "MA2A/Podmínky a požadavky.md",
     "ZEOA/1 - Úvod/Cvika zápisky.md",
     "ZEOA/Podmínky a požadavky.md",
     "ZEOA/1 - Úvod/Cvika drawing.md",
-    "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md",
     "0brazky/Pasted Image 20260219113042_611.png",
     "0brazky/Pasted Image 20260219110608_901.png",
-    "MA2A/1 - Funkce více proměnných, limita, spojitost/Zápisky.md",
     "FY1/1/Zapisky.md",
     "0brazky/Pasted Image 20260218171853_581.png",
     "0brazky/Pasted Image 20260218170234_893.png",
@@ -203,10 +203,8 @@
     "0brazky/Pasted Image 20260218101139_129.png",
     "0brazky/Pasted Image 20260218095632_675.png",
     "0brazky/Pasted Image 20260218092533_279.png",
-    "0brazky/Pasted Image 20260218084220_900.png",
     "0brazky",
     "FY1/Fyzika skripta.pdf",
-    "MA2A/1 - Funkce více proměnných, limita, spojitost/Euklidovské prostory.md",
     "DRN/Podmínky a požadavky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Funkce více proměnných, limita, spojitost..md",
     "ZEOA/1 - Úvod",
