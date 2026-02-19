@@ -7,3 +7,6 @@
 - Energie E = U . I . t    -    V joulech
 - $P = R \cdot U^{2}$ 
 - Průrazové napění: bod kdy izolátor začne být vodič
+- Napěťový zdroj je pod větší zátěží čím menší je odpor v obvodu
+- Zdroje mají vnitřní odpor, pak počítáme I = U/Rin jako maximální TEORETICKÝ proud
+- 
