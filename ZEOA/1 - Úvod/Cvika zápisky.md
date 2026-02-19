@@ -6,3 +6,4 @@
 - Ampér hodina: jednotka kapacity, kolik ampérů zvládne dávat po dobu jedné hodiny $t = \frac{C}{I}$ 
 - Energie E = U . I . t    -    V joulech
 - $P = R \cdot U^{2}$ 
+- Průrazové napění: bod kdy izolátor začne být vodič
