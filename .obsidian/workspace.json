@@ -11,12 +11,14 @@
             "id": "50e957f5ace2efcf",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md"
+                "file": "MA2A/1 - Funkce více proměnných, limita, spojitost/Zápisky.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Cvika"
+              "icon": "lucide-file",
+              "title": "Zápisky"
             }
           },
           {
@@ -90,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -197,8 +198,9 @@
   },
   "active": "50e957f5ace2efcf",
   "lastOpenFiles": [
-    "MA2A/Podmínky a požadavky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md",
+    "MA2A/1 - Funkce více proměnných, limita, spojitost/Zápisky.md",
+    "MA2A/Podmínky a požadavky.md",
     "FY1/1/Zapisky.md",
     "0brazky/Pasted Image 20260218171853_581.png",
     "0brazky/Pasted Image 20260218170234_893.png",
@@ -242,7 +244,6 @@
     "LAGA/Slovníček/Znaménko permutace.md",
     "MA1A/Zkouska/Průběh funkce.md",
     "MA1A/Zkouska/Posloupnosti a řady.md",
-    "MA1A/Zkouska/Integrály.md",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
