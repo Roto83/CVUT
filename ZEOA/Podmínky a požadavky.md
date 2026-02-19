@@ -2,3 +2,6 @@
 2) Test jde na 35/70 bodů. BACHA ALE!!! Musíš dát 3 body u každého příkladu a u teorie
 3) Ústní nepovinné jen na vylepšení známky
 4) Kalkulačka povolena
+
+### Tipy triky
+Přednášky jsou [online](https://www.youtube.com/playlist?list=PLQL6z4JeTTQmNPjjBDplj2uAZVyIhGq98) ale chybí: 1, 11 na ty je lepší jít

@@ -1,0 +1,4 @@
+- U zdrojů značených kolečkem se píše šipka od plusu k mínusu
+- U baterek je dlouhá čárka plus
+- P = U . I, 12W = 12V . I = 1A            U = R . I
+- 
