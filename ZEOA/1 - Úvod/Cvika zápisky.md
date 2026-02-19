@@ -5,4 +5,4 @@
 - Sériové zapojení dělí napětí
 - Ampér hodina: jednotka kapacity, kolik ampérů zvládne dávat po dobu jedné hodiny $t = \frac{C}{I}$ 
 - Energie E = U . I . t    -    V joulech
-- $P = R \cdot I^{2}$ 
+- $P = R \cdot U^{2}$ 
