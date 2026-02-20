@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FY1/1/Laborky.md",
+                "file": "FY1/Laborky info.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laborky"
+              "title": "Laborky info"
+            }
+          },
+          {
+            "id": "5a51afae7a32ff28",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "FY1/1/Cvika zápisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cvika zápisky"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -182,13 +196,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "50e957f5ace2efcf",
+  "active": "5a51afae7a32ff28",
   "lastOpenFiles": [
+    "FY1/1/Procvičování přednáška.md",
+    "FY1/1/Cvika zápisky.md",
+    "FY1/Laborky info.md",
+    "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md",
+    "FY1/1/Laborky.md",
     "FY1/1/FY1 - LAB1.xlsx",
     "FY1/1/~$FY1 - LAB1.xlsx",
     "0brazky/Pasted image 20260220083541.png",
-    "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika.md",
-    "FY1/1/Laborky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Euklidovské prostory.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Materiály.md",
     "0brazky/Pasted Image 20260219170432_123.png",
@@ -199,7 +216,6 @@
     "ZEOA/1 - Úvod/Cvika drawing.md",
     "0brazky/Pasted Image 20260219113042_611.png",
     "0brazky/Pasted Image 20260219110608_901.png",
-    "FY1/1/Zapisky.md",
     "0brazky/Pasted Image 20260218171853_581.png",
     "0brazky/Pasted Image 20260218170234_893.png",
     "DRN/1 - separabilní rovnice/Zapisky.md",
@@ -218,7 +234,6 @@
     "FY1",
     "MA2A/1 - Funkce více proměnných, limita, spojitost",
     "MA2A",
-    "DRN/1 - separabilní rovnice",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Zkouška/2 - Plán/Plán.md",
@@ -229,7 +244,6 @@
     "LAGA/Slovníček/Monomorfismus.md",
     "LAGA/Cvičení a přednášky/14/Ortogonalisace.md",
     "LAGA/Slovníček/Adjungovaná matice.md",
-    "LAGA/Slovníček/Defekt.md",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
