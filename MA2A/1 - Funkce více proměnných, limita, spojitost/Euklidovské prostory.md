@@ -1,4 +1,3 @@
 - Přirozená čísla bez nuy
 - bod = vektor
 - Euklidovský prostor je lineární prostor $\mathbb{R}^{n}$ se skalárním součinem
-- 
