@@ -11,10 +11,12 @@
             "id": "934ceff01772047b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "DRN/2 - variace, analýza řešení/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
             }
           }
         ]
@@ -74,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -180,6 +183,7 @@
   },
   "active": "934ceff01772047b",
   "lastOpenFiles": [
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika materiál.md",
@@ -225,7 +229,6 @@
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Cvičení a přednášky/11/Procvičování.md",
     "LAGA/Slovníček/Zobrazení.md",
-    "LAGA/Slovníček/Lineární zobrazení.md",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
