@@ -1,0 +1,2 @@
+- Parametrizace není jednoznačná operace (může začínat z jiných bodů nebo mít jiný směrový vektor)
+- 
