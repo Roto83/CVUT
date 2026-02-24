@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "103f689c76d327cd",
+        "id": "57481ab1072f89fa",
         "type": "tabs",
         "children": [
           {
-            "id": "934ceff01772047b",
+            "id": "07e16032996ba2dc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "DRN/2 - variace, analýza řešení/Zapisky.md"
+                "file": "FY1/2/Zápisky přednáška.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
+              "icon": "lucide-file",
+              "title": "Zápisky přednáška"
             }
           }
         ]
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -181,23 +182,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "934ceff01772047b",
+  "active": "07e16032996ba2dc",
   "lastOpenFiles": [
+    "FY1/1/Cvika zápisky.md",
+    "FY1/2/Zápisky přednáška.md",
+    "FY1/2",
+    "FY1/1/Procvičování přednáška.md",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
+    "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika materiál.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Euklidovské prostory.md",
     "FY1/Laborky info.md",
-    "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "DRN/1 - separabilní rovnice/Týdenní plán.md",
     "DRN/1 - separabilní rovnice/Zapisky.md",
     "DRN/2 - variace, analýza řešení",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
     "0brazky/Pasted Image 20260220152752_273.png",
-    "FY1/1/Cvika zápisky.md",
-    "FY1/1/Procvičování přednáška.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika drawing.md",
     "FY1/1/Laborky.md",
     "FY1/1/FY1 - LAB1.xlsx",
@@ -223,12 +226,10 @@
     "ZEOA",
     "FY1/Podmínky a požadavky.md",
     "FY1/1",
-    "FY1",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Zkouška/2 - Plán/Plán.md",
     "LAGA/Cvičení a přednášky/11/Procvičování.md",
-    "LAGA/Slovníček/Zobrazení.md",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
