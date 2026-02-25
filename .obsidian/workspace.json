@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
+                "file": "ZEOA/Podmínky a požadavky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Směrová derivace"
+              "title": "Podmínky a požadavky"
+            }
+          },
+          {
+            "id": "665dea20d6b042cf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Procvičování příkladů"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -182,10 +196,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "943ed230c6d6f61e",
+  "active": "665dea20d6b042cf",
   "lastOpenFiles": [
-    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
+    "ZEOA/Podmínky a požadavky.md",
+    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
+    "ZEOA/2 - Základní zákony a teorémy",
+    "ZEOA/1 - Úvod/Cvika zápisky.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
+    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "FY1/2/Zápisky přednáška.md",
@@ -210,8 +228,6 @@
     "0brazky/Pasted Image 20260219170432_123.png",
     "0brazky/Pasted Image 20260219164938_356.png",
     "MA2A/Podmínky a požadavky.md",
-    "ZEOA/1 - Úvod/Cvika zápisky.md",
-    "ZEOA/Podmínky a požadavky.md",
     "ZEOA/1 - Úvod/Cvika drawing.md",
     "0brazky/Pasted Image 20260219113042_611.png",
     "0brazky/Pasted Image 20260219110608_901.png",
@@ -225,7 +241,6 @@
     "ZEOA/1 - Úvod",
     "ZEOA",
     "FY1/Podmínky a požadavky.md",
-    "FY1/1",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
     "LAGA/Zkouška/A/Zapisky.md",
     "LAGA/Zkouška/2 - Plán/Plán.md",
