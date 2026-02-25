@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "da3936b1ecca50dc",
+        "id": "9e259a692715be9f",
         "type": "tabs",
         "children": [
           {
-            "id": "943ed230c6d6f61e",
+            "id": "9c0b39f7a3d6d426",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "DRN/1 - separabilní rovnice/Cvika drawing.md"
+                "file": "FY1/2/Zápisky přednáška.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Cvika drawing"
-            }
-          },
-          {
-            "id": "665dea20d6b042cf",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "DRN/2 - variace, analýza řešení/Zapisky.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
+              "icon": "lucide-file",
+              "title": "Zápisky přednáška"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -194,7 +182,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "665dea20d6b042cf",
+  "active": "9c0b39f7a3d6d426",
   "lastOpenFiles": [
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
