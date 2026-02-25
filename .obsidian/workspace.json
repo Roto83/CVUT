@@ -11,14 +11,12 @@
             "id": "9c0b39f7a3d6d426",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "FY1/2/Zápisky přednáška.md",
-                "mode": "source",
-                "source": false
+                "file": "FY1/Fyzika skripta.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Zápisky přednáška"
+              "icon": "lucide-file-text",
+              "title": "Fyzika skripta"
             }
           },
           {
@@ -90,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -196,8 +195,9 @@
   },
   "active": "9c0b39f7a3d6d426",
   "lastOpenFiles": [
-    "FY1/2/Zapisky.md",
+    "FY1/1/~$FY1 - LAB1.xlsx",
     "FY1/2/Zápisky přednáška.md",
+    "FY1/2/Zapisky.md",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
@@ -224,7 +224,6 @@
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika drawing.md",
     "FY1/1/Laborky.md",
     "FY1/1/FY1 - LAB1.xlsx",
-    "FY1/1/~$FY1 - LAB1.xlsx",
     "0brazky/Pasted image 20260220083541.png",
     "0brazky/Pasted Image 20260219170432_123.png",
     "0brazky/Pasted Image 20260219164938_356.png",
@@ -241,7 +240,6 @@
     "ZEOA",
     "FY1/Podmínky a požadavky.md",
     "LAGA/Zkouška/C/Zapisky.excalidraw.md",
-    "LAGA/Zkouška/A/Zapisky.md",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
