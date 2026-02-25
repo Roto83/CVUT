@@ -18,18 +18,6 @@
               "icon": "lucide-file-text",
               "title": "Fyzika skripta"
             }
-          },
-          {
-            "id": "b9e7d0fb26011d4c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "FY1/2/Zapisky.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
-            }
           }
         ]
       }
@@ -195,13 +183,14 @@
   },
   "active": "9c0b39f7a3d6d426",
   "lastOpenFiles": [
-    "FY1/1/~$FY1 - LAB1.xlsx",
-    "FY1/2/Zápisky přednáška.md",
     "FY1/2/Zapisky.md",
-    "DRN/1 - separabilní rovnice/Cvika drawing.md",
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
+    "FY1/2/Zápisky přednáška.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
+    "FY1/Fyzika skripta.pdf",
+    "FY1/1/~$FY1 - LAB1.xlsx",
+    "DRN/1 - separabilní rovnice/Cvika drawing.md",
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "ZEOA/Podmínky a požadavky.md",
     "0brazky/Pasted Image 20260225125818_131.png",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
@@ -233,7 +222,6 @@
     "0brazky/Pasted Image 20260219110608_901.png",
     "0brazky/Pasted Image 20260218171853_581.png",
     "0brazky",
-    "FY1/Fyzika skripta.pdf",
     "DRN/Podmínky a požadavky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Funkce více proměnných, limita, spojitost..md",
     "ZEOA/1 - Úvod",
