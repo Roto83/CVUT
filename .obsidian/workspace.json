@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Zápisky přednáška"
             }
+          },
+          {
+            "id": "b9e7d0fb26011d4c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "FY1/2/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
+            }
           }
         ]
       }
@@ -184,6 +196,8 @@
   },
   "active": "9c0b39f7a3d6d426",
   "lastOpenFiles": [
+    "FY1/2/Zapisky.md",
+    "FY1/2/Zápisky přednáška.md",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
@@ -195,7 +209,6 @@
     "0brazky/Pasted Image 20260225122103_816.png",
     "ZEOA/2 - Základní zákony a teorémy",
     "ZEOA/1 - Úvod/Cvika zápisky.md",
-    "FY1/2/Zápisky přednáška.md",
     "0brazky/Pasted image 20260224135103.png",
     "FY1/1/Cvika zápisky.md",
     "FY1/2",
