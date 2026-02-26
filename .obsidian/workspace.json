@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md"
+                "file": "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Cvika drawing"
+              "title": "Procvičování příkladů"
             }
           }
         ]
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -183,11 +182,11 @@
   },
   "active": "e7ae43421f769da1",
   "lastOpenFiles": [
+    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
     "0brazky/Pasted Image 20260226120011_231.png",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika materiály.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika materiál.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika drawing.md",
-    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
     "FY1/Fyzika skripta.pdf",
     "FY1/2/Zapisky.md",
     "FY1/2/Zápisky přednáška.md",
@@ -223,7 +222,6 @@
     "ZEOA/1 - Úvod/Cvika drawing.md",
     "0brazky/Pasted Image 20260219113042_611.png",
     "0brazky/Pasted Image 20260219110608_901.png",
-    "0brazky/Pasted Image 20260218171853_581.png",
     "0brazky",
     "DRN/Podmínky a požadavky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Funkce více proměnných, limita, spojitost..md",
