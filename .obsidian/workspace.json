@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7ae43421f769da1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cvika drawing"
-            }
-          },
-          {
             "id": "f6d1a654552befae",
             "type": "leaf",
             "state": {
@@ -45,7 +33,8 @@
               "title": "Zapisky"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,12 +196,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7ae43421f769da1",
+  "active": "069ccb4a3839e558",
   "lastOpenFiles": [
-    "0brazky/Pasted Image 20260227082921_896.png",
-    "DRN/2 - variace, analýza řešení/Týdenní plán.md",
+    "0brazky/Pasted Image 20260227093354_540.png",
+    "DRN/1 - separabilní rovnice/Zapisky.md",
+    "DRN/1 - separabilní rovnice/Cvika drawing.md",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
+    "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
+    "0brazky/Pasted Image 20260227082921_896.png",
     "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
     "0brazky/Pasted Image 20260226120011_231.png",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika materiály.md",
@@ -224,7 +216,6 @@
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
-    "DRN/1 - separabilní rovnice/Cvika drawing.md",
     "ZEOA/Podmínky a požadavky.md",
     "0brazky/Pasted Image 20260225125818_131.png",
     "0brazky/Pasted Image 20260225122103_816.png",
@@ -237,7 +228,6 @@
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Euklidovské prostory.md",
     "FY1/Laborky info.md",
     "DRN/1 - separabilní rovnice/Týdenní plán.md",
-    "DRN/1 - separabilní rovnice/Zapisky.md",
     "DRN/2 - variace, analýza řešení",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient",
     "0brazky/Pasted Image 20260220152752_273.png",
@@ -249,7 +239,6 @@
     "MA2A/Podmínky a požadavky.md",
     "ZEOA/1 - Úvod/Cvika drawing.md",
     "0brazky/Pasted Image 20260219113042_611.png",
-    "0brazky/Pasted Image 20260219110608_901.png",
     "0brazky",
     "DRN/Podmínky a požadavky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Funkce více proměnných, limita, spojitost..md",
