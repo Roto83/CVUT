@@ -32,9 +32,21 @@
               "icon": "excalidraw-icon",
               "title": "Zapisky"
             }
+          },
+          {
+            "id": "e302c0bfe8f53faa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "FY1/2/Cvika zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cvika zapisky"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,12 +208,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "069ccb4a3839e558",
+  "active": "e302c0bfe8f53faa",
   "lastOpenFiles": [
+    "FY1/2/Cvika zapisky.md",
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
+    "FY1/2/Zápisky přednáška.md",
     "0brazky/Pasted Image 20260227093354_540.png",
     "DRN/1 - separabilní rovnice/Zapisky.md",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
     "0brazky/Pasted Image 20260227082921_896.png",
@@ -211,8 +225,6 @@
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika materiál.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika drawing.md",
     "FY1/Fyzika skripta.pdf",
-    "FY1/2/Zapisky.md",
-    "FY1/2/Zápisky přednáška.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
@@ -238,7 +250,6 @@
     "0brazky/Pasted Image 20260219164938_356.png",
     "MA2A/Podmínky a požadavky.md",
     "ZEOA/1 - Úvod/Cvika drawing.md",
-    "0brazky/Pasted Image 20260219113042_611.png",
     "0brazky",
     "DRN/Podmínky a požadavky.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Funkce více proměnných, limita, spojitost..md",
