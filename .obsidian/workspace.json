@@ -18,6 +18,32 @@
               "icon": "excalidraw-icon",
               "title": "Cvika drawing"
             }
+          },
+          {
+            "id": "f6d1a654552befae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DRN/2 - variace, analýza řešení/Týdenní plán.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Týdenní plán"
+            }
+          },
+          {
+            "id": "069ccb4a3839e558",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "DRN/2 - variace, analýza řešení/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
+            }
           }
         ]
       }
@@ -183,8 +209,11 @@
   },
   "active": "e7ae43421f769da1",
   "lastOpenFiles": [
-    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
+    "0brazky/Pasted Image 20260227082921_896.png",
+    "DRN/2 - variace, analýza řešení/Týdenní plán.md",
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
+    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
     "0brazky/Pasted Image 20260226120011_231.png",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika materiály.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika materiál.md",
@@ -196,10 +225,8 @@
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "ZEOA/Podmínky a požadavky.md",
     "0brazky/Pasted Image 20260225125818_131.png",
-    "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "0brazky/Pasted Image 20260225122103_816.png",
     "ZEOA/2 - Základní zákony a teorémy",
     "ZEOA/1 - Úvod/Cvika zápisky.md",
