@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3706be3044d1005c",
+            "id": "05c952bee0850275",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "FY1/Základní vzorečky.md",
-                "mode": "source",
-                "source": false
+                "file": "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md"
               },
-              "icon": "lucide-file",
-              "title": "Základní vzorečky"
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -182,10 +181,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3706be3044d1005c",
+  "active": "05c952bee0850275",
   "lastOpenFiles": [
-    "FY1/2/Cvika zapisky.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
     "FY1/Základní vzorečky.md",
+    "FY1/Zapisky.md",
+    "DRN/3 - chyba, derivace a integrály numericky",
+    "FY1/2/Cvika zapisky.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Schwarzova věta.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Taylorova věta pro funkce více proměnných.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Funkce třídy Ck.md",
@@ -220,16 +223,12 @@
     "FY1/2",
     "FY1/1/Procvičování přednáška.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Euklidovské prostory.md",
-    "FY1/Laborky info.md",
-    "DRN/1 - separabilní rovnice/Týdenní plán.md",
     "DRN/2 - variace, analýza řešení",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient",
     "0brazky/Pasted Image 20260220152752_273.png",
-    "FY1/1/Laborky.md",
     "FY1/1/FY1 - LAB1.xlsx",
     "0brazky/Pasted image 20260220083541.png",
     "0brazky",
-    "ZEOA/1 - Úvod",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
