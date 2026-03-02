@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "efe7859fc9c61d60",
+        "id": "ad5ec81d13a2d756",
         "type": "tabs",
         "children": [
           {
-            "id": "631e093a721d9a89",
+            "id": "3706be3044d1005c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Schwarzova věta.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Schwarzova věta"
+              "title": "New tab"
             }
           }
         ]
@@ -182,10 +178,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "631e093a721d9a89",
+  "active": "3706be3044d1005c",
   "lastOpenFiles": [
-    "FY1/2/Cvika zapisky.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Schwarzova věta.md",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Taylorova věta pro funkce více proměnných.md",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Funkce třídy Ck.md",
+    "FY1/2/Cvika zapisky.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/2 - variace, analýza řešení/Cvičení.md",
@@ -226,9 +224,7 @@
     "FY1/1/FY1 - LAB1.xlsx",
     "0brazky/Pasted image 20260220083541.png",
     "MA2A/Podmínky a požadavky.md",
-    "ZEOA/1 - Úvod/Cvika drawing.md",
     "0brazky",
-    "DRN/Podmínky a požadavky.md",
     "ZEOA/1 - Úvod",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"

@@ -1,0 +1,3 @@
+Je-li $t$ třídy $C^{k+1}$ na otevřené množině $G$ a úsečka od $\mathbb{x}_{0}$ do $\mathbb{x}_{0} +h$ leží v $G$ pak nám platí, že $t(\mathbb{x}_{0} +h) = t(\mathbb{x}_{0}) + (h \cdot gradt)t(\mathbb{x}_{0}) + \frac{1}{2!}(h \cdot gradt)^{2}t(\mathbb{x}_{0})+\dots+\frac{1}{k!}(h \cdot gradt)^{k}t(\mathbb{x}_{0})+ \frac{1}{(k+1)!}(h \cdot gradt)^{k+1}t(\mathbb{x}_{0}+\theta h)$ pro $\theta \in(0,1)$ 
+
+- Jako taylorův polynom ale pro více proměnných. Aproximuje početně složité funkce o více proměnných. Čím víc řádů tím víc přesnější. Má zbytek, který udává o kolik se nám to ještě liší.
