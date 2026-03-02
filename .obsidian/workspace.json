@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e259a692715be9f",
+        "id": "efe7859fc9c61d60",
         "type": "tabs",
         "children": [
           {
-            "id": "069ccb4a3839e558",
+            "id": "631e093a721d9a89",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "DRN/2 - variace, analýza řešení/Zapisky.md"
+                "file": "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Schwarzova věta.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
+              "icon": "lucide-file",
+              "title": "Schwarzova věta"
             }
           }
         ]
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -181,14 +182,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "069ccb4a3839e558",
+  "active": "631e093a721d9a89",
   "lastOpenFiles": [
+    "FY1/2/Cvika zapisky.md",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Schwarzova věta.md",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/2 - variace, analýza řešení/Cvičení.md",
     "DRN/1 - separabilní rovnice/Zapisky.md",
     "FY1/Fyzika skripta.pdf",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
-    "FY1/2/Cvika zapisky.md",
     "0brazky/Pasted Image 20260227121232_571.png",
     "0brazky/Pasted Image 20260227115701_718.png",
     "FY1/2/Zápisky přednáška.md",
@@ -227,7 +230,6 @@
     "0brazky",
     "DRN/Podmínky a požadavky.md",
     "ZEOA/1 - Úvod",
-    "ZEOA",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]

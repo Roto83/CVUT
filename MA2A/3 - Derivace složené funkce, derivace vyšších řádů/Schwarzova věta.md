@@ -1,0 +1,3 @@
+Mějme funkci $t:\mathbb{R}^{n} \rightarrow \mathbb{R}, \mathbb{x}_{0} \in \mathbb{R}^{n}$. Předpokládáme že $\frac{\partial^{2}t}{\partial x_{i}\partial x_{j}}$ a $\frac{\partial^{2}t}{\partial x_{j}\partial x_{i}}$ jsou spojité v $\mathbb{x}_{0}$. Pak $\frac{\partial^{2}t}{\partial x_{i}\partial x_{j}}(\mathbb{x}_{0})=\frac{\partial^{2}t}{\partial x_{j}\partial x_{i}}(\mathbb{x}_{0})$
+
+Pro více proměnných xj a xi.
