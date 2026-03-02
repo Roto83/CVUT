@@ -18,33 +18,8 @@
               "icon": "excalidraw-icon",
               "title": "Zapisky"
             }
-          },
-          {
-            "id": "6683131a673ace48",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "DRN/1 - separabilní rovnice/Zapisky.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
-            }
-          },
-          {
-            "id": "153f5c72f79dfcb4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "DRN/2 - variace, analýza řešení/Cvičení.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cvičení"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "153f5c72f79dfcb4",
+  "active": "069ccb4a3839e558",
   "lastOpenFiles": [
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/2 - variace, analýza řešení/Cvičení.md",
