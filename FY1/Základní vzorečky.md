@@ -1,0 +1,3 @@
+- Dráha, rychlost, čas: $s = v\cdot t$ 
+- Dráha, čas, zrychlení, rychlost (rovnoměrně zrychlený pohyb): $s=v_{0}\cdot t+\frac{1}{2}a \cdot t^{2}$ 
+- Rychlosti (rovnoměrně zrychlený pohyb): $v=v_{0}+a\cdot t$ 
