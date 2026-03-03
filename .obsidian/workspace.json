@@ -47,7 +47,8 @@
               "title": "Cvika zapisky"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,10 +209,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5f03f368c66cb4d9",
+  "active": "167def34d689b811",
   "lastOpenFiles": [
-    "FY1/Základní vzorečky.md",
     "FY1/3/Dynamika hmotného bodu.md",
+    "FY1/Základní vzorečky.md",
     "FY1/2/Procvičování.md",
     "FY1/3",
     "FY1/2/Cvika zapisky.md",

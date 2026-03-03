@@ -3,3 +3,6 @@
 - Rychlosti (rovnoměrně zrychlený pohyb): $v=v_{0}+a\cdot t$ 
 - Hybnost, hmotnost rychlost: $\vec{p} =m\cdot \vec{v}$ 
 - Kinetická energie, hmotnost rychlost: $Ek=\frac{1}{2} mv^{2}$
+- Síla, hmotnost, zrychlení: $F=ma$
+	- Nebo taky $F=m \frac{d^{2}r}{dt^{2}}$ (r po složkách jsou vektory x,y,z)
+- 

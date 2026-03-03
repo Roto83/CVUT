@@ -5,4 +5,4 @@ Gravitační hmotnost vs setrvačná hmotnost
 Třetí Newtonův zákon
 - Vypadá jako že vektory se sčítají do nulového vektoru$$F_{21}=-F_{12}$$
 - Ve skutečnosti jsou to síly působící na různá tělesa a nejdou skládat
-- 
+- (pojem síla a hmotnost existuje jen v Newtonovské klasické mechanice)
