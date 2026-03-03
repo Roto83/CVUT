@@ -11,12 +11,14 @@
             "id": "5f03f368c66cb4d9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "FY1/2/Procvičování.md"
+                "file": "FY1/3/Dynamika hmotného bodu.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Procvičování"
+              "icon": "lucide-file",
+              "title": "Dynamika hmotného bodu"
             }
           },
           {
@@ -208,9 +210,11 @@
   },
   "active": "5f03f368c66cb4d9",
   "lastOpenFiles": [
+    "FY1/2/Procvičování.md",
+    "FY1/3/Dynamika hmotného bodu.md",
+    "FY1/3",
     "FY1/Základní vzorečky.md",
     "FY1/2/Cvika zapisky.md",
-    "FY1/2/Procvičování.md",
     "DRN/Podmínky a požadavky.md",
     "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
     "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
@@ -247,13 +251,11 @@
     "0brazky/Pasted image 20260224135103.png",
     "FY1/1/Cvika zápisky.md",
     "FY1/2",
-    "FY1/1/Procvičování přednáška.md",
     "DRN/2 - variace, analýza řešení",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient",
     "0brazky/Pasted Image 20260220152752_273.png",
     "FY1/1/FY1 - LAB1.xlsx",
     "0brazky/Pasted image 20260220083541.png",
-    "0brazky",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
