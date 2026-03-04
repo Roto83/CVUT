@@ -19,3 +19,29 @@ Všechny inerciální vztažné soustavy jsou pro popis mechanických dějů rov
 ![[IMG_1288.jpeg]]
 
 Formalizací předchozích úvah je tzv. Galileiho transformace. Nechť se S a S' vůči sobě pohybují konstantní rychlostí V, pak platí:
+
+# Neinerciální vztažné soustavy
+##### Pohybová rovnice
+V užším slova smyslu: Rovnice, která umožňuje určit budoucí trajektorii hmotného bodu při znalosti počátečních podmínek.
+• V inerciálních soustavách je to přímo druhý Newtonův zákon: $F = m \frac{d^{2}r}{dt^{2}}$
+
+V širším slova smyslu: Rovnice (nebo jejich soustava), která z daného stavu systému umožňuje předvídat stav budoucí.
+
+- ﻿﻿Tuhé těleso: První a druhá věta impulzová
+- ﻿﻿Proudění tekutin: Navierovy-Stokesovy rovnice
+- ﻿﻿Elektromagnetické pole: Maxwellovy rovnice
+- ﻿﻿Kvantová mechanika: Schrödingerova rovnice
+
+Soustava S', která se vůči inerciální soustavě S nepohybuje rovnoměrně přímočaře.
+- ﻿﻿Základy popisu stejné, ale vztahy mezi r a r' složitější
+- ﻿﻿Neplatí v ní první a druhý Newtonův zákon.
+
+→ Druhý Newtonův zákon nemůže plnit úlohu pohybové rovnice.
+→ Budeme muset najít jinou pohybovou rovnici.
+
+##### Brzdící autobus
+**Z pohledu inerciální soustavy:**
+Pozorovatel v inerciální vztažné soustavě vidí, jak autobus brzdí do zastávky. Je mu jasné, že kvůli působící brzdné síle F se budou objekty uvnitř autobusu pohybovat v souladu s rovnicí: F = ma.
+
+**Z pohledu neinerciální soustavy:**
+Kulička bez valivého odporu, která spojila svou soustavu s autobusem, se vůči němu nepohybuje, „nic nedělá", ale náhle na ní „odnikud" začíná působit síla. Jaké je vysvětlení?
