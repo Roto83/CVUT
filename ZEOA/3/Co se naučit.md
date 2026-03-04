@@ -1,0 +1,1 @@
+Zopakovat thevenin, obvodové rovnice smyčky, procvičit poznávání uzlů

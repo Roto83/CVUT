@@ -37,12 +37,14 @@
             "id": "a624877f262471ab",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "FY1/2/Cvika zapisky.md"
+                "file": "ZEOA/3/Co se naučit.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Cvika zapisky"
+              "icon": "lucide-file",
+              "title": "Co se naučit"
             }
           }
         ],
@@ -103,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -210,8 +211,11 @@
   },
   "active": "a624877f262471ab",
   "lastOpenFiles": [
-    "FY1/Základní vzorečky.md",
     "FY1/2/Cvika zapisky.md",
+    "ZEOA/3/Co se naučit.md",
+    "ZEOA/3",
+    "ZEOA/Podmínky a požadavky.md",
+    "FY1/Základní vzorečky.md",
     "0brazky/Pasted Image 20260303123028_290.png",
     "FY1/2/Procvičování.md",
     "FY1/3/Dynamika hmotného bodu.md",
@@ -246,7 +250,6 @@
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Parciální derivace.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
-    "ZEOA/Podmínky a požadavky.md",
     "0brazky/Pasted Image 20260225125818_131.png",
     "0brazky/Pasted Image 20260225122103_816.png",
     "ZEOA/2 - Základní zákony a teorémy",
@@ -254,7 +257,6 @@
     "0brazky/Pasted image 20260224135103.png",
     "FY1/2",
     "DRN/2 - variace, analýza řešení",
-    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
