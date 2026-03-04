@@ -46,3 +46,9 @@ Pozorovatel v inerciální vztažné soustavě vidí, jak autobus brzdí do zast
 **Z pohledu neinerciální soustavy:**
 Kulička bez valivého odporu, která spojila svou soustavu s autobusem, se vůči němu nepohybuje, „nic nedělá", ale náhle na ní „odnikud" začíná působit síla. Jaké je vysvětlení?
 
+
+Samostudium:
+- Detaily odvození obecné pohybové rovnice v neinerciální soustavě
+- Bližší studium vlastností fiktivních sill
+- Rozdíl mezi gravitačním a tíhovým zrychlením
+- Věnujte se hezkým vizualizacím!

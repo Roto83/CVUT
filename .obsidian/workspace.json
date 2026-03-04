@@ -46,6 +46,18 @@
               "icon": "lucide-file",
               "title": "Základní úlohy dynamiky"
             }
+          },
+          {
+            "id": "85ed1bcd939c0684",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "FY1/Fyzika skripta.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Fyzika skripta"
+            }
           }
         ],
         "currentTab": 2
@@ -209,16 +221,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5495478419be792f",
+  "active": "14404939ee345e06",
   "lastOpenFiles": [
+    "FY1/Fyzika skripta.pdf",
     "FY1/3/Základní úlohy dynamiky.md",
+    "FY1/Základní vzorečky.md",
+    "FY1/2/Procvičování.md",
     "0brazky/IMG_1288.jpeg",
     "0brazky/IMG_1287.jpeg",
     "FY1/3/Dynamika hmotného bodu.md",
     "ZEOA/Podmínky a požadavky.md",
-    "FY1/2/Procvičování.md",
     "0brazky/Pasted Image 20260304130658_639.png",
-    "FY1/Základní vzorečky.md",
     "0brazky/Pasted Image 20260304125828_634.png",
     "0brazky/Pasted Image 20260304114855_617.png",
     "0brazky/Pasted Image 20260304114824_329.png",
@@ -241,7 +254,6 @@
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/2 - variace, analýza řešení/Cvičení.md",
     "DRN/1 - separabilní rovnice/Zapisky.md",
-    "FY1/Fyzika skripta.pdf",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "0brazky/Pasted Image 20260227121232_571.png",
     "FY1/2/Zápisky přednáška.md",
