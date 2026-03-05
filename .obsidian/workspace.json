@@ -4,31 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ad310425e2d9b405",
+        "id": "88f737c56f155302",
         "type": "tabs",
         "children": [
           {
-            "id": "7e4b49eb2e2308a3",
+            "id": "811f726ba26dc6e9",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md"
+                "file": "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Zapisky cvika"
-            }
-          },
-          {
-            "id": "f3db4fca8793c25d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky cvika"
+              "title": "Zapisky"
             }
           }
         ]
@@ -193,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7e4b49eb2e2308a3",
+  "active": "811f726ba26dc6e9",
   "lastOpenFiles": [
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
     "0brazky/Pasted Image 20260305143803_014.png",
