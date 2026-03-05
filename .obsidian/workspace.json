@@ -8,32 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f03f368c66cb4d9",
+            "id": "bc3c395ddd85c723",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "FY1/2/Procvičování.md"
+                "file": "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Procvičování"
+              "title": "Zapisky cvika"
             }
           },
           {
-            "id": "167def34d689b811",
+            "id": "0cb6ad68dc5e47fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "FY1/Základní vzorečky.md",
-                "mode": "source",
-                "source": false
+                "file": "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md"
               },
-              "icon": "lucide-file",
-              "title": "Základní vzorečky"
+              "icon": "excalidraw-icon",
+              "title": "Cvika drawing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,10 +194,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5f03f368c66cb4d9",
+  "active": "0cb6ad68dc5e47fb",
   "lastOpenFiles": [
-    "FY1/Základní vzorečky.md",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
     "FY1/2/Procvičování.md",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Materiály cvika.md",
+    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
+    "FY1/Základní vzorečky.md",
     "0brazky/Pasted Image 20260305082210_674.png",
     "0brazky/Pasted Image 20260305080606_556.png",
     "ZEOA/Podmínky a požadavky.md",
@@ -232,12 +234,10 @@
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "FY1/2/Zápisky přednáška.md",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
-    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
     "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika materiály.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika materiál.md",
     "MA2A/1 - Funkce více proměnných, limita, spojitost/Cvika drawing.md",
-    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Směrová derivace.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
     "ZEOA/2 - Základní zákony a teorémy",
     "FY1/2",
