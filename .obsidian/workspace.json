@@ -43,7 +43,8 @@
               "title": "Cvika"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,11 +206,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "79c03c6ccc6a6012",
+  "active": "46fc17b81a6af668",
   "lastOpenFiles": [
+    "FY1/2/Procvičování.md",
     "FY1/2/Cvika zapisky.md",
     "FY1/3/Cvika.md",
-    "FY1/2/Procvičování.md",
     "FY1/2/Zápisky přednáška.md",
     "FY1/3/Laborky zápisky.md",
     "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
