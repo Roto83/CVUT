@@ -31,7 +31,8 @@
               "title": "Zapisky"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -193,12 +193,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "811f726ba26dc6e9",
+  "active": "79c03c6ccc6a6012",
   "lastOpenFiles": [
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
-    "DRN/2 - variace, analýza řešení/Cvičení.md",
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
+    "DRN/2 - variace, analýza řešení/Cvičení.md",
     "0brazky/Pasted Image 20260305143803_014.png",
     "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
     "ZEOA/3 - Stacionární ustálený stav/Co se naučit.md",
