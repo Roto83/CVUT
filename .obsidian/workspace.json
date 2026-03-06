@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "811f726ba26dc6e9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
-            }
-          },
-          {
             "id": "79c03c6ccc6a6012",
             "type": "leaf",
             "state": {
@@ -31,6 +19,30 @@
               },
               "icon": "lucide-file",
               "title": "Laborky zápisky"
+            }
+          },
+          {
+            "id": "e3752c09f75c8492",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "FY1/2/Cvika zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cvika zapisky"
+            }
+          },
+          {
+            "id": "46fc17b81a6af668",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "FY1/3/Cvika.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cvika"
             }
           }
         ],
@@ -91,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -195,12 +208,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "79c03c6ccc6a6012",
+  "active": "e3752c09f75c8492",
   "lastOpenFiles": [
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "FY1/3/Laborky zápisky.md",
-    "FY1/1/~$FY1 - LAB1.xlsx",
+    "FY1/3/Cvika.md",
     "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
+    "FY1/1/~$FY1 - LAB1.xlsx",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
     "DRN/2 - variace, analýza řešení/Cvičení.md",
     "0brazky/Pasted Image 20260305143803_014.png",
@@ -239,7 +253,6 @@
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "FY1/2/Zápisky přednáška.md",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
-    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika materiály.md",
     "ZEOA/2 - Základní zákony a teorémy",
     "FY1/2",
     "DRN/2 - variace, analýza řešení",

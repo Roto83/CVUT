@@ -5,3 +5,5 @@
 - Chyby se sčítají přes kvadráty
 	- $u(x)=\sqrt{ u^{2}_{A}(x) + u^{2}_{B}(x)}$ 
 - Chí-kvadrát
+
+- Posuvné měřítko 20 mikrometrů odchylka
