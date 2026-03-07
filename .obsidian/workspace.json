@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2a0c2696867e8be4",
+        "id": "faa75c4721e812fc",
         "type": "tabs",
         "children": [
           {
-            "id": "19732cca2b0b61cd",
+            "id": "14dee4f8236c57ce",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cvičení"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nová karta"
             }
           }
         ]
@@ -181,11 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19732cca2b0b61cd",
+  "active": "14dee4f8236c57ce",
   "lastOpenFiles": [
+    "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
     "0brazky/Pasted Image 20260307172322_849.png",
     "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
-    "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
     "0brazky/Pasted Image 20260307170003_906.png",
     "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
@@ -205,7 +203,6 @@
     "FY1/3/Dynamika hmotného bodu.md",
     "ZEOA/Podmínky a požadavky.md",
     "0brazky/Pasted Image 20260304130658_639.png",
-    "0brazky/Pasted Image 20260304125828_634.png",
     "ZEOA/3 - Stacionární ustálený stav/Co se naučit.md",
     "FY1/2/Cvika zapisky.md",
     "ZEOA/3 - Stacionární ustálený stav",
