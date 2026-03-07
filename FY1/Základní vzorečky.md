@@ -5,3 +5,5 @@
 - Kinetická energie, hmotnost rychlost: $Ek=\frac{1}{2} mv^{2}$
 - Síla, hmotnost, zrychlení: $F=ma$
 	- Nebo taky $F=m \frac{d^{2}r}{dt^{2}}$ (r po složkách jsou vektory x,y,z)
+- Práce $W=F\cdot s$
+- 
