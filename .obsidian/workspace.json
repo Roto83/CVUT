@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "faa75c4721e812fc",
+        "id": "794006b1be1236e5",
         "type": "tabs",
         "children": [
           {
-            "id": "14dee4f8236c57ce",
+            "id": "a9c3bcfefee5b07d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "FY1/3/Laborky zápisky.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nová karta"
+              "title": "Laborky zápisky"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Průzkumník souborů"
+              "title": "Files"
             }
           },
           {
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -154,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -168,61 +171,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Otevřít rychlé přepínání": false,
-      "graph:Otevřít graf": false,
-      "canvas:Vytvořit nový canvas": false,
-      "daily-notes:Otevřít dnešní poznámku": false,
-      "templates:Vložit šablonu": false,
-      "command-palette:Otevřít paletu příkazů": false,
-      "bases:Vytvořit novou základnu": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "14dee4f8236c57ce",
+  "active": "a9c3bcfefee5b07d",
   "lastOpenFiles": [
-    "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
-    "0brazky/Pasted Image 20260307172322_849.png",
-    "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
-    "0brazky/Pasted Image 20260307170003_906.png",
-    "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
-    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
-    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Materiály cvika.md",
+    "FY1/3/Dynamika hmotného bodu.md",
     "FY1/3/Laborky zápisky.md",
     "FY1/3/Cvika.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
+    "0brazky/Pasted Image 20260307172322_849.png",
+    "0brazky/Pasted Image 20260307170003_906.png",
+    "FY1/2/Procvičování.md",
+    "FY1/2/Cvika zapisky.md",
+    "FY1/2/Zápisky přednáška.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
+    "FY1/1/~$FY1 - LAB1.xlsx",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
+    "DRN/2 - variace, analýza řešení/Cvičení.md",
     "0brazky/Pasted Image 20260305143803_014.png",
+    "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
+    "ZEOA/3 - Stacionární ustálený stav/Co se naučit.md",
+    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
     "0brazky/Pasted Image 20260305114818_981.png",
     "0brazky/Pasted Image 20260305114316_432.png",
+    "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
+    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Materiály cvika.md",
+    "FY1/Základní vzorečky.md",
     "0brazky/Pasted Image 20260305082210_674.png",
     "0brazky/Pasted Image 20260305080606_556.png",
+    "ZEOA/Podmínky a požadavky.md",
+    "FY1/Fyzika skripta.pdf",
     "FY1/3/Základní úlohy dynamiky.md",
-    "FY1/Základní vzorečky.md",
-    "FY1/2/Procvičování.md",
     "0brazky/IMG_1288.jpeg",
     "0brazky/IMG_1287.jpeg",
-    "FY1/3/Dynamika hmotného bodu.md",
-    "ZEOA/Podmínky a požadavky.md",
     "0brazky/Pasted Image 20260304130658_639.png",
-    "ZEOA/3 - Stacionární ustálený stav/Co se naučit.md",
-    "FY1/2/Cvika zapisky.md",
     "ZEOA/3 - Stacionární ustálený stav",
     "0brazky/IMG_1282.heic",
     "FY1/3",
     "DRN/Podmínky a požadavky.md",
-    "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
     "DRN/3 - chyba, derivace a integrály numericky",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Schwarzova věta.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Taylorova věta pro funkce více proměnných.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Funkce třídy Ck.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů",
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
-    "DRN/2 - variace, analýza řešení/Cvičení.md",
     "DRN/1 - separabilní rovnice/Zapisky.md",
-    "FY1/Fyzika skripta.pdf",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
-    "FY1/2/Zápisky přednáška.md",
-    "DRN/1 - separabilní rovnice/Cvika drawing.md",
-    "FY1/1/~$FY1 - LAB1.xlsx",
     "ZEOA/2 - Základní zákony a teorémy",
     "FY1/2",
     "DRN/2 - variace, analýza řešení",
