@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c038b74c636f700e",
+        "id": "2a0c2696867e8be4",
         "type": "tabs",
         "children": [
           {
-            "id": "167def34d689b811",
+            "id": "19732cca2b0b61cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FY1/Základní vzorečky.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Základní vzorečky"
-            }
-          },
-          {
-            "id": "14404939ee345e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FY1/3/Základní úlohy dynamiky.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Základní úlohy dynamiky"
+              "title": "Nová karta"
             }
           }
         ]
@@ -196,16 +178,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "167def34d689b811",
+  "active": "19732cca2b0b61cd",
   "lastOpenFiles": [
-    "FY1/2/Procvičování.md",
     "FY1/3/Základní úlohy dynamiky.md",
+    "FY1/Základní vzorečky.md",
+    "FY1/2/Procvičování.md",
     "0brazky/IMG_1288.jpeg",
     "0brazky/IMG_1287.jpeg",
     "FY1/3/Dynamika hmotného bodu.md",
     "ZEOA/Podmínky a požadavky.md",
     "0brazky/Pasted Image 20260304130658_639.png",
-    "FY1/Základní vzorečky.md",
     "0brazky/Pasted Image 20260304125828_634.png",
     "0brazky/Pasted Image 20260304114855_617.png",
     "0brazky/Pasted Image 20260304114824_329.png",
