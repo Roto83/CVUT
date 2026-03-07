@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MA1A/Zkouska/Integrály.md",
+                "file": "FY1/3/Laborky zápisky.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Integrály"
+              "title": "Outline of Laborky zápisky"
             }
           },
           {
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
