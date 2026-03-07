@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f03f368c66cb4d9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "FY1/2/Procvičování.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Procvičování"
-            }
-          },
-          {
             "id": "167def34d689b811",
             "type": "leaf",
             "state": {
@@ -47,8 +35,7 @@
               "title": "Základní úlohy dynamiky"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Průzkumník souborů"
             }
           },
           {
@@ -184,8 +171,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -198,25 +185,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "switcher:Otevřít rychlé přepínání": false,
+      "graph:Otevřít graf": false,
+      "canvas:Vytvořit nový canvas": false,
+      "daily-notes:Otevřít dnešní poznámku": false,
+      "templates:Vložit šablonu": false,
+      "command-palette:Otevřít paletu příkazů": false,
+      "bases:Vytvořit novou základnu": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14404939ee345e06",
+  "active": "167def34d689b811",
   "lastOpenFiles": [
+    "FY1/2/Procvičování.md",
+    "FY1/3/Základní úlohy dynamiky.md",
     "0brazky/IMG_1288.jpeg",
     "0brazky/IMG_1287.jpeg",
     "FY1/3/Dynamika hmotného bodu.md",
-    "FY1/3/Základní úlohy dynamiky.md",
     "ZEOA/Podmínky a požadavky.md",
-    "FY1/2/Procvičování.md",
     "0brazky/Pasted Image 20260304130658_639.png",
     "FY1/Základní vzorečky.md",
     "0brazky/Pasted Image 20260304125828_634.png",
@@ -244,7 +231,6 @@
     "FY1/Fyzika skripta.pdf",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
     "0brazky/Pasted Image 20260227121232_571.png",
-    "0brazky/Pasted Image 20260227115701_718.png",
     "FY1/2/Zápisky přednáška.md",
     "DRN/1 - separabilní rovnice/Cvika drawing.md",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
