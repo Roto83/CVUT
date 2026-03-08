@@ -1,0 +1,1 @@
+- Sdružená matice všech druhých parciálních derivací dané funkce (mapa zakřivení)
