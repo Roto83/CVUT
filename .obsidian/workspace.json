@@ -11,10 +11,14 @@
             "id": "8a5d39b94f4cfcb4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MA2A/4 - Jakobiho matice, Lokální extrémy/Zjistit co je.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nová karta"
+              "title": "Zjistit co je"
             }
           }
         ]
