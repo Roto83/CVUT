@@ -1,0 +1,2 @@
+- Slouží k hledání extrému pokud jsou vázané nějakou podmínkou (hledám extrém f(x,y) za podmínky že platí g(x,y)=0)
+- Spojí se do jedné rovnice: $$L(x,y,\lambda)=f(x,y)+\lambda\cdot g(x,y)$$

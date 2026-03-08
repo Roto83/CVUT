@@ -1,4 +1,7 @@
 - Používá se k určení definitnosti reálné symetrické matice (třeba Hessovy)
-- Počítáme jednotlivé subdeterminanty od levého horního rohu
+- Počítáme jednotlivé subdeterminanty (minory) od levého horního rohu
 - Pokud:
-	- 
+	- Jsou všechny kladné, je matice **positivně definitní**
+	- Se znaménka pravidelně střídají a první je vždy záporné, matice je **negativně definitní**
+	- Neplatí předchozí dva, ale všechny minory jsou nenulové, matice je indefinitní
+	- Nějaký minor je nulový, matice je semidefinitní a kritérium nerozhodlo jistě
