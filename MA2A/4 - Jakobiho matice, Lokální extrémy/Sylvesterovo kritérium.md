@@ -1,0 +1,4 @@
+- Používá se k určení definitnosti reálné symetrické matice (třeba Hessovy)
+- Počítáme jednotlivé subdeterminanty od levého horního rohu
+- Pokud:
+	- 
