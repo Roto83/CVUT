@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Co umět"
             }
+          },
+          {
+            "id": "3f4145863d9fd8f6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "ZEOA/4 - Obvodové rovnice/Zapisky.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -182,10 +196,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4dd9822c50e4003c",
+  "active": "3f4145863d9fd8f6",
   "lastOpenFiles": [
-    "ZEOA/Podmínky a požadavky.md",
+    "0brazky/Pasted Image 20260308224821_574.png",
+    "0brazky/Pasted Image 20260308224405_498.png",
     "ZEOA/4 - Obvodové rovnice/Co umět.md",
+    "ZEOA/4 - Obvodové rovnice/Zapisky.md",
+    "ZEOA/Podmínky a požadavky.md",
     "ZEOA/4 - Obvodové rovnice",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zjistit co je.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Lagrangeova funkce.md",
@@ -218,13 +235,10 @@
     "0brazky/Pasted Image 20260305114316_432.png",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Materiály cvika.md",
-    "FY1/Základní vzorečky.md",
     "0brazky/Pasted Image 20260305082210_674.png",
     "0brazky/Pasted Image 20260305080606_556.png",
     "FY1/Fyzika skripta.pdf",
-    "FY1/3/Základní úlohy dynamiky.md",
     "0brazky/IMG_1288.jpeg",
-    "0brazky/IMG_1287.jpeg",
     "ZEOA/3 - Stacionární ustálený stav",
     "0brazky/IMG_1282.heic",
     "FY1/3",
