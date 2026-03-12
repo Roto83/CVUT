@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2228913e22bc7c8e",
+        "id": "0482a7b53eabc499",
         "type": "tabs",
         "children": [
           {
-            "id": "69d626eab204c735",
+            "id": "d3c4baf52a16433c",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md"
+                "file": "ZEOA/4 - Obvodové rovnice/Zapisky.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Procvičování příkladů"
-            }
-          },
-          {
-            "id": "9086f8c80705173a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Domácí Úkol"
+              "title": "Zapisky"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,10 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9086f8c80705173a",
+  "active": "d3c4baf52a16433c",
   "lastOpenFiles": [
-    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
     "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
+    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
+    "0brazky/Pasted Image 20260312115934_141.png",
     "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "ZEOA/4 - Obvodové rovnice/Zapisky.md",
     "0brazky/DU_superpos.pdf",
@@ -234,8 +222,6 @@
     "FY1/1/~$FY1 - LAB1.xlsx",
     "DRN/2 - variace, analýza řešení/Cvičení.md",
     "0brazky/Pasted Image 20260305143803_014.png",
-    "ZEOA/3 - Stacionární ustálený stav/Co se naučit.md",
-    "0brazky/Pasted Image 20260305114818_981.png",
     "FY1/Fyzika skripta.pdf",
     "ZEOA/3 - Stacionární ustálený stav",
     "0brazky/IMG_1282.heic",
