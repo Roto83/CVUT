@@ -1,1 +1,0 @@
-Derivace složené funkce

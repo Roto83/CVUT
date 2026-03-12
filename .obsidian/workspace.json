@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "edd48af9c8f42731",
+        "id": "9154023ebaded417",
         "type": "tabs",
         "children": [
           {
-            "id": "4dd9822c50e4003c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ZEOA/4 - Obvodové rovnice/Co umět.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Co umět"
-            }
-          },
-          {
-            "id": "3f4145863d9fd8f6",
+            "id": "b46e834c8348bce1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "ZEOA/4 - Obvodové rovnice/Zapisky.md"
+                "file": "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Zapisky"
+              "title": "Zapisky cvika"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +42,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Průzkumník souborů"
+              "title": "Files"
             }
           },
           {
@@ -180,40 +165,39 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Otevřít rychlé přepínání": false,
-      "graph:Otevřít graf": false,
-      "canvas:Vytvořit nový canvas": false,
-      "daily-notes:Otevřít dnešní poznámku": false,
-      "templates:Vložit šablonu": false,
-      "command-palette:Otevřít paletu příkazů": false,
-      "bases:Vytvořit novou základnu": false,
       "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3f4145863d9fd8f6",
+  "active": "b46e834c8348bce1",
   "lastOpenFiles": [
+    "MA2A/4 - Jakobiho matice, Lokální extrémy/Zjistit co je.md",
+    "FY1/3/Laborky zápisky.md",
+    "ZEOA/4 - Obvodové rovnice/Zapisky.md",
+    "ZEOA/4 - Obvodové rovnice/Co umět.md",
+    "ZEOA/4 - Obvodové rovnice",
+    "MA2A/4 - Jakobiho matice, Lokální extrémy/Sylvesterovo kritérium.md",
+    "MA2A/4 - Jakobiho matice, Lokální extrémy/Positivně definitní, negativně definitní, indefinitní.md",
+    "MA2A/4 - Jakobiho matice, Lokální extrémy/Lagrangeova funkce.md",
+    "MA2A/4 - Jakobiho matice, Lokální extrémy/Hessova matice.md",
+    "MA2A/4 - Jakobiho matice, Lokální extrémy",
+    "0brazky/Pasted image 20260308135227.png",
     "0brazky/Pasted Image 20260309003803_405.png",
     "0brazky/Pasted Image 20260308232240_524.png",
     "0brazky/Pasted Image 20260308224821_574.png",
     "0brazky/Pasted Image 20260308224405_498.png",
-    "ZEOA/4 - Obvodové rovnice/Co umět.md",
-    "ZEOA/4 - Obvodové rovnice/Zapisky.md",
-    "ZEOA/Podmínky a požadavky.md",
-    "ZEOA/4 - Obvodové rovnice",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy/Zjistit co je.md",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy/Lagrangeova funkce.md",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy/Sylvesterovo kritérium.md",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy/Hessova matice.md",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy/Positivně definitní, negativně definitní, indefinitní.md",
-    "MA2A/4 -/Bez názvu",
-    "0brazky/Pasted image 20260308135227.png",
-    "FY1/3/Laborky zápisky.md",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy",
     "FY1/3/Dynamika hmotného bodu.md",
     "FY1/3/Cvika.md",
     "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
@@ -236,13 +220,15 @@
     "0brazky/Pasted Image 20260305114316_432.png",
     "MA2A/2 - Směrové a parciální derivace, diferenciál a gradient/Cvika drawing.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Materiály cvika.md",
-    "0brazky/Pasted Image 20260305082210_674.png",
+    "FY1/Základní vzorečky.md",
+    "ZEOA/Podmínky a požadavky.md",
     "FY1/Fyzika skripta.pdf",
     "ZEOA/3 - Stacionární ustálený stav",
     "0brazky/IMG_1282.heic",
     "FY1/3",
     "DRN/3 - chyba, derivace a integrály numericky",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů",
+    "ZEOA/2 - Základní zákony a teorémy",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
