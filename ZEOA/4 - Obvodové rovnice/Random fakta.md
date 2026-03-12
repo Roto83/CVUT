@@ -1,0 +1,3 @@
+- Napěťové zdroje nemůžou být paralelně
+- Proudové zdroje nemůžou být v sérii
+- Proud teče proti směru šipky napěťového zdroje
