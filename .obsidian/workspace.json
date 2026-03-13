@@ -20,20 +20,31 @@
             }
           },
           {
-            "id": "b2b0b970b9c3ab13",
+            "id": "366e27d5f6354e73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "MA2A/4 - Jakobiho matice, Lokální extrémy/Materiály cvika.md",
-                "mode": "source",
-                "source": false
+                "file": "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md"
               },
-              "icon": "lucide-file",
-              "title": "Materiály cvika"
+              "icon": "excalidraw-icon",
+              "title": "Zapisky cvika"
+            }
+          },
+          {
+            "id": "5e046455bfd2b670",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "FY1/4/Cvika příklady.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cvika příklady"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,11 +206,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bdc004d728d763ba",
+  "active": "5e046455bfd2b670",
   "lastOpenFiles": [
-    "0brazky/Pasted Image 20260313101647_401.png",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy/Materiály cvika.md",
+    "0brazky/Pasted Image 20260313113132_991.png",
+    "0brazky/Pasted Image 20260313111616_153.png",
+    "0brazky/Pasted Image 20260313110517_617.png",
+    "FY1/4/Cvika příklady.md",
+    "FY1/4",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
+    "MA2A/4 - Jakobiho matice, Lokální extrémy/Materiály cvika.md",
+    "FY1/1/~$FY1 - LAB1.xlsx",
+    "0brazky/Pasted Image 20260313101647_401.png",
     "ZEOA/4 - Obvodové rovnice/Co umět.md",
     "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
@@ -231,18 +248,12 @@
     "FY1/3/Dynamika hmotného bodu.md",
     "FY1/3/Cvika.md",
     "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
-    "0brazky/Pasted Image 20260307172322_849.png",
-    "0brazky/Pasted Image 20260307170003_906.png",
     "FY1/2/Procvičování.md",
-    "FY1/2/Cvika zapisky.md",
-    "FY1/1/~$FY1 - LAB1.xlsx",
-    "0brazky/Pasted Image 20260305143803_014.png",
     "FY1/Fyzika skripta.pdf",
     "ZEOA/3 - Stacionární ustálený stav",
     "0brazky/IMG_1282.heic",
     "FY1/3",
     "DRN/3 - chyba, derivace a integrály numericky",
-    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
