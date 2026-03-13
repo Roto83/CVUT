@@ -4,34 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "f3808001555ef37d",
+        "id": "afaf46fbe1df0c02",
         "type": "tabs",
         "children": [
           {
-            "id": "bdc004d728d763ba",
+            "id": "476001a7608449e8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md"
+                "file": "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Zapisky cvika"
+              "title": "Domácí Úkol"
             }
           },
           {
-            "id": "366e27d5f6354e73",
+            "id": "f27899778e22651e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md"
+                "file": "ZEOA/4 - Obvodové rovnice/Co umět.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky cvika"
+              "icon": "lucide-file",
+              "title": "Co umět"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -193,8 +195,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bdc004d728d763ba",
+  "active": "f27899778e22651e",
   "lastOpenFiles": [
+    "ZEOA/4 - Obvodové rovnice/Procvičování.md",
+    "ZEOA/4 - Obvodové rovnice/Co umět.md",
+    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
+    "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
     "FY1/4/Cvika příklady.md",
     "0brazky/Pasted Image 20260313120727_471.png",
     "0brazky/Pasted Image 20260313115402_032.png",
@@ -202,12 +208,9 @@
     "0brazky/Pasted Image 20260313111616_153.png",
     "0brazky/Pasted Image 20260313110517_617.png",
     "FY1/4",
-    "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Materiály cvika.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
     "0brazky/Pasted Image 20260313101647_401.png",
-    "ZEOA/4 - Obvodové rovnice/Co umět.md",
-    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
     "DRN/2 - variace, analýza řešení/Zapisky.md",
     "DRN/2 - variace, analýza řešení/Týdenní plán.md",
