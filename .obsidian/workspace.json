@@ -18,8 +18,21 @@
               "icon": "excalidraw-icon",
               "title": "Zapisky"
             }
+          },
+          {
+            "id": "383c969af3313642",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Domácí Úkol"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "400c47623438ad93",
@@ -181,14 +193,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d3c4baf52a16433c",
+  "active": "383c969af3313642",
   "lastOpenFiles": [
-    "ZEOA/4 - Obvodové rovnice/Random fakta.md",
+    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "ZEOA/4 - Obvodové rovnice/Zapisky.md",
+    "ZEOA/4 - Obvodové rovnice/Random fakta.md",
     "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
     "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
     "0brazky/Pasted Image 20260312115934_141.png",
-    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "0brazky/DU_superpos.pdf",
     "ZEOA/4 - Obvodové rovnice/Co umět.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
