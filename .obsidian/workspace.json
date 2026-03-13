@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Co umět"
             }
+          },
+          {
+            "id": "bdc004d728d763ba",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Cvičení"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,8 +195,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "707aa2904173f9eb",
+  "active": "bdc004d728d763ba",
   "lastOpenFiles": [
+    "DRN/2 - variace, analýza řešení/Zapisky.md",
+    "DRN/2 - variace, analýza řešení/Týdenní plán.md",
+    "DRN/2 - variace, analýza řešení/Cvičení.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
+    "ZEOA/4 - Obvodové rovnice/Co umět.md",
     "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "ZEOA/4 - Obvodové rovnice/Zapisky.md",
     "ZEOA/4 - Obvodové rovnice/Random fakta.md",
@@ -191,7 +209,6 @@
     "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
     "0brazky/Pasted Image 20260312115934_141.png",
     "0brazky/DU_superpos.pdf",
-    "ZEOA/4 - Obvodové rovnice/Co umět.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Materiály cvika.md",
     "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Materiály cvika.md",
@@ -213,16 +230,12 @@
     "FY1/3/Dynamika hmotného bodu.md",
     "FY1/3/Cvika.md",
     "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
-    "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
     "0brazky/Pasted Image 20260307172322_849.png",
     "0brazky/Pasted Image 20260307170003_906.png",
     "FY1/2/Procvičování.md",
     "FY1/2/Cvika zapisky.md",
     "FY1/2/Zápisky přednáška.md",
-    "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
-    "DRN/2 - variace, analýza řešení/Cvičení.md",
     "0brazky/Pasted Image 20260305143803_014.png",
     "FY1/Fyzika skripta.pdf",
     "ZEOA/3 - Stacionární ustálený stav",
