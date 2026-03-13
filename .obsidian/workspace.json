@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0482a7b53eabc499",
+        "id": "f3808001555ef37d",
         "type": "tabs",
         "children": [
           {
-            "id": "d3c4baf52a16433c",
+            "id": "707aa2904173f9eb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "ZEOA/4 - Obvodové rovnice/Zapisky.md"
+                "file": "ZEOA/4 - Obvodové rovnice/Co umět.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky"
-            }
-          },
-          {
-            "id": "383c969af3313642",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Domácí Úkol"
+              "icon": "lucide-file",
+              "title": "Co umět"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,7 +182,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "383c969af3313642",
+  "active": "707aa2904173f9eb",
   "lastOpenFiles": [
     "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "ZEOA/4 - Obvodové rovnice/Zapisky.md",
