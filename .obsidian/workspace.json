@@ -30,21 +30,8 @@
               "icon": "excalidraw-icon",
               "title": "Zapisky cvika"
             }
-          },
-          {
-            "id": "5e046455bfd2b670",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "FY1/4/Cvika příklady.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Cvika příklady"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,14 +193,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5e046455bfd2b670",
+  "active": "bdc004d728d763ba",
   "lastOpenFiles": [
+    "FY1/4/Cvika příklady.md",
     "0brazky/Pasted Image 20260313120727_471.png",
     "0brazky/Pasted Image 20260313115402_032.png",
     "0brazky/Pasted Image 20260313113132_991.png",
     "0brazky/Pasted Image 20260313111616_153.png",
     "0brazky/Pasted Image 20260313110517_617.png",
-    "FY1/4/Cvika příklady.md",
     "FY1/4",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Materiály cvika.md",
@@ -244,7 +231,6 @@
     "MA2A/4 - Jakobiho matice, Lokální extrémy",
     "0brazky/Pasted image 20260308135227.png",
     "0brazky/Pasted Image 20260309003803_405.png",
-    "0brazky/Pasted Image 20260308232240_524.png",
     "FY1/3/Dynamika hmotného bodu.md",
     "FY1/3/Cvika.md",
     "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
