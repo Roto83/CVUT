@@ -1,6 +1,5 @@
 [
+  "obsidian-tikzjax",
   "obsidian-excalidraw-plugin",
-  "obsidian-latex-suite",
-  "obsidian-git",
-  "obsidian-tikzjax"
+  "obsidian-git"
 ]

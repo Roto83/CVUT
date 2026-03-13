@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "476001a7608449e8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Domácí Úkol"
-            }
-          },
-          {
             "id": "f27899778e22651e",
             "type": "leaf",
             "state": {
@@ -33,8 +21,7 @@
               "title": "Co umět"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,19 +150,9 @@
               "icon": "lucide-list",
               "title": "Outline of Laborky zápisky"
             }
-          },
-          {
-            "id": "a2d5e8fb71496171",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -197,9 +174,9 @@
   },
   "active": "f27899778e22651e",
   "lastOpenFiles": [
-    "ZEOA/4 - Obvodové rovnice/Procvičování.md",
-    "ZEOA/4 - Obvodové rovnice/Co umět.md",
     "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
+    "ZEOA/4 - Obvodové rovnice/Co umět.md",
+    "ZEOA/4 - Obvodové rovnice/Procvičování.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
     "FY1/4/Cvika příklady.md",
     "0brazky/Pasted Image 20260313120727_471.png",
