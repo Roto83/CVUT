@@ -11,13 +11,30 @@
             "id": "ce3cdff7094b046a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DRN/4 - numerické řešení ODR/Týdenní plán.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nová karta"
+              "title": "Týdenní plán"
+            }
+          },
+          {
+            "id": "da32029ed8cb8906",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "DRN/4 - numerické řešení ODR/Zapisky cvika.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zapisky cvika"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "400c47623438ad93",
@@ -178,9 +196,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ce3cdff7094b046a",
+  "active": "da32029ed8cb8906",
   "lastOpenFiles": [
-    "DRN/4 -",
+    "DRN/4 - numerické řešení ODR/Týdenní plán.md",
+    "DRN/4 - numerické řešení ODR/Zapisky cvika.md",
+    "DRN/5 - lineární ODR (homogenní)/Týdenní plán.md",
+    "DRN/4 - numerické řešení ODR/Bez názvu.md",
+    "DRN/5 - lineární ODR (homogenní)",
+    "DRN/4 - numerické řešení ODR",
     "ZEOA/4 - Obvodové rovnice/Zapisky.md",
     "ZEOA/4 - Obvodové rovnice/Random fakta.md",
     "ZEOA/4 - Obvodové rovnice/Procvičování.md",
@@ -218,14 +241,9 @@
     "FY1/2/Procvičování.md",
     "FY1/2/Cvika zapisky.md",
     "FY1/2/Zápisky přednáška.md",
-    "DRN/3 - chyba, derivace a integrály numericky/Zapisky.md",
-    "DRN/2 - variace, analýza řešení/Zapisky.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
-    "MA2A/3 - Derivace složené funkce, derivace vyšších řádů/Zapisky cvika.md",
     "FY1/Fyzika skripta.pdf",
     "ZEOA/3 - Stacionární ustálený stav",
-    "0brazky/IMG_1282.heic",
-    "FY1/3",
     "Untitled.canvas",
     "MA1A/Untitled.canvas"
   ]
