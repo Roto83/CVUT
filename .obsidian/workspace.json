@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "146748b85e4f5836",
+        "id": "8e3911657b47a266",
         "type": "tabs",
         "children": [
           {
-            "id": "ce3cdff7094b046a",
+            "id": "ae4c7b9e66361287",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "DRN/4 - numerické řešení ODR/Zapisky cvika.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Zapisky cvika"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nová karta"
             }
           }
         ]
@@ -165,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,44 +178,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "74dc3860a9d4b753",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c6e6fc471146480f",
-        "type": "window",
-        "children": [
-          {
-            "id": "14b1127d52270638",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "da32029ed8cb8906",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "DRN/4 - numerické řešení ODR/Zapisky cvika.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Zapisky cvika"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 313,
-        "y": 202,
-        "width": 1416,
-        "height": 745,
-        "maximize": false,
-        "zoom": 1.5
-      }
-    ]
-  },
-  "active": "da32029ed8cb8906",
+  "active": "a2d5e8fb71496171",
   "lastOpenFiles": [
     "DRN/4 - numerické řešení ODR/Zapisky cvika.md",
     "0brazky/Pasted Image 20260314195323_890.png",
