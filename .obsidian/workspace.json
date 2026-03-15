@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +183,12 @@
   },
   "active": "ae4c7b9e66361287",
   "lastOpenFiles": [
+    "ZEOA/4 - Obvodové rovnice/Zapisky.md",
+    "ZEOA/4 - Obvodové rovnice/Random fakta.md",
+    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
+    "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
+    "ZEOA/4 - Obvodové rovnice/Procvičování.md",
+    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "DRN/4 - numerické řešení ODR/Zapisky cvika.md",
     "0brazky/Pasted Image 20260314195323_890.png",
     "DRN/4 - numerické řešení ODR/Týdenní plán.md",
@@ -190,10 +197,6 @@
     "DRN/4 - numerické řešení ODR/Bez názvu.md",
     "DRN/5 - lineární ODR (homogenní)",
     "DRN/4 - numerické řešení ODR",
-    "ZEOA/4 - Obvodové rovnice/Zapisky.md",
-    "ZEOA/4 - Obvodové rovnice/Random fakta.md",
-    "ZEOA/4 - Obvodové rovnice/Procvičování.md",
-    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Materiály cvika.md",
     "FY1/4/Cvika příklady.md",
@@ -223,7 +226,6 @@
     "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
     "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
     "FY1/2/Procvičování.md",
-    "FY1/2/Cvika zapisky.md",
     "FY1/1/~$FY1 - LAB1.xlsx",
     "FY1/Fyzika skripta.pdf",
     "ZEOA/3 - Stacionární ustálený stav",
