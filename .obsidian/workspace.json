@@ -11,10 +11,12 @@
             "id": "ae4c7b9e66361287",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nová karta"
+              "type": "excalidraw",
+              "state": {
+                "file": "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Domácí Úkol"
             }
           }
         ]
@@ -178,7 +180,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a2d5e8fb71496171",
+  "active": "ae4c7b9e66361287",
   "lastOpenFiles": [
     "DRN/4 - numerické řešení ODR/Zapisky cvika.md",
     "0brazky/Pasted Image 20260314195323_890.png",
