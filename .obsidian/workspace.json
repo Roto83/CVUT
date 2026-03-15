@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "DRN/4 - numerické řešení ODR/Zapisky cvika.md"
+                "file": "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Zapisky cvika"
+              "title": "Domácí Úkol"
             }
           }
         ]
@@ -181,18 +181,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c3ed4dbe61257652",
+  "active": "ae4c7b9e66361287",
   "lastOpenFiles": [
+    "ZEOA/4 - Obvodové rovnice/Zapisky.md",
+    "ZEOA/4 - Obvodové rovnice/Random fakta.md",
+    "ZEOA/2 - Základní zákony a teorémy/Procvičování příkladů.md",
+    "ZEOA/3 - Stacionární ustálený stav/Procvičování.md",
+    "ZEOA/4 - Obvodové rovnice/Procvičování.md",
+    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
     "DRN/4 - numerické řešení ODR/Zapisky cvika.md",
     "DRN/5 - lineární ODR (homogenní)/Týdenní plán.md",
     "DRN/5 - lineární ODR (homogenní)",
     "DRN/4 - numerické řešení ODR/Týdenní plán.md",
     "DRN/4 - numerické řešení ODR",
-    "0brazky/Pasted Image 20260314195323_890.png",
-    "0brazky/Pasted Image 20260314193302_977.png",
-    "ZEOA/4 - Obvodové rovnice/Co umět.md",
-    "ZEOA/4 - Obvodové rovnice/Domácí Úkol.md",
-    "ZEOA/4 - Obvodové rovnice/Procvičování.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Zapisky cvika.md",
     "FY1/4/Cvika příklady.md",
     "0brazky/Pasted Image 20260313120727_471.png",
@@ -226,6 +227,11 @@
     "MA2A/4 - Jakobiho matice, Lokální extrémy/Hessova matice.md",
     "MA2A/4 - Jakobiho matice, Lokální extrémy",
     "FY1/3/Dynamika hmotného bodu.md",
+    "FY1/3/Cvika.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Týdenní plán.md",
+    "DRN/3 - chyba, derivace a integrály numericky/Cvičení.md",
+    "FY1/2/Procvičování.md",
+    "FY1/1/~$FY1 - LAB1.xlsx",
     "FY1/Fyzika skripta.pdf",
     "ZEOA/3 - Stacionární ustálený stav",
     "0brazky/IMG_1282.heic",
