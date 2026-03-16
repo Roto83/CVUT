@@ -6,4 +6,6 @@
 - Síla, hmotnost, zrychlení: $F=ma$
 	- Nebo taky $F=m \frac{d^{2}r}{dt^{2}}$ (r po složkách jsou vektory x,y,z)
 - Práce $W=F\cdot s$
-- 
+- Dostředivé zrychlení $a_{d}=\omega^{2}r$ 
+- Obvodová rychlost $v=r\cdot \omega$ 
+- Odchylka vektorů $\cos \alpha=\frac{a\cdot b}{||a||\space||b||}$ 
