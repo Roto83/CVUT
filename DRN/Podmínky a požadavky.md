@@ -1,4 +1,4 @@
-1) Dělat kvízy a domácí úkoly
+1) Dělat kvízy (8/13) a domácí úkoly
 2) Přednáška není povinná
 3) Napsat semestrální test na 10/20 bodů
 4) K získání zápočtu je potřeba odevzdat 10 úkolů
