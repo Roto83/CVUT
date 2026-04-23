@@ -15,6 +15,19 @@
 	- Asymptotický růst se určuje tím co roste nejrychleji
 	- Počáteční podmínky dosadit a vyjde soustava rovnic
 3. Odhad tvaru řešení pro nehomogenni lineární ODR. (týden 6)
-	- První část jak to předtím s lambadama a získám nulové body
-	- 
+	- První část jak to předtím s lambadama a získám nulové body z levé strany
+	- Určím si kontrolní číslo z = a + bi (a je násobnost exponentu e a b je stupeň v cos/sin)
+	- Zkontroluju jestli s nějakými čísly nastává rezonance (jsou stejné, pro rezonanci cos/sin by musely vyjít komplexní čísla) pokud nastane vynásobím to x (případně x nějakého stupně)
+	- Pro polynom dosadím obecný polynom $Ax^{2}+Bx+C$
+	- Pro exponenciálu dosadím do $Ae^{x}$
+	- Pro cos/sin dosadím $A\cos(x)+B\sin(x)$
 4. Řešení homogenní soustavy lineárních ODR. (týden 9)
+	- Převede se do matice
+	- Přidám -$\lambda$ na hlavní diagonále
+	- Spočítám determinant
+	- Z toho vezmu kořeny
+	- Každý kořen zvlášť dosadím zpátky do matice
+	- Matici vynásobím vektorem a najdu jeho hodnoty pokud by se to rovnalo nule
+	- Vektor vynásobím $e^{xy}$ kde y je ten kořen
+	- Tyto vektory pak vynásobím $a$ a $b$ 
+	- Vzniknou dvě rovnice jako výsledek
