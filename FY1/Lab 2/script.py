@@ -18,11 +18,11 @@ R = 0.213 / 2  # Poloměr desky [m] (dosadit průměř)
 # DESKA
 # Čas 10 kyvů: 43,1 s
 # interval pro 10 kyvů: 42.8s < 10.Tk_deska < 43,4 s
-# Čas 20 kyvů: 85,6 s < 20.Tk_deska < 86,8
+# Čas 20 kyvů: 85,6 s < 20.Tk_deska < 86,8 s //86,6
 # interval pro 20 kyvů: 86,3 s < 20.Tk_deska < 86,9 s
 # Čas 50 kyvů: 214 s < 50.Tk_deska < 217,25 s //217,2
 # interval pro 50 kyvů: 216,9 s < 50.Tk_deska < 217,5 s
-# Čas 100 kyvů: 433,8 s < 100.Tk_deska < 435 s
+# Čas 100 kyvů: 433,8 s < 100.Tk_deska < 435 s //434,4
 # interval pro 100 kyvů: 434,1 < 434,4 < 434,7 s
 #chyba u(Tk_deska) = (0.003/√3) = 0.00173205 s
 
