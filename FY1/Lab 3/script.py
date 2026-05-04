@@ -59,20 +59,33 @@ print(f"Relativní nejistota: {(e_m_uncertainty/e_m_mean)*100:.2f} %")
 print("-" * 65)
 
 # ==========================================
-# 5. GRAF A LINEÁRNÍ REGRESE
+# 5. GRAF A LINEÁRNÍ REGRESE (BAREVNĚ PODLE PŘÍČEK)
 # ==========================================
 # Ze vztahu e/m = 2U / (B*Rc)^2 plyne linearizovaný tvar: 2U = (e/m) * (B*Rc)^2
 # Osa y: 2U
 # Osa x: (B*Rc)^2
-# Směrnice přímky (k) odpovídá hodnotě e/m
 
 x = (B * R_c)**2
 y = 2 * U_data
 
-plt.figure(figsize=(9, 6))
+plt.figure(figsize=(10, 7))
 
-# Vykreslení datových bodů
-plt.plot(x, y, 'o', color='crimson', markersize=8, label='Naměřené hodnoty')
+# Nalezení unikátních vzdáleností příček
+unique_L = np.unique(L_data)
+
+# Paleta výrazných barev pro jednotlivé příčky
+colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728'] 
+
+# Vykreslení datových bodů rozdělených podle vzdálenosti příčky l
+for i, L_val in enumerate(unique_L):
+    # Najdeme indexy, kde se L_data rovná aktuální vzdálenosti
+    idx = np.where(L_data == L_val)
+    
+    # Převedeme na cm pro hezčí popisek v legendě
+    L_cm = int(round(L_val * 100))
+    
+    plt.plot(x[idx], y[idx], 'o', color=colors[i % len(colors)], 
+             markersize=8, label=f'Naměřeno pro l = {L_cm} cm')
 
 # Výpočet lineární regrese (proložení přímky y = k*x procházející počátkem)
 k_fit = np.linalg.lstsq(x[:, np.newaxis], y, rcond=None)[0][0]
@@ -80,14 +93,15 @@ x_fitLine = np.linspace(0, max(x) * 1.1, 100)
 y_fitLine = k_fit * x_fitLine
 
 # Vykreslení fitu
-plt.plot(x_fitLine, y_fitLine, '-', color='black', linewidth=2, label=f'Lineární fit (směrnice e/m = {k_fit:.2e} C/kg)')
+plt.plot(x_fitLine, y_fitLine, '-', color='black', linewidth=2, zorder=0, 
+         label=f'Lineární fit (směrnice e/m = {k_fit:.2e} C/kg)')
 
 # Formátování grafu
-plt.title('Určení měrného náboje z lineární závislosti')
-plt.xlabel('(B * Rc)^2  [T^2 * m^2]')
-plt.ylabel('2U  [V]')
+plt.title('Určení měrného náboje z lineární závislosti', fontsize=14, pad=15)
+plt.xlabel('$(B \cdot R_c)^2$  [$T^2 \cdot m^2$]', fontsize=12)
+plt.ylabel('$2U$  [V]', fontsize=12)
 plt.grid(True, linestyle='--', alpha=0.7)
-plt.legend()
+plt.legend(fontsize=11)
 
 # Zobrazení grafu
 plt.tight_layout()
