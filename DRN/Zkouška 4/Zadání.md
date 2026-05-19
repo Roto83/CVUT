@@ -8,5 +8,3 @@
 	d) Uveďte alespoň dva způsoby, jakými lze rovnici $x^{3}+x=1$ převést na problém pevného bodu. Uveďte, jakým numerickým postupem byste takovou rovnici řešili, a jaké kritérium napoví o šanci na úspěch.
 4. a) Je dána diferenciální rovnice $y'=x-y$ s počáteční podmínkou $y(0)=1$. Odhadněte ručním výpočtem její řešení na intervalu $\langle 0,3\rangle$ Eulerovou metodou s počtem dělení $n=3$. Doprovoďte obrázkem vysvětlujícím smysl iteračního kroku metody.
 	b) Odvoďte vzorec pro Newtonovu metodu hledání kořene, vysvětlete obrázkem. Uveďte řád této metody a vysvětlete, co to znamená.
-
-### Řešení
