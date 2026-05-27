@@ -535,24 +535,21 @@
         <div class="card-data" data-tag="Běžná">
             <div class="q">Napište pohybovou rovnici netlumeného lineárního harmonického oscilátoru a některý z možných tvarů jejího řešení.</div>
             <div class="a">
-                <b>Pohybová rovnice (z 2. Newtonova zákona):</b><br>
-                \( \ddot{x} + \omega_0^2 x = 0 \)<br>
-                (Kde \(\omega_0 = \sqrt{\frac{k}{m}}\) je úhlová frekvence vlastních kmitů).<br><br>
+                <b>Pohybová rovnice:</b><br>
+                \( \frac{d^{2}x}{dt^{2}} + \omega^2 x = 0 \)<br>
+                (Kde \(\omega = \sqrt{\frac{k}{m}}\) je úhlová frekvence vlastních kmitů).<br><br>
                 <b>Možné tvary řešení:</b><br>
                 Harmonický goniometrický: \( x(t) = A \cos(\omega_0 t + \varphi_0) \)<br>
-                <i>Případně kombinace:</i> \( x(t) = C_1 \cos(\omega_0 t) + C_2 \sin(\omega_0 t) \)
             </div>
         </div>
 
         <div class="card-data" data-tag="Běžná">
             <div class="q">Uveďte definiční vztahy polohy hmotného středu tuhého tělesa a momentu setrvačnosti tuhého tělesa.</div>
             <div class="a">
-                <b>Poloha hmotného středu (těžiště \(\vec{r}_T\)):</b><br>
-                Spojité rozložení hmoty: \( \vec{r}_T = \frac{1}{M} \iiint_V \vec{r} \, dm = \frac{1}{M} \iiint_V \vec{r} \rho(\vec{r}) \, dV \)<br>
-                (Diskrétní případ: \( \vec{r}_T = \frac{1}{M} \sum_{i} m_i \vec{r}_i \))<br><br>
-                <b>Moment setrvačnosti (\(J\)) vzhledem k dané ose:</b><br>
-                Spojité rozložení: \( J = \iiint_V r_{\perp}^2 \, dm = \iiint_V r_{\perp}^2 \rho(\vec{r}) \, dV \)<br>
-                (Kde \(r_{\perp}\) je kolmá vzdálenost elementu \(dm\) od osy rotace).
+                <b>Polohový vektor hmotného středu tuhého tělesa:</b><br>
+                \( \vec{r}_{S}=\frac{1}{m} \int \vec{r} \space dm \) <br><br>
+                <b>Moment setrvačnosti (\(J_{A}\)) vůči ose která je ve vzájemnné vzdálenosti \(d\) rovnoběžná s osou procházející těžištěm je:</b><br>
+                \( J_{A} = J_{T} + md^{2} \)
             </div>
         </div>
 
@@ -560,8 +557,7 @@
             <div class="q">Napište Königovu větu pro pohyb tuhého tělesa (rotaci uvažujte pouze vzhledem k jedné ose).</div>
             <div class="a">
                 Celková kinetická energie tuhého tělesa je součtem kinetické energie translačního pohybu jeho hmotného středu (těžiště) a kinetické energie rotačního pohybu tělesa kolem osy procházející tímto hmotným středem.<br><br>
-                \( E_k = E_{k, trans} + E_{k, rot} \)<br>
-                \( E_k = \frac{1}{2} M v_T^2 + \frac{1}{2} J_T \omega^2 \)
+                \( T = \frac{1}{2} m v_S^2 + \frac{1}{2} J \omega^2 \)
                 
                 <div class="analogy"><b>Přirovnání:</b> Představ si jedoucí auto. Jeho kinetická energie se skládá ze dvou částí: energie pohybu celého auta dopředu (translace) plus dodatečná energie, která je uložena v točících se kolech (rotace kolem vlastní osy).</div>
             </div>
@@ -570,8 +566,9 @@
         <div class="card-data" data-tag="Běžná">
             <div class="q">Napište Steinerovu větu a doplňte vhodným obrázkem.</div>
             <div class="a">
-                Moment setrvačnosti \(J\) vzhledem k libovolné ose rotace je roven součtu momentu setrvačnosti \(J_T\) vzhledem k ose s ní rovnoběžné procházející hmotným středem a součinu hmotnosti tělesa \(M\) a druhé mocniny kolmé vzdálenosti \(d\) obou os.<br><br>
-                \( J = J_T + M d^2 \)<br><br>
+                Moment setrvačnosti \(J_{A}\) vůči ose, která je ve vzájemné vzdálenosti \(d\) rovnoběžná s osou procházející těžištěm je: <br><br>
+                \( J_{A} = J_{T} + m d^2 \)<br><br>
+                kde \(J_{T}\) je moment setrvačnosti vůči ose procházející těžištěm. <br><br>
                 <i>(Náčrtek)</i>: Nakreslí se těleso (brambora). Uvnitř bod \(T\) (těžiště). Skrz něj osa. O kousek vedle paralelně druhá osa. Vzdálenost mezi těmito dvěma čarami se označí jako \(d\).
             </div>
         </div>
