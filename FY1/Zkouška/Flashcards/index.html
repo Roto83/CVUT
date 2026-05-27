@@ -340,7 +340,7 @@
                 <b>Keplerovy zákony:</b><br>
                 1. Planety obı́hajı́ kolem Slunce po eliptických drahách v jejichž jednom společném ohnisku leží Slunce.<br>
                 2. Plošná rychlost planety (plocha opsaná průvodičem za jednotku času) je konstantní. \( \frac{dS}{dt} = \text{konst.} \)<br>
-                3. Poměr druhých mocnin oběžných dob dvou planet se rovná poměru třetích mocnin jejich velkých poloos. \( \frac{T_1^2}{T_2^2} = \frac{a_1^3}{a_2^3} \)
+                3. Poměr druhých mocnin oběžných dob dvou planet se rovná poměru třetích mocnin jejich velkých poloos. Pro jednu planetu tedy platí \( \frac{T^2}{a^3} = \frac{4\pi^2}{GM} = konst. \)
             </div>
         </div>
         <div class="card-data" data-tag="Fundamentální">
@@ -368,18 +368,18 @@
         <div class="card-data" data-tag="Fundamentální">
             <div class="q">Uveďte postuláty speciální teorie relativity.</div>
             <div class="a">
-                <b>1. Princip relativity:</b> Ve všech inerciálních vztažných soustavách platí stejné fyzikální zákony. Znamená to, že žádným vnitřním mechanickým ani elektromagnetickým pokusem nelze zjistit, zda je soustava v klidu, nebo se pohybuje rovnoměrně přímočaře.<br><br>
-                <b>2. Princip konstantní rychlosti světla:</b> Rychlost světla ve vakuu (\(c\)) je ve všech inerciálních soustavách stejná a nezávisí na pohybu zdroje ani pozorovatele.
+                <b>1. Princip relativity:</b> Všechny fyzikální zákony mají ve všech inerciálních vztažných soustavách stejný tvar.<br><br>
+                <b>2. Princip konstantní rychlosti světla:</b> Rychlost světla ve vakuu je ve všech inerciálních vztažných soustavách stejná.
             </div>
         </div>
         <div class="card-data" data-tag="Fundamentální">
             <div class="q">Napište Coulombův zákon pro dva bodové náboje a pro silové působení objemového náboje na bodový.</div>
             <div class="a">
                 <b>Dva bodové náboje:</b><br>
-                \( \vec{F}_{12} = \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{|\vec{r}_1 - \vec{r}_2|^3} (\vec{r}_1 - \vec{r}_2) \)<br>
-                (Síla, kterou působí náboj 1 na náboj 2. Směřuje podél spojnice.)<br><br>
+                \( \vec{F}_{C} = \frac{1}{4\pi\varepsilon_0} \frac{Q_1 Q_2}{r^3} \vec{r} \)<br>
+                (Dva bodové náboje na sebe působı́ silou, jejı́ž velikost je přímo úměrná součinu velikostı́ jejich nábojů a nepřímo úměrná kvadrátu jejich vzdálenostı́.)<br><br>
                 <b>Objemový náboj (hustota \(\rho\)) na bodový náboj \(q\):</b><br>
-                \( \vec{F} = \frac{q}{4\pi\varepsilon_0} \iiint_{V'} \frac{\rho(\vec{r}')}{|\vec{r} - \vec{r}'|^3} (\vec{r} - \vec{r}') dV' \)<br><br>
+                \( \vec{F}_{C}(\vec{r}) = \frac{Q}{4\pi\varepsilon_0} \iiint_{V'} \frac{\rho(\vec{r}')}{|\vec{r} - \vec{r}_{\alpha}'|^3} (\vec{r} - \vec{r}') dV' \)<br><br>
                 <i>Poznámka: \(\vec{r}\) je poloha testovacího náboje \(q\), \(\vec{r}'\) je polohový vektor elementu objemu \(dV'\).</i>
             </div>
         </div>
@@ -388,11 +388,11 @@
             <div class="a">
                 <b>1. Gaussův zákon elektrostatiky:</b><br>
                 Dif: \( \nabla \cdot \vec{D} = \rho_f \)<br>
-                Int: \( \oint_{\partial V} \vec{D} \cdot d\vec{S} = q_f \)<br><br>
+                Int: \( \oint\oint_{\partial V} \vec{D} \cdot d\vec{S} = q_f \)<br><br>
                 
                 <b>2. Gaussův zákon magnetismu (Neexistence monopólů):</b><br>
                 Dif: \( \nabla \cdot \vec{B} = 0 \)<br>
-                Int: \( \oint_{\partial V} \vec{B} \cdot d\vec{S} = 0 \)<br><br>
+                Int: \( \oint\oint_{\partial V} \vec{B} \cdot d\vec{S} = 0 \)<br><br>
                 
                 <b>3. Faradayův zákon elektromagnetické indukce:</b><br>
                 Dif: \( \nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t} \)<br>
@@ -402,7 +402,6 @@
                 Dif: \( \nabla \times \vec{H} = \vec{j}_f + \frac{\partial \vec{D}}{\partial t} \)<br>
                 Int: \( \oint_{\partial S} \vec{H} \cdot d\vec{r} = \iint_S \left( \vec{j}_f + \frac{\partial \vec{D}}{\partial t} \right) \cdot d\vec{S} \)
                 
-                <div class="analogy"><b>Přirovnání (bod 4):</b> Představ si kondenzátor v obvodu. Skrz vakuum reálné elektrony (proud \(\vec{j}_f\)) netečou. Přesto vzniká magnetické pole! Maxwell to vyřešil objevem, že samotná změna elektrického pole (\(\frac{\partial \vec{D}}{\partial t}\)) působí jako jakýsi "virtuální" proud, který dokáže magnetické pole generovat úplně stejně.</div>
             </div>
         </div>
 
@@ -423,7 +422,7 @@
         <div class="card-data" data-tag="Běžná">
             <div class="q">Definujte velikost úhlu v radiánech, doplňte vhodným náčrtkem.</div>
             <div class="a">
-                <b>Definice:</b> Úhel v radiánech je definován jako poměr délky oblouku kružnice \(s\), který je vymezen rameny úhlu, a poloměru této kružnice \(r\).<br><br>
+                <b>Definice:</b> 1 radián je velikost středového úhlu, který přísluší oblouku o stejné délce, jako je poloměr kružnice.<br><br>
                 \( \varphi = \frac{s}{r} \)<br><br>
                 <i>(Náčrtek si představ vizuálně)</i>: Kružnice o poloměru \(r\). Z jejího středu vycházejí dvě úsečky (ramena úhlu). Část obvodu kružnice mezi těmito rameny je oblouk o délce \(s\). Pokud \(s = r\), úhel je přesně 1 radián.
             </div>
@@ -433,9 +432,10 @@
             <div class="q">Rozepište vektor zrychlení a pomocí jeho tečné a normálové složky. Pro obě uveďte vztahy.</div>
             <div class="a">
                 Celkové zrychlení: \( \vec{a} = \vec{a}_t + \vec{a}_n \)<br><br>
-                <b>Tečné zrychlení (\(\vec{a}_t\)):</b> Způsobuje změnu <i>velikosti</i> rychlosti (brzdění/zrychlování). Má směr tečny k trajektorii.<br>
+                <b>Tečné zrychlení (\(\vec{a}_t\)):</b><br>
                 Velikost: \( a_t = \frac{dv}{dt} \)<br><br>
-                <b>Normálové (dostředivé) zrychlení (\(\vec{a}_n\)):</b> Způsobuje změnu <i>směru</i> rychlosti (zatáčení). Směřuje do středu křivosti trajektorie.<br>
+
+                <b>Normálové (dostředivé) zrychlení (\(\vec{a}_n\)):</b><br>
                 Velikost: \( a_n = \frac{v^2}{R} \) (kde \(R\) je poloměr křivosti trajektorie).
             </div>
         </div>
@@ -508,9 +508,7 @@
         <div class="card-data" data-tag="Běžná">
             <div class="q">Definujte pojem cyklická souřadnice, definujte zobecněnou hybnost a uveďte, co tyto dva pojmy spojuje.</div>
             <div class="a">
-                <b>Cyklická souřadnice (\(q_k\)):</b> Je zobecněná souřadnice, která se explicitně nevyskytuje v Lagrangiánu systému. Platí pro ni \(\frac{\partial L}{\partial q_k} = 0\).<br><br>
-                <b>Zobecněná hybnost (\(p_k\)):</b> Je definována parciální derivací Lagrangiánu podle příslušné zobecněné rychlosti \(\dot{q}_k\). \(p_k = \frac{\partial L}{\partial \dot{q}_k}\).<br><br>
-                <b>Spojení:</b> Z Lagrangeových rovnic plyne, že pokud je souřadnice \(q_k\) cyklická, pak je jí odpovídající zobecněná hybnost \(p_k\) <b>integrálem pohybu (zachovává se v čase)</b>. Tedy \(\dot{p}_k = 0\).
+                Cyklická souřadnice je zobecněná souřadnice, která se explicitně nevyskytuje v Lagrangeově funkci (L=T−V) vyšetřovaného systému. Zobecněná hybnost je Veličina, která je definována jako parciální derivace Lagrangeovy funkce podle příslušné zobecněné rychlosti (q˙k). Zobecněná hybnost sdružená s cyklickou souřadnicí je konstantou pohybu.
             </div>
         </div>
 
@@ -704,8 +702,8 @@
         <div class="card-data" data-tag="Běžná">
             <div class="q">Slovně uveďte Faradayův zákon elektromagnetické indukce a Lenzův zákon.</div>
             <div class="a">
-                <b>Faradayův zákon:</b> Elektromotorické napětí indukované v uzavřené vodivé smyčce je rovno záporně vzaté časové změně magnetického indukčního toku, který touto smyčkou prochází.<br><br>
-                <b>Lenzův zákon:</b> Indukovaný elektrický proud (potažmo napětí) má takový směr, že jím vytvořené magnetické pole působí <b>proti změně</b> magnetického toku, která tento proud vyvolala. To je důvodem znaménka mínus ve Faradayově zákonu.
+                <b>Faradayův zákon:</b>   \( \mathcal{E}_i = -\frac{\mathrm{d}\Phi_B}{\mathrm{d}t} \) kde \( \mathcal{E}_i \) je indukované elektromotorické napětí a \( \Phi_B \) je magnetický indukční tok.<br><br>
+                <b>Lenzův zákon:</b> Lenzův zákon: Směr indukovaného proudu je vždy takový, že magnetické pole vytvořené tímto proudem se vždy snaží kompenzovat změny magnetického toku.
                 
                 <div class="analogy"><b>Přirovnání k Lenzovu zákonu:</b> Funguje jako elektrická "setrvačnost". Cívka v obvodu je jako těžký železný vozík – brání se, když ho chceš roztlačit (nárůst proudu zdržuje), a brání se, když ho chceš prudce zastavit (při vypnutí proudu udělá jiskru).</div>
             </div>
