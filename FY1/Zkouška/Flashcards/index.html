@@ -340,7 +340,7 @@
                 <b>Keplerovy zákony:</b><br>
                 1. Planety obı́hajı́ kolem Slunce po eliptických drahách v jejichž jednom společném ohnisku leží Slunce.<br>
                 2. Plošná rychlost planety (plocha opsaná průvodičem za jednotku času) je konstantní. \( \frac{dS}{dt} = \text{konst.} \)<br>
-                3. Poměr druhých mocnin oběžných dob dvou planet se rovná poměru třetích mocnin jejich velkých poloos. Pro jednu planetu tedy platí \( \frac{T^2}{a^3} = \frac{4\pi^2}{GM} = konst. \)
+                3. Poměr druhých mocnin oběžných dob dvou planet se rovná poměru třetích mocnin jejich velkých poloos. Pro jednu planetu tedy platí \( \frac{T^2}{a^3} = \frac{4\pi^2}{GM} = konst. \) Kde G je gravitační konstanta a M je hmotnost centrálního tělesa (Slunce).
             </div>
         </div>
         <div class="card-data" data-tag="Fundamentální">
@@ -348,7 +348,7 @@
             <div class="a">
                 Soustava obyčejných diferenciálních rovnic, které popisují dynamiku systému pomocí zobecněných souřadnic \(q_j\) a zobecněných rychlostí \(\dot{q}_j\).<br><br>
                 \( \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_j} \right) - \frac{\partial L}{\partial q_j} = 0 \) pro \( j = 1, 2, \dots, s \)<br><br>
-                Kde \( L = T - V \) je <b>Lagrangián</b> systému (\(T\) je kinetická energie a \(V\) je potenciální energie konzervativních sil).
+                Kde \( L = T - V \) je <b>Lagrangián</b> systému (\(T\) je kinetická energie a \(V\) je potenciální energie konzervativních sil, \(q_j\) jsou zobecněné souřadnice a \(\dot{q}_j\) jsou zobecněné rychlosti, s je počet stupňů volnosti).
             </div>
         </div>
         <div class="card-data" data-tag="Fundamentální">
@@ -362,7 +362,7 @@
                 Diferenciální tvar: \( \frac{\partial \rho_f}{\partial t} + \nabla \cdot \vec{j}_f = 0 \)<br>
                 Integrální tvar: \( \frac{\partial Q}{\partial t} + \oint_{\partial V} \vec{j}_f \cdot d\vec{S} = 0 \)<br><br>
                 
-                <div class="analogy"><b>Přirovnání:</b> Divergence (\(\nabla \cdot\)) vyjadřuje, kolik "hmoty" nebo "náboje" z daného bodu tryská ven. Rovnice kontinuity jednoduše říká: "Co z objemu vyteče, o to se musí snížit hustota uvnitř."</div>
+                <div class="analogy"> Divergence: \(\nabla \cdot\), \(\rho\) - Hustota tekutiny, \(\vec{v}\) - Rychlost tekutiny, \(\vec{j_f}\) - Proudová hustota volných nosičů náboje, m - Hmotnost tekutiny, Q - Elektrický náboj</div>
             </div>
         </div>
         <div class="card-data" data-tag="Fundamentální">
@@ -380,28 +380,19 @@
                 (Dva bodové náboje na sebe působı́ silou, jejı́ž velikost je přímo úměrná součinu velikostı́ jejich nábojů a nepřímo úměrná kvadrátu jejich vzdálenostı́.)<br><br>
                 <b>Objemový náboj (hustota \(\rho\)) na bodový náboj \(q\):</b><br>
                 \( \vec{F}_{C}(\vec{r}) = \frac{Q}{4\pi\varepsilon_0} \iiint_{V'} \frac{\rho(\vec{r}')}{|\vec{r} - \vec{r}_{\alpha}'|^3} (\vec{r} - \vec{r}') dV' \)<br><br>
-                <i>Poznámka: \(\vec{r}\) je poloha testovacího náboje \(q\), \(\vec{r}'\) je polohový vektor elementu objemu \(dV'\).</i>
+                <i>Poznámka: \(\vec{r}\) je poloha testovacího náboje \(q\), \(\vec{r}'\) je polohový vektor elementu objemu \(dV'\), \(\rho(\vec{r}')\) je hustota objemového náboje v místě zdroje.</i>
             </div>
         </div>
         <div class="card-data" data-tag="Fundamentální">
             <div class="q">Napište Maxwellovy rovnice v diferenciálním i integrálním tvaru pro materiálové prostředí.</div>
             <div class="a">
-                <b>1. Gaussův zákon elektrostatiky:</b><br>
-                Dif: \( \nabla \cdot \vec{D} = \rho_f \)<br>
-                Int: \( \oint\oint_{\partial V} \vec{D} \cdot d\vec{S} = q_f \)<br><br>
-                
-                <b>2. Gaussův zákon magnetismu (Neexistence monopólů):</b><br>
-                Dif: \( \nabla \cdot \vec{B} = 0 \)<br>
-                Int: \( \oint\oint_{\partial V} \vec{B} \cdot d\vec{S} = 0 \)<br><br>
-                
-                <b>3. Faradayův zákon elektromagnetické indukce:</b><br>
-                Dif: \( \nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t} \)<br>
-                Int: \( \oint_{\partial S} \vec{E} \cdot d\vec{r} = -\frac{d}{dt} \iint_S \vec{B} \cdot d\vec{S} \)<br><br>
-                
-                <b>4. Ampérův-Maxwellův zákon celkového proudu:</b><br>
-                Dif: \( \nabla \times \vec{H} = \vec{j}_f + \frac{\partial \vec{D}}{\partial t} \)<br>
-                Int: \( \oint_{\partial S} \vec{H} \cdot d\vec{r} = \iint_S \left( \vec{j}_f + \frac{\partial \vec{D}}{\partial t} \right) \cdot d\vec{S} \)
-                
+                <b>1. Gaussův zákon elektrostatiky</b><br>
+                <b>2. Gaussův zákon magnetismu (Neexistence monopólů)</b><br>
+                <b>3. Faradayův zákon elektromagnetické indukce</b><br>
+                <b>4. Ampérův-Maxwellův zákon celkového proudu</b><br>
+
+                \vec{D} - elektrická indukce, \vec{B} - Magnetická indukce, \vec{E} - Elektrická intenzita, \vec{H} - Magnetická intenzita <br>
+                \(q_f\)- volný náboj, \(\ro_f\) - Hustota volných nosičů náboje, \(\vec{j_f}\) - Proudová hustota volných nosičů
             </div>
         </div>
 
@@ -477,7 +468,7 @@
             <div class="a">
                 <b>Okamžitý výkon (\(P\)):</b> Je definován jako časová derivace práce (rychlost konání práce).<br>
                 \( P = \frac{dW}{dt} \)<br><br>
-                <b>Souvislost se silou:</b> Pokud dosadíme \(dW = \vec{F} \cdot d\vec{r}\), získáme:<br>
+                <b>Souvislost se silou:</b> Pokud dosadíme elementární práci \(dW = \vec{F} \cdot d\vec{r}\), získáme:<br>
                 \( P = \frac{\vec{F} \cdot d\vec{r}}{dt} = \vec{F} \cdot \vec{v} \)<br>
                 (Skalární součin síly a okamžité rychlosti).
             </div>
@@ -525,7 +516,7 @@
         <div class="card-data" data-tag="Běžná">
             <div class="q">Uveďte vzorce pro vratnou sílu pružnosti, její potenciální energii a vztah, který je spojuje.</div>
             <div class="a">
-                <b>Vratná síla (Hookův zákon):</b> \( \vec{F} = -k \vec{x} \) (nebo v 1D: \( F = -kx \)), kde \(k\) je tuhost pružiny a \(x\) je výchylka.<br><br>
+                <b>Vratná síla (Hookův zákon):</b> \( F = -kx \) (nebo v 1D: \( F = -kx \)), kde \(k\) je tuhost pružiny a \(x\) je výchylka.<br><br>
                 <b>Potenciální energie pružnosti:</b> \( E_p = \frac{1}{2} k x^2 \)<br><br>
                 <b>Vztah, který je spojuje:</b> Síla je záporným gradientem potenciální energie.<br>
                 \( F = -\frac{dE_p}{dx} \)
@@ -540,6 +531,7 @@
                 (Kde \(\omega = \sqrt{\frac{k}{m}}\) je úhlová frekvence vlastních kmitů).<br><br>
                 <b>Možné tvary řešení:</b><br>
                 Harmonický goniometrický: \( x(t) = A \cos(\omega_0 t + \varphi_0) \)<br>
+                Kde A je amplituda, \(\omega_0\) je úhlová frekvence, \(\varphi_0\) je počáteční fáze a x(t) je poloha v čase t.
             </div>
         </div>
 
@@ -548,8 +540,8 @@
             <div class="a">
                 <b>Polohový vektor hmotného středu tuhého tělesa:</b><br>
                 \( \vec{r}_{S}=\frac{1}{m} \int \vec{r} \space dm \) <br><br>
-                <b>Moment setrvačnosti (\(J_{A}\)) vůči ose která je ve vzájemnné vzdálenosti \(d\) rovnoběžná s osou procházející těžištěm je:</b><br>
-                \( J_{A} = J_{T} + md^{2} \)
+                <b>Moment setrvačnosti (\(J\)), kde \(r_{\perp}\) je kolmá vzdálenost od osy k elementu hmoty \(dm\), \(m\) je hmotnost tělesa a \(V\) je objem tělesa a \(\rho\) je hustota:</b><br>
+                \( J = \int r_{\perp}^2 \, \mathrm{m} = \int_V \rho r_{\perp}^2 \, \mathrm{d}V \)
             </div>
         </div>
 
@@ -559,7 +551,7 @@
                 Celková kinetická energie tuhého tělesa je součtem kinetické energie translačního pohybu jeho hmotného středu (těžiště) a kinetické energie rotačního pohybu tělesa kolem osy procházející tímto hmotným středem.<br><br>
                 \( T = \frac{1}{2} m v_S^2 + \frac{1}{2} J \omega^2 \)
                 
-                <div class="analogy"><b>Přirovnání:</b> Představ si jedoucí auto. Jeho kinetická energie se skládá ze dvou částí: energie pohybu celého auta dopředu (translace) plus dodatečná energie, která je uložena v točících se kolech (rotace kolem vlastní osy).</div>
+                <div class="analogy">m - hmotnost tělesa, \(v_S\) - rychlost těžiště, J - moment setrvačnosti, \(\omega\) - úhlová rychlost</div>
             </div>
         </div>
 
@@ -624,8 +616,8 @@
                 Vyjadřuje zákon zachování mechanické energie pro proudící ideální (nestlačitelnou a neviskózní) tekutinu.<br><br>
                 \( \frac{1}{2}\rho v^2 + \rho gh + p = \text{konst.} \)<br><br>
                 Kde:<br>
-                \(\frac{1}{2}\rho v^2\) je dynamický tlak (kinetická energie jednotky objemu),<br>
-                \(\rho gh\) je hydrostatický tlak (potenciální energie jednotky objemu),<br>
+                \(\frac{1}{2}\rho v^2\) je dynamický tlak (kinetická energie jednotky objemu), \(\rho\) - hustota tekutiny, \(v\) - rychlost tekutiny<br>
+                \(\rho gh\) je hydrostatický tlak (potenciální energie jednotky objemu), \(\rho\) - hustota tekutiny, \(g\) - tíhové zrychlení, \(h\) - výška<br>
                 \(p\) je statický tlak.
             </div>
         </div>
