@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematická Analýza - Flashcards</title>
+    <!-- MathJax for rendering equations -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        :root {
+            --bg-color: #1a1a24;
+            --card-front: #2a2a35;
+            --card-back: #2f303d;
+            --text-color: #e0e0e0;
+            --accent-color: #4a90e2;
+            --success: #388e3c;
+            --danger: #d32f2f;
+            --warning: #f57c00;
+            --neutral: #757575;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 { margin-bottom: 5px; color: var(--accent-color); text-align: center; }
+        .subtitle { font-size: 14px; color: #888; margin-bottom: 25px; text-align: center; }
+
+        /* Filtrování */
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            max-width: 700px;
+            background: #222;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .filter-btn {
+            background-color: transparent;
+            border: 1px solid #555;
+            padding: 8px 16px;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .filter-btn.active {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+            color: white;
+        }
+
+        .card-container {
+            perspective: 1000px;
+            width: 100%;
+            max-width: 700px;
+            height: 480px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transform-style: preserve-3d;
+            position: relative;
+        }
+
+        .card.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+            padding: 35px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid #444;
+            overflow-y: auto;
+        }
+
+        .card-front {
+            background-color: var(--card-front);
+            align-items: center;
+            text-align: center;
+        }
+
+        .card-back {
+            background-color: var(--card-back);
+            transform: rotateY(180deg);
+            align-items: flex-start;
+            text-align: left;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .tag {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .status-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .status-unseen { background-color: var(--neutral); }
+        .status-known { background-color: var(--success); }
+        .status-unknown { background-color: var(--danger); }
+
+        .card-content-q { font-size: 20px; font-weight: bold; }
+        .card-content-a { width: 100%; }
+        
+        .analogy {
+            margin-top: 15px;
+            padding: 12px;
+            background-color: rgba(74, 144, 226, 0.1);
+            border-left: 4px solid var(--accent-color);
+            font-size: 14px;
+            color: #b0c4de;
+        }
+
+        .controls-wrapper {
+            width: 100%;
+            max-width: 700px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .nav-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #2a2a35;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        .nav-controls button {
+            background: transparent;
+            border: 1px solid #555;
+            padding: 8px 16px;
+            color: white;
+        }
+        
+        .nav-controls button:hover:not(:disabled) {
+            background: #444;
+        }
+
+        .nav-controls button:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        #card-counter { font-weight: bold; font-size: 16px; }
+
+        .tag-controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            color: white;
+            transition: transform 0.1s, opacity 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        button:active:not(:disabled) { transform: scale(0.95); }
+        button:hover:not(:disabled) { opacity: 0.9; }
+
+        .btn-know { background-color: var(--success); }
+        .btn-dontknow { background-color: var(--danger); }
+
+        .flip-hint {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+            color: #888;
+        }
+
+        #empty-state {
+            display: none;
+            text-align: center;
+            background-color: var(--card-front);
+            padding: 50px;
+            border-radius: 12px;
+            border: 1px solid #444;
+            max-width: 700px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #555; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #777; }
+        
+        mjx-container { margin: 0.5em 0 !important; }
+    </style>
+</head>
+<body>
+
+    <h1>Matematická Analýza 2 - Zkouška</h1>
+    <div class="subtitle">ČVUT FEL – Elektronika a komunikace</div>
+
+    <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all">Všechny otázky</button>
+        <button class="filter-btn" data-filter="unseen">Nezařazené</button>
+        <button class="filter-btn" data-filter="known">Vím</button>
+        <button class="filter-btn" data-filter="unknown">Nevím</button>
+    </div>
+
+    <div id="flashcard-ui" style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+        <div class="card-container" id="card-container">
+            <div class="card" id="card">
+                <div class="card-face card-front">
+                    <span class="tag" id="card-tag-front">Typ</span>
+                    <span class="status-badge" id="card-status-front">Stav</span>
+                    <div class="card-content-q" id="front-text">Načítání...</div>
+                    <div class="flip-hint">Klikni pro otočení</div>
+                </div>
+                <div class="card-face card-back">
+                    <span class="tag" id="card-tag-back">Typ</span>
+                    <span class="status-badge" id="card-status-back">Stav</span>
+                    <div class="card-content-a" id="back-text"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls-wrapper">
+            <div class="nav-controls">
+                <button id="btn-prev">⬅ Předchozí</button>
+                <span id="card-counter">0 / 0</span>
+                <button id="btn-next">Další ➡</button>
+            </div>
+
+            <div class="tag-controls">
+                <button class="btn-dontknow" id="btn-mark-unknown">Označit: Nevím</button>
+                <button class="btn-know" id="btn-mark-known">Označit: Vím</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="empty-state">
+        <h2>Žádné karty k zobrazení. 📭</h2>
+        <p>Pro tento filtr tu aktuálně nic není.</p>
+    </div>
+
+    <!-- Data karet -->
+    <div id="raw-data" style="display: none;" class="tex2jax_ignore">
+
+        <!-- DEFINICE -->
+        <div class="card-data" data-tag="Definice">
+            <div class="q">Definuj normu prvku \(\mathbf{x} \in \mathbb{R}^n\), skalární součin prvků \(\mathbf{x}\) a \(\mathbf{y}\) a okolí bodu.</div>
+            <div class="a">
+                <b>Skalární součin:</b> \( \langle \mathbf{x}, \mathbf{y} \rangle = \sum_{i=1}^n x_i y_i \)<br><br>
+                <b>Norma (Euklidovská):</b> \( \|\mathbf{x}\| = \sqrt{\langle \mathbf{x}, \mathbf{x} \rangle} = \sqrt{\sum_{i=1}^n x_i^2} \)<br><br>
+                <b>\(\varepsilon\)-okolí bodu \(\mathbf{a}\):</b> Množina \( U_\varepsilon(\mathbf{a}) = \{\mathbf{x} \in \mathbb{R}^n : \|\mathbf{x} - \mathbf{a}\| < \varepsilon\} \).<br>
+                <div class="analogy"><b>Přirovnání pro lepší pochopení:</b> Norma je prostě vzdušná vzdálenost (délka šipky). Okolí bodu je bublina o poloměru \(\varepsilon\) natáhnutá kolem daného bodu. Skalární součin ti zase řekne, jak moc dvě šipky míří stejným směrem.</div>
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Definice">
+            <div class="q">Definuj vnitřní a hraniční bod množiny, hromadný a izolovaný bod množiny, otevřenou a uzavřenou množinu.</div>
+            <div class="a">
+                Nechť \( M \subset \mathbb{R}^n \).<br><br>
+                <b>Vnitřní bod:</b> Bod \( \mathbf{x} \in M \), pokud existuje jeho okolí, které celé leží uvnitř \( M \).<br>
+                <b>Hraniční bod:</b> Každé okolí tohoto bodu obsahuje alespoň jeden bod z \( M \) a alespoň jeden bod nepatřící do \( M \).<br>
+                <b>Hromadný bod:</b> Bod, jehož každé prstencové okolí (okolí bez něj samotného) obsahuje alespoň jeden bod z \( M \).<br>
+                <b>Izolovaný bod:</b> Bod \( \mathbf{x} \in M \), pro který existuje okolí neobsahující žádný jiný bod z \( M \).<br><br>
+                <b>Otevřená množina:</b> Obsahuje pouze své vnitřní body.<br>
+                <b>Uzavřená množina:</b> Obsahuje všechny své hromadné body (její doplněk je otevřená množina).
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Definice">
+            <div class="q">Definuj derivaci ve směru, diferenciál funkce a vysvětli význam gradientu.</div>
+            <div class="a">
+                <b>Derivace ve směru \(\mathbf{v}\):</b> \( \frac{\partial f}{\partial \mathbf{v}}(\mathbf{a}) = \lim_{t \to 0} \frac{f(\mathbf{a} + t\mathbf{v}) - f(\mathbf{a})}{t} \).<br><br>
+                <b>Diferenciál \( df(\mathbf{a}) \):</b> Lineární zobrazení \( L(\mathbf{h}) \), pro které platí \( \lim_{\mathbf{h} \to \mathbf{0}} \frac{f(\mathbf{a}+\mathbf{h}) - f(\mathbf{a}) - L(\mathbf{h})}{\|\mathbf{h}\|} = 0 \). V souřadnicích se zapíše jako \( df = \sum \frac{\partial f}{\partial x_i} dx_i \).<br><br>
+                <b>Význam gradientu:</b> Vektor parciálních derivací \( \nabla f \). Ukazuje směr největšího růstu funkce. Jeho velikost odpovídá strmosti tohoto růstu.
+                <div class="analogy"><b>Přirovnání:</b> Představ si, že stojíš na kopci. Gradient je střelka kompasu, která ukazuje přímo tam, kde je kopec nejstrmější. Derivace ve směru ti zas říká, o kolik budeš klesat nebo stoupat, když se vydáš jakýmkoliv jiným směrem.</div>
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Definice">
+            <div class="q">Jak klasifikujeme lokální extrémy pomocí Hessovy matice? Uveď Sylvestrovo kritérium.</div>
+            <div class="a">
+                Zkoumáme stacionární bod \( \mathbf{a} \) (kde \( \nabla f(\mathbf{a}) = \mathbf{0} \)). <b>Hessova matice \( H \)</b> obsahuje druhé parciální derivace \( H_{ij} = \frac{\partial^2 f}{\partial x_i \partial x_j} \).<br><br>
+                <b>Klasifikace podle definitnosti:</b><br>
+                - Pozitivně definitní \( \implies \) lokální <b>minimum</b>.<br>
+                - Negativně definitní \( \implies \) lokální <b>maximum</b>.<br>
+                - Indefinitní \( \implies \) <b>sedlový bod</b>.<br><br>
+                <b>Sylvestrovo kritérium (pro \( 2\times 2 \)):</b> Značme determinanty hlavních minorů \( \Delta_1 = H_{11} \) a \( \Delta_2 = \det(H) \).<br>
+                - Minimum: \( \Delta_1 > 0 \), \( \Delta_2 > 0 \)<br>
+                - Maximum: \( \Delta_1 < 0 \), \( \Delta_2 > 0 \)<br>
+                - Sedlo: \( \Delta_2 < 0 \)
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Definice">
+            <div class="q">Zapiš polární, sférické a cylindrické souřadnice, uveď k nim jakobián zobrazení a definuj potenciální pole.</div>
+            <div class="a">
+                <b>Polární (2D):</b> \( x = r \cos \varphi \), \( y = r \sin \varphi \). Jakobián \( J = r \).<br>
+                <b>Cylindrické (Válcové, 3D):</b> \( x = r \cos \varphi \), \( y = r \sin \varphi \), \( z = z \). Jakobián \( J = r \).<br>
+                <b>Sférické (3D):</b> \( x = r \sin \theta \cos \varphi \), \( y = r \sin \theta \sin \varphi \), \( z = r \cos \theta \). Jakobián \( J = r^2 \sin \theta \).<br><br>
+                <b>Jakobián zobrazení:</b> Determinant Jacobiho matice zobrazení. Vyjadřuje, jak se lokálně natahuje nebo smršťuje objem (či plocha) při transformaci souřadnic.<br><br>
+                <b>Potenciální pole:</b> Vektorové pole \( \vec{F} \), pro které existuje skalární funkce \( U \) (potenciál) tak, že platí \( \vec{F} = \nabla U \).
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Definice">
+            <div class="q">Co je to mocninná řada a poloměr konvergence?</div>
+            <div class="a">
+                <b>Mocninná řada:</b> Řada funkcí ve tvaru \( \sum_{n=0}^{\infty} c_n (x - x_0)^n \), kde \( c_n \) jsou koeficienty řady a \( x_0 \) je střed konvergence.<br><br>
+                <b>Poloměr konvergence \( R \):</b> Číslo \( R \in \langle 0, \infty \rangle \) takové, že mocninná řada absolutně konverguje pro každé \( x \) splňující \( |x - x_0| < R \) a diverguje pro \( |x - x_0| > R \). Na hranici \( |x - x_0| = R \) se musí chování vyšetřit zvlášť.
+            </div>
+        </div>
+
+        <!-- VĚTY BEZ DŮKAZU -->
+        <div class="card-data" data-tag="Věta bez důkazu">
+            <div class="q">Uveď znění věty o derivaci složené funkce.</div>
+            <div class="a">
+                Nechť funkce \( \mathbf{g}: \mathbb{R}^m \to \mathbb{R}^k \) je diferencovatelná v bodě \( \mathbf{a} \) a funkce \( \mathbf{f}: \mathbb{R}^k \to \mathbb{R}^n \) je diferencovatelná v bodě \( \mathbf{b} = \mathbf{g}(\mathbf{a}) \).<br><br>
+                Pak složená funkce \( \mathbf{h} = \mathbf{f} \circ \mathbf{g} \) je diferencovatelná v bodě \( \mathbf{a} \) a pro její Jacobiho matici platí:<br>
+                \( J_{\mathbf{h}}(\mathbf{a}) = J_{\mathbf{f}}(\mathbf{g}(\mathbf{a})) \cdot J_{\mathbf{g}}(\mathbf{a}) \)<br><br>
+                <i>(Jde vlastně o řetízkové pravidlo pro funkce více proměnných, vyjádřené maticovým násobením.)</i>
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Věta bez důkazu">
+            <div class="q">Uveď znění Gaussovy, Greenovy a Stokesovy věty (stačí rovnice).</div>
+            <div class="a">
+                <b>Gaussova věta:</b> Převádí plošný integrál vektorového pole přes uzavřenou plochu na objemový integrál jeho divergence.<br>
+                \( \iint_{\partial V} \vec{F} \cdot d\vec{S} = \iiint_V (\nabla \cdot \vec{F}) \, dV \)<br><br>
+                <b>Greenova věta:</b> Převádí křivkový integrál přes uzavřenou křivku v rovině na dvojný integrál přes oblast, kterou křivka ohraničuje.<br>
+                \( \oint_{\partial D} (P \, dx + Q \, dy) = \iint_D \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) \, dx \, dy \)<br><br>
+                <b>Stokesova věta:</b> Převádí křivkový integrál přes uzavřenou prostorovou křivku na plošný integrál z rotace pole přes plochu křivkou napnutou.<br>
+                \( \oint_{\partial S} \vec{F} \cdot d\vec{r} = \iint_S (\nabla \times \vec{F}) \cdot d\vec{S} \)
+            </div>
+        </div>
+
+        <!-- VĚTY S DŮKAZEM -->
+        <div class="card-data" data-tag="Věta s důkazem">
+            <div class="q">Formuluj a dokaž větu: Jsou-li \( \langle a_n, b_n \rangle \) do sebe vnořené uzavřené a omezené intervaly, pak je jejich průnik neprázdný.</div>
+            <div class="a">
+                <b>Cantorova věta o vnořených intervalech.</b> Předpoklad: \( \langle a_{n+1}, b_{n+1} \rangle \subset \langle a_n, b_n \rangle \).<br><br>
+                <b>Důkaz:</b><br>
+                1. Uvažujme množinu všech levých krajních bodů \( A = \{a_n\}_{n=1}^{\infty} \). Tato množina je neprázdná a shora omezená (např. hodnotou \( b_1 \)).<br>
+                2. Podle axiomu úplnosti reálných čísel má množina \( A \) supremum. Označme ho \( x = \sup A \).<br>
+                3. Z definice suprema platí \( a_n \le x \) pro všechna \( n \).<br>
+                4. Zároveň, protože se intervaly zmenšují, platí \( a_n \le a_{n+m} \le b_{n+m} \le b_m \). Každé \( b_m \) je tedy horní závorou množiny \( A \).<br>
+                5. Jelikož \( x \) je *nejmenší* horní závora, musí platit \( x \le b_m \) pro všechna \( m \).<br>
+                6. Dostali jsme \( a_n \le x \le b_n \) pro každé \( n \), takže bod \( x \) leží v každém intervalu. Průnik \( \bigcap_{n=1}^{\infty} \langle a_n, b_n \rangle \neq \emptyset \).
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Věta s důkazem">
+            <div class="q">Formuluj a dokaž: Každá nekonečná omezená množina v \( \mathbb{R}^n \) má hromadný bod.</div>
+            <div class="a">
+                <b>Bolzano-Weierstrassova věta.</b><br><br>
+                <b>Důkaz (pro \( \mathbb{R} \) metodou půlení intervalů):</b><br>
+                1. Jelikož je množina omezená, leží celá v nějakém počátečním uzavřeném intervalu \( I_1 = \langle a, b \rangle \).<br>
+                2. Rozdělíme \( I_1 \) na dvě poloviny. Protože zkoumaná množina má nekonečně mnoho bodů, alespoň jedna z těchto polovin musí obsahovat nekonečně mnoho bodů. Vybereme ji a označíme \( I_2 \).<br>
+                3. Tento postup opakujeme donekonečna. Půlíme \( I_k \) a za \( I_{k+1} \) bereme tu polovinu, kde je nekonečně mnoho bodů.<br>
+                4. Vznikne posloupnost vnořených uzavřených intervalů. Podle Cantorovy věty existuje bod \( x \in \bigcap_{k=1}^{\infty} I_k \).<br>
+                5. Délka intervalu \( I_k \) jde k nule. V každém libovolně malém okolí bodu \( x \) proto od jistého indexu \( k \) leží celý interval \( I_k \).<br>
+                6. Protože \( I_k \) obsahuje nekonečně mnoho bodů množiny, obsahuje každé okolí bodu \( x \) nekonečně mnoho bodů množiny. Bod \( x \) je hromadný bod.
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Věta s důkazem">
+            <div class="q">Formuluj a dokaž Lagrangeovu větu o střední hodnotě pro funkce více proměnných.</div>
+            <div class="a">
+                <b>Věta:</b> Má-li \( f \) diferenciál na úsečce spojující body \( \mathbf{x} \) a \( \mathbf{x}+\mathbf{h} \), platí:<br>
+                \( f(\mathbf{x} + \mathbf{h}) - f(\mathbf{x}) = \frac{\partial f}{\partial \mathbf{h}}(\mathbf{x} + \vartheta \mathbf{h}) \) pro nějaké \( \vartheta \in (0, 1) \).<br><br>
+                <b>Důkaz:</b><br>
+                1. Převedeme problém na funkci jedné proměnné. Zavedeme pomocnou funkci \( g(t) = f(\mathbf{x} + t\mathbf{h}) \) pro \( t \in \langle 0, 1 \rangle \).<br>
+                2. Protože \( f \) je diferencovatelná, je \( g(t) \) spojitá na \( \langle 0, 1 \rangle \) a má derivaci na \( (0, 1) \).<br>
+                3. Můžeme použít Lagrangeovu větu o střední hodnotě pro funkci jedné proměnné: existuje \( \vartheta \in (0, 1) \) tak, že \( g(1) - g(0) = g'(\vartheta) \cdot (1 - 0) \).<br>
+                4. Dosadíme hodnoty:\( g(1) = f(\mathbf{x} + \mathbf{h}) \) a \( g(0) = f(\mathbf{x}) \).<br>
+                5. Derivaci \( g'(t) \) určíme z definice derivace ve směru (nebo pomocí derivace složené funkce), což vyjde přesně \( \frac{\partial f}{\partial \mathbf{h}}(\mathbf{x} + t\mathbf{h}) \).<br>
+                6. Po dosazení dostáváme dokazovaný vzorec.
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Věta s důkazem">
+            <div class="q">Formuluj a dokaž: Má-li funkce \( f \) v bodě \( \mathbf{x} \in \mathbb{R}^n \) diferenciál, je v bodě \( \mathbf{x} \) spojitá.</div>
+            <div class="a">
+                <b>Důkaz:</b><br>
+                1. Z definice diferencovatelnosti v bodě \( \mathbf{x} \) víme, že přírůstek funkce lze zapsat jako:<br>
+                \( f(\mathbf{x}+\mathbf{h}) - f(\mathbf{x}) = df(\mathbf{x})(\mathbf{h}) + \omega(\mathbf{h})\|\mathbf{h}\| \), kde platí \( \lim_{\mathbf{h} \to \mathbf{0}} \omega(\mathbf{h}) = 0 \).<br>
+                2. Chceme dokázat spojitost, tedy že \( \lim_{\mathbf{h} \to \mathbf{0}} f(\mathbf{x}+\mathbf{h}) = f(\mathbf{x}) \), neboli že limita celého rozdílu je nula.<br>
+                3. Aplikujeme limitu pro \( \mathbf{h} \to \mathbf{0} \) na naši rovnici z definice.<br>
+                4. Diferenciál \( df \) je lineární zobrazení, a lineární zobrazení na konečnědimenzionálním prostoru je spojité, takže posílá nulový vektor na nulu: \( \lim_{\mathbf{h}\to\mathbf{0}} df(\mathbf{x})(\mathbf{h}) = 0 \).<br>
+                5. Zbytkový člen také mizí: \( \lim_{\mathbf{h}\to\mathbf{0}} \omega(\mathbf{h})\|\mathbf{h}\| = 0 \cdot 0 = 0 \).<br>
+                6. Celková limita rozdílu je tedy \( 0 + 0 = 0 \), čímž je spojitost dokázána.
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Věta s důkazem">
+            <div class="q">Formuluj a dokaž: Má-li funkce \( f \) v bodě \( \mathbf{x} \in \mathbb{R}^n \) extrém a existuje-li v bodě \( \mathbf{x} \) diferenciál, pak je nulový.</div>
+            <div class="a">
+                <b>Fermatova věta (Nutná podmínka pro extrém).</b><br><br>
+                <b>Důkaz:</b><br>
+                1. Předpokládejme, že \( f \) má v \( \mathbf{x} \) lokální minimum a má tam diferenciál (tudíž existují parciální derivace).<br>
+                2. Vezměme libovolný souřadnicový směr (bázový vektor \( \mathbf{e}_i \)).<br>
+                3. Zavedeme zúženou funkci jedné proměnné \( g(t) = f(\mathbf{x} + t\mathbf{e}_i) \).<br>
+                4. Jelikož \( f \) má v \( \mathbf{x} \) minimum v rámci celého okolí, musí mít \( g(t) \) minimum v bodě \( t=0 \).<br>
+                5. Pro funkce jedné proměnné víme, že má-li funkce v bodě extrém a má tam derivaci, je její derivace nulová: \( g'(0) = 0 \).<br>
+                6. Ale podle definice je \( g'(0) \) rovna parciální derivaci \( \frac{\partial f}{\partial x_i}(\mathbf{x}) \).<br>
+                7. Protože to platí pro každý směr \( i \), všechny parciální derivace jsou nulové.<br>
+                8. Diferenciál je dán vztahem \( df = \sum \frac{\partial f}{\partial x_i} dx_i \). Protože všechny parciální derivace jsou \( 0 \), celý diferenciál musí být nulový.
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Věta s důkazem">
+            <div class="q">Formuluj a dokaž: Je-li \( \vec{F} \) potenciální vektorové pole v \( \mathbb{R}^n \), pak integrály pole \( \vec{F} \) přes uzavřené křivky jsou nulové.</div>
+            <div class="a">
+                <b>Nulová práce v potenciálním poli po uzavřené křivce.</b><br><br>
+                <b>Důkaz:</b><br>
+                1. Předpoklad: \( \vec{F} \) je potenciální, takže existuje skalární potenciál \( U \) splňující \( \vec{F} = \nabla U \).<br>
+                2. Mějme libovolnou uzavřenou křivku \( C \) danou parametrizací \( \mathbf{r}(t) \) pro \( t \in \langle a, b \rangle \). Protože je křivka uzavřená, platí \( \mathbf{r}(a) = \mathbf{r}(b) \).<br>
+                3. Křivkový integrál je z definice: \( \oint_C \vec{F} \cdot d\mathbf{r} = \int_a^b \vec{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) dt \).<br>
+                4. Dosadíme gradient za pole \( \vec{F} \): \( \int_a^b \nabla U(\mathbf{r}(t)) \cdot \mathbf{r}'(t) dt \).<br>
+                5. Výraz v integrálu (skalární součin gradientu a derivace parametrizace) je přesně derivace složené funkce podle parametru \( t \): \( \frac{d}{dt} U(\mathbf{r}(t)) \).<br>
+                6. Podle Newton-Leibnizovy formule pro výpočet integrálu je výsledek roven přírůstku funkce v krajních bodech: \( \int_a^b \frac{d}{dt} U(\mathbf{r}(t)) dt = U(\mathbf{r}(b)) - U(\mathbf{r}(a)) \).<br>
+                7. Ale jelikož je křivka uzavřená a \( \mathbf{r}(b) = \mathbf{r}(a) \), potenciály v těchto bodech se rovnají a jejich rozdíl je \( 0 \).
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        let allCards = [];
+        let filteredCards = [];
+        let currentIndex = 0;
+        let currentFilter = 'all';
+
+        const cardElement = document.getElementById('card');
+        const frontText = document.getElementById('front-text');
+        const backText = document.getElementById('back-text');
+        const frontTag = document.getElementById('card-tag-front');
+        const backTag = document.getElementById('card-tag-back');
+        const frontStatus = document.getElementById('card-status-front');
+        const backStatus = document.getElementById('card-status-back');
+        const counterElement = document.getElementById('card-counter');
+        const btnPrev = document.getElementById('btn-prev');
+        const btnNext = document.getElementById('btn-next');
+        const uiContainer = document.getElementById('flashcard-ui');
+        const emptyState = document.getElementById('empty-state');
+        
+        function init() {
+            const rawCards = document.querySelectorAll('.card-data');
+            rawCards.forEach((card, index) => {
+                allCards.push({
+                    id: index,
+                    tag: card.getAttribute('data-tag'),
+                    q: card.querySelector('.q').innerHTML,
+                    a: card.querySelector('.a').innerHTML,
+                    status: 'unseen'
+                });
+            });
+            
+            document.getElementById('card-container').addEventListener('click', () => cardElement.classList.toggle('is-flipped'));
+            document.getElementById('btn-mark-known').addEventListener('click', () => markCard('known'));
+            document.getElementById('btn-mark-unknown').addEventListener('click', () => markCard('unknown'));
+            btnPrev.addEventListener('click', prevCard);
+            btnNext.addEventListener('click', nextCard);
+
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    applyFilter(e.target.getAttribute('data-filter'));
+                });
+            });
+
+            applyFilter('all');
+        }
+
+        function applyFilter(filterMode) {
+            currentFilter = filterMode;
+            if (filterMode === 'all') {
+                filteredCards = [...allCards];
+            } else {
+                filteredCards = allCards.filter(c => c.status === filterMode);
+            }
+            
+            currentIndex = 0;
+            renderView();
+        }
+
+        function getStatusText(status) {
+            if(status === 'unseen') return 'Nezařazeno';
+            if(status === 'known') return 'Vím ✔';
+            if(status === 'unknown') return 'Nevím ✖';
+            return '';
+        }
+
+        function getStatusClass(status) {
+            if(status === 'unseen') return 'status-unseen';
+            if(status === 'known') return 'status-known';
+            if(status === 'unknown') return 'status-unknown';
+            return '';
+        }
+
+        function renderView() {
+            if (filteredCards.length === 0) {
+                uiContainer.style.display = 'none';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            uiContainer.style.display = 'flex';
+            emptyState.style.display = 'none';
+            
+            btnPrev.disabled = currentIndex === 0;
+            btnNext.disabled = currentIndex === filteredCards.length - 1;
+            counterElement.innerText = `${currentIndex + 1} / ${filteredCards.length}`;
+
+            showCard(filteredCards[currentIndex]);
+        }
+
+        function showCard(card) {
+            cardElement.classList.remove('is-flipped');
+            
+            setTimeout(() => {
+                frontText.innerHTML = card.q;
+                backText.innerHTML = card.a;
+                
+                frontTag.innerText = card.tag;
+                backTag.innerText = card.tag;
+                let tagColor = card.tag === "Věta s důkazem" ? "var(--warning)" : "var(--accent-color)";
+                frontTag.style.backgroundColor = tagColor;
+                backTag.style.backgroundColor = tagColor;
+
+                frontStatus.className = `status-badge ${getStatusClass(card.status)}`;
+                backStatus.className = `status-badge ${getStatusClass(card.status)}`;
+                frontStatus.innerText = getStatusText(card.status);
+                backStatus.innerText = getStatusText(card.status);
+
+                if (window.MathJax) {
+                    MathJax.typesetPromise([frontText, backText]).catch(err => console.log(err));
+                }
+            }, 150);
+        }
+
+        function markCard(status) {
+            if (filteredCards.length === 0) return;
+            
+            const currentCard = filteredCards[currentIndex];
+            const realCard = allCards.find(c => c.id === currentCard.id);
+            if(realCard) {
+                realCard.status = status;
+            }
+
+            if (currentFilter !== 'all' && status !== currentFilter) {
+                filteredCards.splice(currentIndex, 1);
+                
+                if (filteredCards.length === 0) {
+                    renderView();
+                    return;
+                }
+                
+                if (currentIndex >= filteredCards.length) {
+                    currentIndex = filteredCards.length - 1;
+                }
+            } else {
+                if (currentIndex < filteredCards.length - 1) {
+                    currentIndex++;
+                }
+            }
+            
+            renderView();
+        }
+
+        function prevCard() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderView();
+            }
+        }
+
+        function nextCard() {
+            if (currentIndex < filteredCards.length - 1) {
+                currentIndex++;
+                renderView();
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", init);
+    </script>
+</body>
+</html>
