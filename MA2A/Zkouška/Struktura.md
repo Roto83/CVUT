@@ -1,4 +1,4 @@
-1) a) b) random total
-2) a) ~~Separace~~ b) ~~buď variace nebo maticový přístup~~
-3) a) ~~vektorové pole~~ b) c) d) ~~picardova věta~~, ~~tři metody~~, ~~aproximace~~, metoda pevného bodu, ~~určit chybu~~
-4) a) b) ~~Newtonova~~, ~~Euler~~, ~~bisekce~~, metoda lichoběžníků, metoda levých nebo pravých obdelníků, ~~gaussova eliminace~~
+1) aplikace derivace, buď a) Užití tečné roviny ke grafu b) vyšetření extrému funkce více proměnných
+2) Prohození pořadí integrace a převod do polárních
+3) Aplikace integrálů (např. těžiště nebo greenova věta)
+4) Vyšetření konvergence mocninné řady
