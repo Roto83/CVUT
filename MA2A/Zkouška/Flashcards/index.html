@@ -409,13 +409,13 @@
             <div class="q">Formuluj a dokaž: Každá nekonečná omezená množina v \( \mathbb{R}^n \) má hromadný bod.</div>
             <div class="a">
                 <b>Bolzano-Weierstrassova věta.</b><br><br>
-                <b>Důkaz (pro \( \mathbb{R} \) metodou půlení intervalů):</b><br>
-                1. Jelikož je množina omezená, leží celá v nějakém počátečním uzavřeném intervalu \( I_1 = \langle a, b \rangle \).<br>
-                2. Rozdělíme \( I_1 \) na dvě poloviny. Protože zkoumaná množina má nekonečně mnoho bodů, alespoň jedna z těchto polovin musí obsahovat nekonečně mnoho bodů. Vybereme ji a označíme \( I_2 \).<br>
-                3. Tento postup opakujeme donekonečna. Půlíme \( I_k \) a za \( I_{k+1} \) bereme tu polovinu, kde je nekonečně mnoho bodů.<br>
-                4. Vznikne posloupnost vnořených uzavřených intervalů. Podle Cantorovy věty existuje bod \( x \in \bigcap_{k=1}^{\infty} I_k \).<br>
-                5. Délka intervalu \( I_k \) jde k nule. V každém libovolně malém okolí bodu \( x \) proto od jistého indexu \( k \) leží celý interval \( I_k \).<br>
-                6. Protože \( I_k \) obsahuje nekonečně mnoho bodů množiny, obsahuje každé okolí bodu \( x \) nekonečně mnoho bodů množiny. Bod \( x \) je hromadný bod.
+                <b>Důkaz (pro \( \mathbb{R}^n \) metodou půlení \(n\)-rozměrných intervalů):</b><br>
+                1. Jelikož je množina omezená, leží celá v nějakém počátečním uzavřeném \(n\)-rozměrném intervalu (kvádru) \( I_1 = \langle a_1, b_1 \rangle \times \dots \times \langle a_n, b_n \rangle \).<br>
+                2. Každou hranu tohoto kvádru rozpůlíme, čímž \( I_1 \) rozdělíme na \( 2^n \) menších subkvádrů. Protože zkoumaná množina má nekonečně mnoho bodů, alespoň jeden z těchto subkvádrů musí obsahovat nekonečně mnoho bodů. Vybereme jej a označíme \( I_2 \).<br>
+                3. Tento postup opakujeme donekonečna. Půlením hran kvádru \( I_k \) získáme \( I_{k+1} \), ve kterém leží nekonečně mnoho bodů množiny.<br>
+                4. Vznikne posloupnost vnořených uzavřených \(n\)-rozměrných intervalů, jejichž průměr (velikost úhlopříčky) konverguje k nule. Podle Cantorovy věty o vnořených intervalech existuje právě jeden společný bod \( \mathbf{x} \in \bigcap_{k=1}^{\infty} I_k \).<br>
+                5. Protože průměr intervalu \( I_k \) jde k nule, v každém libovolně malém \( \varepsilon \)-okolí bodu \( \mathbf{x} \) musí od jistého indexu \( k \) ležet celý kvádr \( I_k \).<br>
+                6. Jelikož každý kvádr \( I_k \) obsahuje nekonečně mnoho bodů zkoumané množiny, obsahuje i libovolné \( \varepsilon \)-okolí bodu \( \mathbf{x} \) nekonečně mnoho jejích bodů. Bod \( \mathbf{x} \) je tedy hromadným bodem této množiny.
             </div>
         </div>
 
