@@ -1,4 +1,5 @@
 {
+  "showTabTitlebarButtons": true,
   "copyLinkToElemenetAnchorTo100": false,
   "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
@@ -119,7 +120,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag2.23.7",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag2.23.12",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -59027,7 +59028,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "previousRelease": "2.23.7",
+  "previousRelease": "2.23.12",
   "showReleaseNotes": true,
   "excalidrawMasteryPromoCollapsed": false,
   "compareManifestToPluginVersion": true,
