@@ -334,17 +334,19 @@
         </div>
 
         <div class="card-data" data-tag="Definice">
-            <div class="q">Jak klasifikujeme lokální extrémy pomocí Hessovy matice? Uveď Sylvestrovo kritérium.</div>
+            <div class="q">Jak klasifikujeme lokální extrémy pomocí Hessovy matice? Uveď Sylvestrovo kritérium pro obecný případ \( n \times n \).</div>
             <div class="a">
-                Zkoumáme stacionární bod \( \mathbf{a} \) (kde \( \nabla f(\mathbf{a}) = \mathbf{0} \)). <b>Hessova matice \( H \)</b> obsahuje druhé parciální derivace \( H_{ij} = \frac{\partial^2 f}{\partial x_i \partial x_j} \).<br><br>
+                Zkoumáme stacionární bod \( \mathbf{a} \) (kde \( \nabla f(\mathbf{a}) = \mathbf{0} \)). <b>Hessova matice \( H \)</b> rozměru \( n \times n \) obsahuje druhé parciální derivace \( H_{ij} = \frac{\partial^2 f}{\partial x_i \partial x_j} \).<br><br>
                 <b>Klasifikace podle definitnosti:</b><br>
                 - Pozitivně definitní \( \implies \) lokální <b>minimum</b>.<br>
                 - Negativně definitní \( \implies \) lokální <b>maximum</b>.<br>
                 - Indefinitní \( \implies \) <b>sedlový bod</b>.<br><br>
-                <b>Sylvestrovo kritérium (pro \( 2\times 2 \)):</b> Značme determinanty hlavních minorů \( \Delta_1 = H_{11} \) a \( \Delta_2 = \det(H) \).<br>
-                - Minimum: \( \Delta_1 > 0 \), \( \Delta_2 > 0 \)<br>
-                - Maximum: \( \Delta_1 < 0 \), \( \Delta_2 > 0 \)<br>
-                - Sedlo: \( \Delta_2 < 0 \)
+                <b>Sylvestrovo kritérium (\( n \times n \)):</b> Označme \( \Delta_k \) (pro \( k = 1, 2, \dots, n \)) hlavní minory Hessovy matice (determinanty submatic tvořených prvními \( k \) řádky a sloupci).<br>
+                - <b>Lokální minimum (pozitivní definitnost):</b> Všechny hlavní minory jsou ostře kladné:<br>
+                \( \Delta_1 > 0, \, \Delta_2 > 0, \, \Delta_3 > 0, \, \dots, \, \Delta_n > 0 \)<br>
+                - <b>Lokální maximum (negativní definitnost):</b> Hlavní minory střídají znaménka, počínaje záporným:<br>
+                \( \Delta_1 < 0, \, \Delta_2 > 0, \, \Delta_3 < 0, \, \dots, \, (-1)^n \Delta_n > 0 \)<br>
+                - <b>Sedlový bod (indefinitnost):</b> Pokud minory nesplňují ani jedno schéma a matice je regulární.
             </div>
         </div>
 
