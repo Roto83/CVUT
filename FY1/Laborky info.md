@@ -1,2 +1,0 @@
-- Úlohy co děláme: 10, 1, 2
-- Protokol ze dvou libovolných, ideálně jedna z 10/1 a jedna z 1/2
