@@ -1,1 +1,0 @@
-https://www.karlin.mff.cuni.cz/~turcinova/MA2A/FEL-MA2A-Cv-6.pdf

@@ -1,1 +1,0 @@
-Zopakovat thevenin, transfigurace trojůhelník hvězda, obvodové rovnice smyčky, procvičit poznávání uzlů
