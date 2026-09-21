@@ -1,0 +1,1 @@
+https://moodle.fel.cvut.cz/pluginfile.php/583941/mod_resource/content/7/01_Číselné_soustavy_kódy.pdf
