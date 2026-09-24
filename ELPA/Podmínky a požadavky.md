@@ -1,0 +1,8 @@
+- Ez jak DITA
+- Body za laborky a počítání 12 bodů max
+- 4 průběžné testy na moodle v součtu max 12 bodů
+- Zápočtový test max. 60 bodů
+- Minimum za semestr je 42 bodů (12+12+18 ze zápočťáku by stačilo)
+- Zkouška určuje známku, nic jiného ne
+- U zkoušky jsou úlohy s písmenem Z, ty jsou "Základní" a je potřeba jich udělat aspoň 75%
+- Taktika: Být aktivní a dělat moodle testy, srát na zbytek bodů u zápočtu, jsou k ničemu
