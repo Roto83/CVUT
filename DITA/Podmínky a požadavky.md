@@ -1,0 +1,12 @@
+- Overall ez předmět 93% průchodnost
+- Jen jediný dva požadavky:
+	- Mít ze zápočťáku 26/51 bodů (13. týden)
+	- Mít celkem 50/100
+- Před laborkama jsou vždycky testy (6 laborek celkem, každý test za 2 body, 12 bodů celkem)
+- Vypracování laborky je za 5 bodů (30 bodů celkem)
+- Samostatná domácí práce (Jeden týden bude oznámeno, za 7 bodů)
+- Lze získat i bonus body (rekordně dosaženo 15) za inovativní řešení, rychlost, pomoc ostatním
+- Ze semestru 49 bodů, z testu 51, + bonus mby
+- Zápočťák má dvě části:
+	- Příklady za 25 bodů
+	- 2x teoretické otázky 13 bodů x 2 = 26 bodů
