@@ -1,0 +1,7 @@
+- Dva zápočťáky bez kalkulaček, dohromady za 25 bodů. Pro postup potřeba získat 12 bodů
+- Body ze zápočtu jdou i ke zkoušce
+- Zkouška má 5 početních příkladů a 2 otázky z teorie
+- Body jsou: 5 + 14 + 14 + 14 + 14 + 7 + 7 = 75 bodů
+- Za teorii není potřeba dostat nic (bude seznam otázek tho), ale za 2. + 3. příklad musí být 8, to samé za 4. + 5., pak taky ze všech početních musí být minimálně 22
+- MINIMUM Z TESTU NENÍ URČENO
+- Taktika: Nahrabat co nejvíc ze semestru a pak ze zkoušky mít klidně co nejmíň

@@ -1,0 +1,6 @@
+- Zápočťáky každý za dvacet bodů = 40 overall, minimum je v součtu 20
+- 10 bodů za aktivitu v semestru
+- Laboratoře každá za 10 = overall 20
+- Celkově lze ze semestru dostat 70 a minimum je 35
+- Zkouška je za zbylých 30 a stačí půlka
+- Taktika: Napsat první test dobře a vzít termín co nejdřív, mířit na D a nikam víc, není šance

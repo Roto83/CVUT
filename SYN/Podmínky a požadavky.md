@@ -1,0 +1,3 @@
+- Domácí úkoly jsou nepovinné, ale jsou za 3 body a je jich 10
+- Semestrální projekt je max za 90
+- Taktika jasná: dělat úkoly a projekt nějak +-

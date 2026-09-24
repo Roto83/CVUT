@@ -1,2 +1,6 @@
 - Zápočet je jen za chození na cvika
-- 
+- Zkouška:
+	- Teoretická část: 10 otázek odpovídajících [okruhům](https://moodle.fel.cvut.cz/pluginfile.php/588107/course/section/90646/základní_otázky_2024.pdf) (už jen to bude chtít mrtě učení, možná dobrý začít v průběhu semestru as soon as tam budou aktualizovany) max 10 bodů, min 5 bodů na postoupení. Odpověď je základ pro diskuzi u ústních 
+	- Aplikační úlohy: Vyřešení tří úloh z části cvičení (budou probírany i na cvičeních a přednáškách) 3x5 bodů, min 7,5 zase
+	- Ústní: Diskuze nad prací a losované dvě [témata](https://moodle.fel.cvut.cz/pluginfile.php/588107/course/section/90646/Témata_pro_ústní_zkoušku_2024.pdf) . Teoreticky na E stačí dostat 0,5 bodu. [Minimální požadavky](https://moodle.fel.cvut.cz/pluginfile.php/588107/course/section/90649/Minimalni_pozadavky_2024.pdf) (Stačí umět tyhle, když to neumíš může tě vyrazit s F)
+- Taktika: Připravovat se na zkoušku každý týden trochu v průběhu semestru, dávat pozor na cvikách
