@@ -10,3 +10,4 @@
 - Zápočťák má dvě části:
 	- Příklady za 25 bodů
 	- 2x teoretické otázky 13 bodů x 2 = 26 bodů
+- Taktika: Whatever bro, kdyžtak to obětuju nějak kdyby na něco fakt nebyl čas

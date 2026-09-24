@@ -1,0 +1,2 @@
+- Zápočet je jen za chození na cvika
+- 
