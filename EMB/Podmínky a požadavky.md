@@ -11,3 +11,4 @@
 - Zkouškový test je za 50 bodů (minimum 20), kalkulačky povoleny všude
 - Samostatná práce je za 10 bodů. Whatever that means
 - Taktika: Nahrabat v semestru co nejvíc a využít to že zkouška má tak nízkou hranici
+[Tabulka s cvičeními](https://docs.google.com/spreadsheets/d/19tm-KqSK5KZUyPu7fYsfHhhtoLcLmRJe/edit?usp=sharing&ouid=105629092286243717876&rtpof=true&sd=true "https://docs.google.com/spreadsheets/d/19tm-KqSK5KZUyPu7fYsfHhhtoLcLmRJe/edit?usp=sharing&ouid=105629092286243717876&rtpof=true&sd=true") 
