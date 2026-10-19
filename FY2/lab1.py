@@ -20,7 +20,7 @@ m_mrizka = np.array([1, 2, 3])
 #x_prava_mrizka = np.array([44.2, 47.5, 50.8, 54.2, 57.6, 61.3, 65.2, 69.3, 74, 79])     # ZADEJ SVOJE HODNOTY (x'_{m})
 
 # Naměřené polohy na pravítku [mm] pro 600
-x_leva_mrizka = np.array([-29.8, -7.5]) 
+x_leva_mrizka = np.array([29.8, 7.5]) 
 x_prava_mrizka = np.array([52.5, 76.4]) 
 
 # --- Výpočet pro mřížku ---
