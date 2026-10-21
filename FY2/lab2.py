@@ -9,7 +9,7 @@ lambdas_part1 = np.array([472, 505, 525, 588, 611])
 
 # ZADEJ NAMĚŘENÁ BRZDNÁ NAPĚTÍ U_b PRO JEDNOTLIVÉ LED [V]
 # Doplň hodnoty ve stejném pořadí jako jsou vlnové délky výše
-U_b_part1 = np.array([1.12, 0.95, 0.81, 0.55, 0.42])  # PŘEPIŠ SVÝMI DATY
+U_b_part1 = np.array([0.644, 0.482, 0.414, 0.133, 0.082])  # PŘEPIŠ SVÝMI DATY
 
 # Výpočet kmitočtu v PHz (10^15 Hz)
 c = 299792458  # rychlost světla [m/s]
@@ -42,9 +42,9 @@ print("--- 2. VLIV INTENZITY NA E_k_max ---")
 intenzity_pct = [100, 80, 60, 40, 20]
 
 data_intenzity = {
-    472: np.array([1.12, 1.11, 1.12, 1.10, 1.09]), # PŘEPIŠ SVÝMI DATY PRO 472 nm
-    525: np.array([0.81, 0.81, 0.80, 0.80, 0.79]), # PŘEPIŠ SVÝMI DATY PRO 525 nm
-    611: np.array([0.42, 0.42, 0.41, 0.41, 0.40])  # PŘEPIŠ SVÝMI DATY PRO 611 nm
+    472: np.array([0.644, 0.641, 0.637, 0.633, 0.621]), # PŘEPIŠ SVÝMI DATY PRO 472 nm
+    525: np.array([0.414, 0.412, 0.408, 0.403, 0.395]), # PŘEPIŠ SVÝMI DATY PRO 525 nm
+    611: np.array([0.082, 0.082, 0.082, 0.082, 0.082])  # PŘEPIŠ SVÝMI DATY PRO 611 nm
 }
 
 print(f"{'Vlnová délka':<15} | {'Změna E_k_max (20% -> 100%)'}")
@@ -63,16 +63,16 @@ print("\n")
 # Pro každou vlnovou délku zadej pole hodnot U a odpovídající pole I.
 va_charakteristiky = {
     472: {
-        "U": np.array([0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.12]),     # PŘEPIŠ SVÝMI DATY
-        "I": np.array([1.95, 1.80, 1.50, 1.10, 0.60, 0.20, 0.0]) # PŘEPIŠ SVÝMI DATY
+        "U": np.array([0.0, 0.06, 0.12, 0.18, 0.24, 0.3, 0.36, 0.42, 0.48, 0.54, 0.598]),     # PŘEPIŠ SVÝMI DATY
+        "I": np.array([1.984, 1.67, 1.376, 1.107, 0.852, 0.625, 0.431, 0.268, 0.143, 0.055, 0]) # PŘEPIŠ SVÝMI DATY
     },
     505: {
-        "U": np.array([0.0, 0.2, 0.4, 0.6, 0.8, 0.95]),          # PŘEPIŠ SVÝMI DATY
-        "I": np.array([1.90, 1.70, 1.30, 0.80, 0.30, 0.0])       # PŘEPIŠ SVÝMI DATY
+        "U": np.array([0.0, 0.06, 0.12, 0.18, 0.24, 0.3, 0.36, 0.42, 0.458]),          # PŘEPIŠ SVÝMI DATY
+        "I": np.array([1.995, 1.633, 1.303, 0.994, 0.709, 0.46, 0.248, 0.081, 0])       # PŘEPIŠ SVÝMI DATY
     },
     525: {
-        "U": np.array([0.0, 0.2, 0.4, 0.6, 0.81]),               # PŘEPIŠ SVÝMI DATY
-        "I": np.array([1.85, 1.50, 1.00, 0.40, 0.0])             # PŘEPIŠ SVÝMI DATY
+        "U": np.array([0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.404]),               # PŘEPIŠ SVÝMI DATY
+        "I": np.array([1.999, 1.673, 1.382, 1.105, 0.837, 0.593, 0.368, 0.173, 0.012, 0])             # PŘEPIŠ SVÝMI DATY
     }
 }
 
