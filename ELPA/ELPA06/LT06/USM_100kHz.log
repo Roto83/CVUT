@@ -1,0 +1,23 @@
+Questionable use of curly braces in ".model 1n4007/trr d(  is=14.11n  n=1.984  rs=33.89m  ikf=94.81  xti=3  eg=1.11  cjo=25.89p  m=.44  vj=.3245  fc=.5  bv=1500  ibv=10u  tt={trr}  tbv1=0.83m)"
+    Error: undefined symbol in: "[trr]"
+Circuit: * D:\VYUKA\ELP\cviceni\cv_06_D_mereni\LT06\USM_100kHz.asc
+
+.OP point found by inspection.
+
+Date: Tue Nov 03 14:11:49 2020
+Total elapsed time: 0.061 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2400
+traniter = 2400
+tranpoints = 1156
+accept = 1119
+rejected = 37
+matrix size = 6
+fillins = 0
+solver = Normal
+Matrix Compiler1: 182 bytes object code size  0.1/0.0/[0.0]
+Matrix Compiler2: 394 bytes object code size  0.0/0.1/[0.0]
+
