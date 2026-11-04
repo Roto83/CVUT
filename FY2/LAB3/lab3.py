@@ -3,12 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # =====================================================================
-# 1. NASTAVENÍ NEJISTOT MĚŘIDEL A APARATURY
+# 1. NASTAVENÍ NEJISTOT APARATURY
 # =====================================================================
-# Tyto hodnoty uprav podle toho, jaké rozlišení mají přístroje v laborce
-u_t = 1.0     # Odhadovaná nejistota odečtu teploměru [°C]
-u_l = 0.01    # Rozlišení/nejistota indikátorových hodinek [mm]
-
 L0 = 600.0    # Počáteční upínací délka vzorku [mm]
 u_L0 = 1.0    # Nejistota počáteční délky [mm] (zadáno v návodu)
 
@@ -29,35 +25,44 @@ for i, sheet_name in enumerate(xls.sheet_names):
     t = df.iloc[:, 0].values     # Teplota v °C
     l_hod = df.iloc[:, 1].values # Údaj na hodinkách v mm
     
-    # Kód si sám spočítá změnu vůči prvnímu (počátečnímu) bodu měření
+    # Změna vůči prvnímu (počátečnímu) bodu měření
     dt = t - t[0]
     dl = l_hod - l_hod[0]
     
-    # Lineární fit pomocí nejmenších čtverců (získání směrnice A a její kovarianční matice)
+    # Lineární fit pomocí nejmenších čtverců (získání směrnice A a její nejistoty)
     p, cov = np.polyfit(dt, dl, 1, cov=True)
     A = p[0]                   # Směrnice přímky [mm/°C]
-    u_A = np.sqrt(cov[0, 0])   # Standardní nejistota směrnice z fitu
+    u_A = np.sqrt(cov[0, 0])   # Standardní nejistota směrnice (z vertikálních odchylek)
+    
+    # Teoreticky ideální hodnoty prodloužení na fitované přímce pro dané teploty
+    dl_ideal = np.polyval(p, dt)
     
     # Výpočet teplotního součinitele délkové roztažnosti (alfa = A / L0)
     alfa = A / L0
     
-    # Výpočet kombinované standardní nejistoty pro alfa (zákon šíření nejistot)
+    # Výpočet celkové nejistoty pro alfa (kombinace chyby směrnice a chyby délky L0)
     rel_u_A = u_A / A
     rel_u_L0 = u_L0 / L0
     u_alfa = alfa * np.sqrt(rel_u_A**2 + rel_u_L0**2)
     
-    # Uložení do tabulky (formátování na vědecký zápis pro alfa)
+    # Uložení do tabulky
     vysledky.append([sheet_name, f"{alfa:.2e}", f"{u_alfa:.2e}", f"{A:.4e}"])
     
     # --- Vykreslení do grafu ---
-    # Datové body s chybovými kříži (error bars)
-    ax_graf.errorbar(dt, dl, xerr=u_t, yerr=u_l, fmt='o', color=barvy[i%len(barvy)], 
-                     label=f'{sheet_name} (naměřeno)', capsize=3, alpha=0.8)
+    barva = barvy[i%len(barvy)]
     
-    # Regresní přímka
+    # 1. Naměřené datové body
+    ax_graf.plot(dt, dl, 'o', color=barva, label=f'{sheet_name} (naměřeno)')
+    
+    # 2. Ideální regresní přímka
     dt_fit = np.linspace(0, max(dt), 100)
     dl_fit = np.polyval(p, dt_fit)
-    ax_graf.plot(dt_fit, dl_fit, '--', color=barvy[i%len(barvy)], label=f'{sheet_name} (fit)')
+    ax_graf.plot(dt_fit, dl_fit, '--', color=barva, label=f'{sheet_name} (ideální závislost)')
+    
+    # 3. Vizualizace vertikálních odchylek (reziduí) od ideální přímky
+    # Label přidáme jen pro první bod série, aby se neduplikoval v legendě
+    ax_graf.vlines(dt, dl_ideal, dl, colors=barva, linestyles='dotted', alpha=0.7, 
+                   label=f'{sheet_name} (vertikální odchylka)' if i == 0 else "")
 
 # =====================================================================
 # 3. FORMÁTOVÁNÍ GRAFU A TABULKY PRO VÝSTUP
@@ -76,9 +81,9 @@ sloupce = ['Vzorek', r'$\alpha$ [°C$^{-1}$]', r'Nejistota $u(\alpha)$ [°C$^{-1
 tabulka = ax_tab.table(cellText=vysledky, colLabels=sloupce, loc='center', cellLoc='center')
 tabulka.auto_set_font_size(False)
 tabulka.set_fontsize(12)
-tabulka.scale(1, 1.8) # Roztáhnutí buněk, aby to na fotce bylo čitelné
+tabulka.scale(1, 1.8) # Roztáhnutí buněk
 
-# Úprava hlavičky tabulky (tučné písmo, barva)
+# Úprava hlavičky tabulky
 for (row, col), cell in tabulka.get_celld().items():
     if row == 0:
         cell.set_text_props(weight='bold', color='white')
