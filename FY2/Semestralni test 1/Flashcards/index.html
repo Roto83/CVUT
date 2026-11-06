@@ -324,10 +324,7 @@
             <div class="q">Uveďte znění prvního termodynamického zákona.</div>
             <div class="a">
                 Teplo dodané soustavě se spotřebuje na zvýšení její vnitřní energie a práci, kterou soustava vykoná.<br><br>
-                \( \mathrm{d}Q = \mathrm{d}U + \mathrm{d}W \)<br>
-                <div class="analogy">
-                    (Při započtení pouze objemové práce: \( \mathrm{d}Q = \mathrm{d}U + p\,\mathrm{d}V \))
-                </div>
+                \( \delta Q = \mathrm{d}U + \delta W \)<br>
             </div>
         </div>
 
@@ -366,7 +363,7 @@
             <div class="q">Napište vztah pro element objemové práce.</div>
             <div class="a">
                 Objemová práce je práce, kterou vykoná plyn při změně svého objemu proti vnějšímu tlaku.<br><br>
-                \( \mathrm{d}W = p\,\mathrm{d}V \)<br><br>
+                \( \delta W = p\,\mathrm{d}V \)<br><br>
                 Kde \(p\) je tlak plynu a \(\mathrm{d}V\) je elementární změna objemu (pokud plyn expanduje, je \(\mathrm{d}V > 0\) a plyn koná kladnou práci).
             </div>
         </div>
@@ -399,7 +396,7 @@
         <div class="card-data" data-tag="Běžná">
             <div class="q">Napište termodynamickou (makroskopickou) definici entropie.</div>
             <div class="a">
-                \( \mathrm{d}S = \frac{\mathrm{d}Q_{rev}}{T} \)<br><br>
+                \( \mathrm{d}S = \frac{\delta Q_{rev}}{T} \)<br><br>
                 Kde \(Q_{rev}\) je elementární přijaté teplo při vratném ději a \(T\) je termodynamická teplota.
             </div>
         </div>
@@ -441,6 +438,59 @@
                 <b>Vztah periody (\(T\)) a frekvence (\(f\)):</b> \( f = \frac{1}{T} \)<br><br>
                 Kde \(\lambda\) je vlnová délka.
                 <div class="analogy">U prostředí bez disperze je fázová rychlost vlny nezávislá na frekvenci (vlny všech frekvencí se šíří stejně rychle).</div>
+            </div>
+        </div>
+        <div class="card-data" data-tag="Běžná">
+            <div class="q">Uveďte tři mechanismy přenosu tepla a ke každému uveďte ilustrativní příklad.</div>
+            <div class="a">
+                <b>Vedení:</b> Teplo z jednoho konce kovového předmětu se přenáší na druhý konec.<br><br>
+                <b>Proudění:</b> Vytápění v domácnosti (cirkulace vzduchu v místnosti), či ohřev vody v hrnci.<br><br>
+                <b>Záření:</b> Sluneční záření, pocit tepla u rozdělaného ohně<br><br>
+            </div>
+        </div>
+        <div class="card-data" data-tag="Běžná">
+            <div class="q">Uveďte souvislost mezi přírůstkem vnitřní energie a přírůstkem teploty pro ideální plyn stálé hmotnosti.</div>
+            <div class="a">
+                Vnitřní energie ideálního plynu závisí <b>pouze na jeho termodynamické teplotě</b> (nezávisí na objemu ani tlaku). Její přírůstek je přímo úměrný přírůstku teploty.<br><br>
+                \( dU = n c_{V,m} \space dT \)<br><br>
+                Kde \(n\) je počet částic a \(c_{V,m}\) je izochorická molární tepelná kapacita.
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Běžná">
+            <div class="q">Uveďte Hookeův zákon (stačí pro 1D deformace).</div>
+            <div class="a">
+                Normálové napětí \(\sigma\) v materiálu je přímo úměrné relativnímu prodloužení \(\varepsilon\).<br><br>
+                \( \sigma = E \cdot \varepsilon \)<br><br>
+                Kde \(E\) je Youngův modul pružnosti v tahu
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Běžná">
+            <div class="q">Napište rovnici vedení tepla.</div>
+            <div class="a">
+                Obecný tvar (3D):<br>
+                \( \frac{\partial T}{\partial t} = a \Delta T \)<br><br>
+                <i>Kde \(\Delta\) je Laplaceův operátor \(\nabla^2\), \(a\) - teplotní vodivost materiálu \(\lambda\) - součinitel tepelné vodivosti, \(\rho\) - hustota, \(c\) - měrná tepelná kapacita.</i><br><br>
+                <div class="analogy">
+                    Pro 1D případ:<br>
+                    \( \frac{\partial T}{\partial t} = a \frac{\partial^2 T}{\partial x^2} \)
+                </div>
+            </div>
+        </div>
+
+        <div class="card-data" data-tag="Běžná">
+            <div class="q">V jakých jednotkách měříme mechanické napětí? Uveďte několik příkladů mechanických napětí.</div>
+            <div class="a">
+                <b>Jednotka:</b> Pascal (\(\text{Pa}\))<br><br>
+                <b>Příklady mechanických napětí:</b><br>
+                1. <b>Normálové napětí (\(\sigma\)):</b> Působí kolmo na plochu řezu.<br>
+                - <i>Tahové napětí</i> (natahování struny na kytaře).<br>
+                - <i>Tlakové napětí</i> (zatížení pilíře budovy).<br>
+                - <i>Ohybové napětí</i> (prohýbání poličky pod knihami).<br><br>
+                2. <b>Tečné / smykové napětí (\(\tau\)):</b> Působí v rovině řezu.<br>
+                - <i>Smykové napětí</i> (stříhání plechu nůžkami).<br>
+                - <i>Napětí v krutu / torzní</i> (utahování šroubu nebo kroucení hřídele motoru).
             </div>
         </div>
     </div>
