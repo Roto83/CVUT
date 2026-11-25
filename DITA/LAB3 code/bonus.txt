@@ -1,0 +1,53 @@
+Přidej místo adder2_7segment.vhd
+
+
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity adder2_7segment is
+    port (A, B                         : in  std_logic_vector(1 downto 0);
+          Cin                          : in  std_logic;
+          -- Vystup vysledku souctu (HEX0)
+          s0, s1, s2, s3, s4, s5, s6   : out std_logic;
+          -- Vystup pro zobrazeni scitance A (HEX1)
+          sA0, sA1, sA2, sA3, sA4, sA5, sA6 : out std_logic;
+          -- Vystup pro zobrazeni scitance B (HEX2)
+          sB0, sB1, sB2, sB3, sB4, sB5, sB6 : out std_logic);
+end adder2_7segment;
+
+architecture Structural of adder2_7segment is
+    signal zobrazeni : std_logic_vector(3 downto 0) := "0000";
+begin
+    zobrazeni(3) <= '0'; -- nejvyssi bit vysledku (rozsah 0-7)[cite: 104]
+
+    -- 1. Blok 2bitove scitacky[cite: 104]
+    scitacka : entity work.adder2
+        port map (A    => A,
+                  B    => B,
+                  Cin  => Cin,
+                  S    => zobrazeni(1 downto 0),
+                  Cout => zobrazeni(2));
+
+    -- 2. Displej pro vysledek souctu (HEX0)[cite: 104]
+    displej_soucet : entity work.BCD7segmentVHDL
+        port map (a  => zobrazeni(0), b  => zobrazeni(1),
+                  c  => zobrazeni(2), d  => zobrazeni(3),
+                  s0 => s0, s1 => s1, s2 => s2, s3 => s3,
+                  s4 => s4, s5 => s5, s6 => s6);
+
+    -- 3. Displej pro scitanec A (HEX1)
+    displej_A : entity work.BCD7segmentVHDL
+        port map (a  => A(0), b  => A(1),
+                  c  => '0',  d  => '0',
+                  s0 => sA0, s1 => sA1, s2 => sA2, s3 => sA3,
+                  s4 => sA4, s5 => sA5, s6 => sA6);
+
+    -- 4. Displej pro scitanec B (HEX2)
+    displej_B : entity work.BCD7segmentVHDL
+        port map (a  => B(0), b  => B(1),
+                  c  => '0',  d  => '0',
+                  s0 => sB0, s1 => sB1, s2 => sB2, s3 => sB3,
+                  s4 => sB4, s5 => sB5, s6 => sB6);
+end Structural;
